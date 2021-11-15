@@ -1,0 +1,512 @@
+data_FS_stats <- data_FS %>%
+dplyr::select(rowNumber_all, rowid, word, norm_F1, norm_F2, dur, rowid_fac, rowNumber_all_fac, lastName, sex, DOB, age, ageGroup, corpus, id, juniorEd, SecondEd, sixthFEd, privateTotal, occupation, occClass, edLevel, fatherRegion, motherRegion, fatherEd, motherEd, motherEdLevel, fatherEdLevel, parentEdLevelHigh, motherOccupation, fatherOccupation, parentOccClass, lexicalSet_broad, lexicalSet_narrow, folMan, folPlace, folVc, preSeg, folSeq, lexSet) %>%
+droplevels()
+## Load and install packages, control options ####
+## First specify the packages of interest
+options(pillar.sigfig = 7)
+packages = c("tidyverse","ruler","stats","broom","syllabifyr")
+## Now load or install&load all
+package.check <- lapply(
+packages,
+FUN = function(x) {
+if (!require(x, character.only = TRUE)) {
+install.packages(x, dependencies = TRUE)
+library(x, character.only = TRUE)
+}
+)
+## If a package is installed, it will be loaded. If any are not, the missing package(s) will be installed from CRAN and then loaded.
+source("scripts/plotnik_functions.R")
+# read in data -------------
+data_path <- "data"
+FAVEfiles <- dir(data_path, pattern = "*_traj_norm.txt")
+read.fn <- function(x) (read.delim(file.path(data_path, x),stringsAsFactors = TRUE,fileEncoding = "UTF-8-BOM") %>% rowid_to_column())
+data_nested <- tibble(fileName = FAVEfiles) %>% # create a data frame holding the file names
+mutate(file_contents = map(fileName, read.fn)  # read files into a new data column
+)
+data_speakers <- unnest(data_nested,cols=c(file_contents)) %>%
+select(rowid,vowel,stress,word,norm_F1,norm_F2,dur,fm,fp,fv,ps,fs,fileName) %>%
+rowid_to_column("rowNumber_all") %>%
+mutate(rowid_fac=factor(rowid)) %>%
+mutate(rowNumber_all_fac = factor(rowNumber_all)) %>%
+mutate(fileName=factor(fileName)) %>%
+droplevels() %>%
+as_tibble()
+data_social = read_csv("data/CoRP-master.csv"
+#,stringsAsFactors=TRUE
+#,fileEncoding = "UTF-8-BOM"
+) %>%
+mutate_if(is.character, factor) %>%
+mutate(corpus = recode_factor(region,"North-East"="CoRP-NE","South-East"="CoRP-SE"))
+data_lexSets = read.delim("../../DataExtraction/LexicalSet_referenceList.txt", stringsAsFactors = TRUE) %>%
+droplevels()
+data_all = data_speakers %>%
+inner_join(data_social) %>%
+inner_join(data_lexSets) %>%
+mutate(fileName = factor(fileName)) %>%
+mutate(word = factor(word)) %>%
+mutate(vowel = factor(vowel)) %>%
+droplevels() %>%
+filter(lexicalSet_broad != "")
+# data_SDoutliers = data_all %>%
+#   group_by(lexicalSet_broad) %>%
+#   filter(between(norm_F1, mean(norm_F1, na.rm=TRUE) - (2.5 * sd(norm_F1, na.rm=TRUE)),
+#                  mean(norm_F1, na.rm=TRUE) + (2.5 * sd(norm_F1, na.rm=TRUE)))) %>%
+#   filter(between(norm_F2, mean(norm_F2, na.rm=TRUE) - (2.5 * sd(norm_F2, na.rm=TRUE)),
+#                  mean(norm_F2, na.rm=TRUE) + (2.5 * sd(norm_F2, na.rm=TRUE))))
+Q1.fn <- function(x){nth(fivenum(x,na.rm=TRUE), 2, order_by = NULL)}
+Q3.fn <- function(x){nth(fivenum(x,na.rm=TRUE), 4, order_by = NULL)}
+between.IQR.fn <- function(x){between(x, Q1.fn(x) - (1.5 * IQR(x, na.rm=TRUE)),
+Q3.fn(x) + (1.5 * IQR(x, na.rm=TRUE)))}
+# filter(between(norm_F1,  - (1.5*IQR(norm_F1, na.rm=TRUE)),
+#                norm_F1, nth(fivenum(data_all$norm_F1,na.rm=TRUE), 2, order_by = NULL, default = default_missing(x)) + (1.5*IQR(norm_F1, na.rm=TRUE))))
+data_IQRoutliers = data_all %>%
+filter(stress == "1") %>%
+filter(!word %in% c("ABOUT", "AND", "BUT", "FOR", "HE", "HE'S", "HUH", "I", "I'LL", "I'M", "IS", "IT", "IT'S", "ITS", "MY", "OF", "OH", "SHE", "SHE'S", "THAT", "THE", "THEM", "THEN", "THERE", "THEY", "THIS", "UH", "UM", "UP", "WAS", "WE", "WERE", "WHAT", "YEAH", "YOU", "AH", "ARE", "LA","CAUSE","ON","COS","CA-","HAHAHA","AN","A","DOS","OU","EW","GOTTA","GONNA","OKAY", "A", "AN", "BY", "BE", "GOT", "BUT", "ARE", "AH", "'CAUSE", "DID", "DIDN'T", "DO", "DUNNO", "GOTTA", "LOT", "EC", "EE", "HUH", "G", "ING", "UM", "LG}UM", "UH", "UM", "O","JUST","US" )) %>%
+filter(!str_detect(word,regex("^XX"))) %>%
+filter(!str_detect(word,regex("\\w+\\*"))) %>%
+droplevels() %>%
+group_by(lexicalSet_broad,corpus) %>%
+# filter(between(norm_F1, Q1.fn(norm_F1) - (1.5 * IQR(norm_F1, na.rm=TRUE)),
+# Q3.fn(norm_F1) + (1.5 * IQR(norm_F1, na.rm=TRUE)))) %>%
+filter(between.IQR.fn(norm_F1)) %>%
+filter(between.IQR.fn(norm_F2))
+# data_outliers = inner_join(data_all,data_tbl)
+data_clean = data_IQRoutliers %>%
+mutate(folMan = factor(plt_manner.fn(fm))) %>%
+mutate(folPlace = factor(plt_place.fn(fp))) %>%
+mutate(folVc = factor(plt_voice.fn(fv))) %>%
+mutate(preSeg = factor(plt_preseg.fn(ps))) %>%
+mutate(folSeq = factor(plt_folseq.fn(fs)))
+data_FS = data_clean %>%
+filter(lexicalSet_broad %in% c("FOOT","STRUT")) %>%
+mutate(lexSet = lexicalSet_broad) %>%
+droplevels()
+colnames(data_FS)
+data_FS_stats <- data_FS %>%
+dplyr::select(rowNumber_all, rowid, word, norm_F1, norm_F2, dur, rowid_fac, rowNumber_all_fac, lastName, sex, DOB, age, ageGroup, corpus, id, juniorEd, SecondEd, sixthFEd, privateTotal, occupation, occClass, edLevel, fatherRegion, motherRegion, fatherEd, motherEd, motherEdLevel, fatherEdLevel, parentEdLevelHigh, motherOccupation, fatherOccupation, parentOccClass, lexicalSet_broad, lexicalSet_narrow, folMan, folPlace, folVc, preSeg, folSeq, lexSet) %>%
+droplevels()
+# South East ####
+data_FS_statsSE <- data_FS_stats %>% filter(corpus == "CoRP-SE")
+data_strut_statsSE <- data_FS_stats %>%
+filter(corpus == "CoRP-SE") %>%
+filter(lexSet == "STRUT")
+## STRUT
+S_SE_F1.full.mod <- lmer(norm_F1 ~ sex +
+ageGroup +
+folMan +
+folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_strut_statsSE)
+S_SE_F1.step <- stepcAIC(S_SE_F1.full.mod, calcNonOptimMod=TRUE)
+S_SE_F1.step <- cAIC4::stepcAIC(S_SE_F1.full.mod, calcNonOptimMod=TRUE)
+S_SE_F1.step
+summaru(S_SE_F1.full.mod)
+summary(S_SE_F1.full.mod)
+ggplot(data=data_strut_statsSE, aes(x=lexSet,y=norm_F1) +geom_boxplot()
+)
+ggplot(data=data_strut_statsSE, aes(x=lexSet,y=norm_F1)) +geom_boxplot()
+## Load and install packages, control options ####
+## First specify the packages of interest
+options(pillar.sigfig = 7)
+packages = c("plyr","patchwork")
+## Now load or install&load all
+package.check <- lapply(
+packages,
+FUN = function(x) {
+if (!require(x, character.only = TRUE)) {
+install.packages(x, dependencies = TRUE)
+library(x, character.only = TRUE)
+}
+)
+## Data ####
+data_FS_plots <- data_FS %>%
+droplevels() %>%
+mutate(juniorEd = recode(juniorEd, "primary" = "state"))
+## theme ------------------------------------------
+theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
+theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+panel.background = element_rect(fill="gray90", colour=NA),
+legend.background = element_rect(fill="transparent", colour=NA),
+legend.key = element_rect(fill="transparent", colour=NA),
+panel.grid.major = element_line(colour = "white", size = 0.2),
+panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+theme_Caitlin <- function() {theme_bw(base_size = 12) %+replace%
+theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+panel.background = element_rect(fill="gray90", colour=NA),
+legend.background = element_rect(fill="transparent", colour=NA),
+legend.key = element_rect(fill="transparent", colour=NA),
+panel.grid.major = element_line(colour = "white", size = 0.2),
+panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+FSColours <- c("#C70E7B", "#A6E000")
+names(FSColours) = levels(data_FS_plots$lexSet)
+FSFillScale <- scale_fill_manual(name = "lexSet", values = FSColours)
+FSColScale <- scale_colour_manual(name= "lexSet", values = FSColours)
+#SE speakers ----------------------
+FS_SE_F1.plot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+geom_boxplot() +
+theme_Caitlin() +
+theme(legend.position = "none") +
+xlab("lexical set") +
+ylab("F1 (Hz)") +
+scale_y_continuous(limits = c(200,1000), breaks = seq(0,1000,100))+
+FSFillScale +
+ggtitle("F1 of foot & strut - CoRP-SE") +
+NULL
+FS_SE_F1.plot
+summary(S_SE_F1.full.mod)
+#SE speakers ----------------------
+FS_SE_F1.plot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+geom_boxplot() +
+theme_Caitlin() +
+theme(legend.position = "none") +
+xlab("lexical set") +
+ylab("F1 (Hz)") +
+scale_y_continuous(limits = c(200,1000), breaks = seq(0,1000,100))+
+FSFillScale +
+ggtitle("F1 of foot & strut - CoRP-SE") +
+facet_wrap(~sex) +
+NULL
+FS_SE_F1.plot
+#SE speakers ----------------------
+FS_SE_F1.plot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+geom_boxplot() +
+theme_Caitlin() +
+theme(legend.position = "none") +
+xlab("lexical set") +
+ylab("F1 (Hz)") +
+scale_y_continuous(limits = c(200,1000), breaks = seq(0,1000,100))+
+FSFillScale +
+ggtitle("F1 of foot & strut - CoRP-SE") +
+# facet_wrap(~sex) +
+NULL
+FS_SE_F1.plot
+summary(S_SE_F1.full.mod)
+table(data_strut_statsSE$preSeg)
+FS_SE_F2.mod <- lmer(norm_F2 ~ (lexSet + ageGroup + folMan + folPlace + folVc + preSeg + folSeq + (1|word)), data_FS_stats %>% filter(region == "South-East"))
+FS_SE_F2.mod <- lmer(norm_F2 ~ (lexSet + ageGroup + folMan + folPlace + folVc + preSeg + folSeq + (1|word)), data_FS_statsSE)
+summary(FS_SE_F2.mod)
+?stepcAIC
+source("scripts/FS_cleaning.R")
+library(lme4)
+library(stats)
+library(MASS)
+library(cAIC4)
+data_FS_stats <- data_FS %>%
+dplyr::select(rowNumber_all, rowid, word, norm_F1, norm_F2, dur, rowid_fac, rowNumber_all_fac, lastName, sex, DOB, age, ageGroup, corpus, id, juniorEd, SecondEd, sixthFEd, privateTotal, occupation, occClass, edLevel, fatherRegion, motherRegion, fatherEd, motherEd, motherEdLevel, fatherEdLevel, parentEdLevelHigh, motherOccupation, fatherOccupation, parentOccClass, lexicalSet_broad, lexicalSet_narrow, folMan, folPlace, folVc, preSeg, folSeq, lexSet) %>%
+droplevels()
+# South East ####
+data_FS_statsSE <- data_FS_stats %>% filter(corpus == "CoRP-SE")
+data_strut_statsSE <- data_FS_stats %>%
+filter(corpus == "CoRP-SE") %>%
+filter(lexSet == "STRUT")
+#fullest model
+FS_SE_F1.full.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+folMan +
+folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+summary(FS_SE_F1.full.mod)
+#stepwise
+FS_SE_F1.step <- cAIC4::stepcAIC(FS_SE_F1.full.mod, calcNonOptimMod=TRUE)
+FS_SE_F1.step
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+folMan +
+# folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+source('C:/Users/Caitlin Halfacre/OneDrive - Newcastle University/Documents/Linguistics/PhD/MyProject/Analysis/foot-strut/scripts/FS_models.R', echo=TRUE)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+# (1|id) + (1|word)
+, data_FS_statsSE)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+# (1|id) + (1|word)
+, data_FS_statsSE)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+# (1|id) + (1|word)
+, data_FS_statsSE)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+summary(FS_SE_F1.red.mod)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#fullest model
+FS_SE_F1.full.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+folMan +
+folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word) + (1|rowid)
+, data_FS_statsSE)
+summary(FS_SE_F1.red.mod)
+ranef(FS_SE_F1.red.mod)
+summary(FS_SE_F1.red.mod)
+AIC(FS_SE_F1.red.mod)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+data_FS_stats <- data_FS %>%
+dplyr::select(rowNumber_all, rowid, word, norm_F1, norm_F2, dur, rowid_fac, rowNumber_all_fac, lastName, sex, DOB, age, ageGroup, corpus, id, juniorEd, SecondEd, sixthFEd, privateTotal, occupation, occClass, edLevel, fatherRegion, motherRegion, fatherEd, motherEd, motherEdLevel, fatherEdLevel, parentEdLevelHigh, motherOccupation, fatherOccupation, parentOccClass, lexicalSet_broad, lexicalSet_narrow, folMan, folPlace, folVc, preSeg, folSeq, lexSet) %>%
+droplevels()
+# South East ####
+data_FS_statsSE <- data_FS_stats %>% filter(corpus == "CoRP-SE")
+data_strut_statsSE <- data_FS_stats %>%
+filter(corpus == "CoRP-SE") %>%
+filter(lexSet == "STRUT")
+#fullest model
+FS_SE_F1.full.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+folMan +
+folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#stepwise
+FS_SE_F1.step <- cAIC4::stepcAIC(FS_SE_F1.full.mod, calcNonOptimMod=TRUE)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word) + (1|rowid)
+, data_FS_statsSE)
+summary(FS_SE_F1.red.mod)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#fullest model
+FS_SE_F1.full.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+folMan +
+folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#stepwise
+FS_SE_F1.step <- cAIC4::stepcAIC(FS_SE_F1.full.mod, calcNonOptimMod=TRUE)
+summary(FS_SE_F1.full.mod)
+ranef(FS_SE_F1.step.mod)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+folMan +
+# folPlace +
+folVc +
+preSeg +
+folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+summary(FS_SE_F1.red.mod)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+# ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+#reduced model based on t value
+FS_SE_F1.red.mod <- lmer(norm_F1 ~ lexSet +
+sex +
+ageGroup +
+# folMan +
+# folPlace +
+# folVc +
+# preSeg +
+# folSeq +
+(1|id) + (1|word)
+, data_FS_statsSE)
+#anova
+anova(FS_SE_F1.full.mod,FS_SE_F1.red.mod)
+packages = c("plyr","patchwork")
+## Now load or install&load all
+package.check <- lapply(
+packages,
+FUN = function(x) {
+if (!require(x, character.only = TRUE)) {
+install.packages(x, dependencies = TRUE)
+library(x, character.only = TRUE)
+}
+)
+## Data ####
+data_FS_plots <- data_FS %>%
+droplevels() %>%
+mutate(juniorEd = recode(juniorEd, "primary" = "state"))
+## theme ------------------------------------------
+theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
+theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+panel.background = element_rect(fill="gray90", colour=NA),
+legend.background = element_rect(fill="transparent", colour=NA),
+legend.key = element_rect(fill="transparent", colour=NA),
+panel.grid.major = element_line(colour = "white", size = 0.2),
+panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+theme_Caitlin <- function() {theme_bw(base_size = 12) %+replace%
+theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+panel.background = element_rect(fill="gray90", colour=NA),
+legend.background = element_rect(fill="transparent", colour=NA),
+legend.key = element_rect(fill="transparent", colour=NA),
+panel.grid.major = element_line(colour = "white", size = 0.2),
+panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+FSColours <- c("#C70E7B", "#A6E000")
+names(FSColours) = levels(data_FS_plots$lexSet)
+FSFillScale <- scale_fill_manual(name = "lexSet", values = FSColours)
+FSColScale <- scale_colour_manual(name= "lexSet", values = FSColours)
+#SE speakers ----------------------
+FS_SE_F1.plot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+geom_boxplot() +
+theme_Caitlin() +
+theme(legend.position = "none") +
+xlab("lexical set") +
+ylab("F1 (Hz)") +
+scale_y_continuous(limits = c(200,1000), breaks = seq(0,1000,100))+
+FSFillScale +
+ggtitle("F1 of foot & strut - CoRP-SE") +
+# facet_wrap(~sex) +
+NULL
+FS_SE_F1.plot
+FS_SE.vplot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+geom_text(aes(label=word), size=1.5, alpha=0.75) +
+stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = lexSet)) +
+geom_label(data = data_FS_plots_SE.means, aes(x = mean_F2, y = mean_F1), size = 1) +
+theme_Caitlin() +
+theme(legend.position = "none") +
+geom_label(data = data_FS_plots_SE.means, aes(x = mean_F2, y = mean_F1)) +
+scale_x_reverse(position = "top", breaks=seq(800, 2200, 200), limits=c(2200,800)) +
+scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(1000, 300)) +
+FSColScale +
+FSFillScale +
+ggtitle("FS-CorP-SE")+
+NULL
+FS_SE.vplot
+citation(mgcv)
+cite(mgcv)
+citation("mgcv")
+citation("tidymv")
+citeation(lme4)
+citation(lme4)
+citation("lme4")
+citation("tidymv")
+# North East ------------
+data_FS_statsNE <- data_FS_stats %>% filter(corpus == "CoRP-NE")
+source("scripts/FS_cleaning.R")
+install.packages(x, dependencies = TRUE)
+source("scripts/FS_cleaning.R")
+install.packages(x, dependencies = TRUE)
+source("scripts/FS_cleaning.R")

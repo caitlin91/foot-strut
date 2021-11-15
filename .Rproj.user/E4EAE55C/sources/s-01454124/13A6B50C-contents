@@ -1,0 +1,58 @@
+---
+title: "Foot-Strut"
+date: "`r format(Sys.time(), '%d\\\\. %B %Y')`"
+output: html_notebook
+---
+```{r}
+```
+
+# South East
+## F1
+### FOOT and STRUT
+Final Model, found using `stepcAIC()`.
+
+```{r}
+FS_SE_F1.final.mod <- lmer(norm_F1 ~ lexSet +
+                            sex +
+                            ageGroup +
+                            rowid +
+                            folMan +
+                            folPlace +
+                            folVc +
+                            preSeg +
+                            folSeq +
+                            (1 | id), data_FS_statsSE)
+summary(FS_SE_F1.final.mod)
+```
+Confirms FOOT-STRUT split is found in F1 of South East speakers.
+
+### STRUT only
+```{r}
+S_SE_F1.final.mod <- lmer(lmer(norm_F1 ~ sex +
+                           ageGroup +
+                           rowid +
+                           folMan +
+                           folPlace +
+                           folVc +
+                           preSeg + 
+                           folSeq + 
+                           (1 | id) + (1 | word),data_strut_statsSE))
+summary(S_SE_F1.final.mod)
+```
+Very little variation in any of the fixed effects.
+
+## F2
+### FOOT and STRUT
+```{r}
+FS_SE_F2.final.mod <- lmer(norm_F2 ~ lexSet +
+                             sex + 
+                             ageGroup + 
+                             rowid_z + 
+                             folMan + 
+                             folPlace +  
+                             folVc + 
+                             preSeg + 
+                             folSeq + 
+                             (1 | id) + (1 | word), data_FS_statsSE)
+summary(FS_SE_F2.final.mod)
+```

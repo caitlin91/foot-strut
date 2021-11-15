@@ -1,0 +1,99 @@
+## Load and install packages, control options ####
+## First specify the packages of interest
+options(pillar.sigfig = 7)
+packages = c("tidyverse","ruler","broom","syllabifyr")
+
+## Now load or install&load all
+package.check <- lapply(
+  packages,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE)
+      library(x, character.only = TRUE)
+    }
+  }
+)
+## If a package is installed, it will be loaded. If any are not, the missing package(s) will be installed from CRAN and then loaded.
+
+
+
+source("scripts/plotnik_functions.R")
+# read in data -------------
+data_path <- "data"
+FAVEfiles <- dir(data_path, pattern = "*_traj_norm.txt")
+
+read.fn <- function(x) (read.delim(file.path(data_path, x),stringsAsFactors = TRUE,fileEncoding = "UTF-8-BOM") %>% rowid_to_column())
+data_nested <- tibble(fileName = FAVEfiles) %>% # create a data frame holding the file names
+  mutate(file_contents = map(fileName, read.fn)  # read files into a new data column 
+  )
+data_speakers <- unnest(data_nested,cols=c(file_contents)) %>%
+  select(rowid,vowel,stress,word,norm_F1,norm_F2,dur,fm,fp,fv,ps,fs,fileName) %>%
+  rowid_to_column("rowNumber_all") %>%
+  mutate(rowid_fac=factor(rowid)) %>%
+  mutate(rowNumber_all_fac = factor(rowNumber_all)) %>%
+  mutate(fileName=factor(fileName)) %>% 
+  droplevels() %>% 
+  as_tibble()
+
+
+data_social = read_csv("data/CoRP-master.csv"
+                       #,stringsAsFactors=TRUE
+                       #,fileEncoding = "UTF-8-BOM"
+) %>% 
+  mutate_if(is.character, factor) %>% 
+  mutate(corpus = recode_factor(region,"North-East"="CoRP-NE","South-East"="CoRP-SE"))
+
+data_lexSets = read.delim("../../DataExtraction/LexicalSet_referenceList.txt", stringsAsFactors = TRUE) %>%
+  droplevels()
+
+data_all = data_speakers %>%
+  inner_join(data_social) %>%
+  inner_join(data_lexSets) %>%
+  mutate(fileName = factor(fileName)) %>%
+  mutate(word = factor(word)) %>%
+  mutate(vowel = factor(vowel)) %>%
+  droplevels() %>%
+  filter(lexicalSet_broad != "")
+
+# data_SDoutliers = data_all %>%
+#   group_by(lexicalSet_broad) %>%
+#   filter(between(norm_F1, mean(norm_F1, na.rm=TRUE) - (2.5 * sd(norm_F1, na.rm=TRUE)), 
+#                  mean(norm_F1, na.rm=TRUE) + (2.5 * sd(norm_F1, na.rm=TRUE)))) %>%
+#   filter(between(norm_F2, mean(norm_F2, na.rm=TRUE) - (2.5 * sd(norm_F2, na.rm=TRUE)), 
+#                  mean(norm_F2, na.rm=TRUE) + (2.5 * sd(norm_F2, na.rm=TRUE))))
+
+Q1.fn <- function(x){nth(fivenum(x,na.rm=TRUE), 2, order_by = NULL)}
+Q3.fn <- function(x){nth(fivenum(x,na.rm=TRUE), 4, order_by = NULL)}
+between.IQR.fn <- function(x){between(x, Q1.fn(x) - (1.5 * IQR(x, na.rm=TRUE)), 
+                                      Q3.fn(x) + (1.5 * IQR(x, na.rm=TRUE)))}
+
+
+# filter(between(norm_F1,  - (1.5*IQR(norm_F1, na.rm=TRUE)),
+#                norm_F1, nth(fivenum(data_all$norm_F1,na.rm=TRUE), 2, order_by = NULL, default = default_missing(x)) + (1.5*IQR(norm_F1, na.rm=TRUE))))
+
+data_IQRoutliers = data_all %>%
+  filter(stress == "1") %>%
+  filter(!word %in% c("ABOUT", "AND", "BUT", "FOR", "HE", "HE'S", "HUH", "I", "I'LL", "I'M", "IS", "IT", "IT'S", "ITS", "MY", "OF", "OH", "SHE", "SHE'S", "THAT", "THE", "THEM", "THEN", "THERE", "THEY", "THIS", "UH", "UM", "UP", "WAS", "WE", "WERE", "WHAT", "YEAH", "YOU", "AH", "ARE", "LA","CAUSE","ON","COS","CA-","HAHAHA","AN","A","DOS","OU","EW","GOTTA","GONNA","OKAY", "A", "AN", "BY", "BE", "GOT", "BUT", "ARE", "AH", "'CAUSE", "DID", "DIDN'T", "DO", "DUNNO", "GOTTA", "LOT", "EC", "EE", "HUH", "G", "ING", "UM", "LG}UM", "UH", "UM", "O","JUST","US" )) %>%
+  filter(!str_detect(word,regex("^XX"))) %>%
+  filter(!str_detect(word,regex("\\w+\\*"))) %>%
+  droplevels() %>% 
+  group_by(lexicalSet_broad,corpus) %>%
+  # filter(between(norm_F1, Q1.fn(norm_F1) - (1.5 * IQR(norm_F1, na.rm=TRUE)), 
+  # Q3.fn(norm_F1) + (1.5 * IQR(norm_F1, na.rm=TRUE)))) %>%
+  filter(between.IQR.fn(norm_F1)) %>%
+  filter(between.IQR.fn(norm_F2))
+
+
+# data_outliers = inner_join(data_all,data_tbl)
+data_clean = data_IQRoutliers %>%
+  mutate(folMan = factor(plt_manner.fn(fm))) %>%
+  mutate(folPlace = factor(plt_place.fn(fp))) %>%
+  mutate(folVc = factor(plt_voice.fn(fv))) %>%
+  mutate(preSeg = factor(plt_preseg.fn(ps))) %>%
+  mutate(folSeq = factor(plt_folseq.fn(fs)))
+
+
+data_FS = data_clean %>%
+  filter(lexicalSet_broad %in% c("FOOT","STRUT")) %>%
+  mutate(lexSet = lexicalSet_broad) %>% 
+  droplevels()

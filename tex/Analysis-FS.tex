@@ -1,0 +1,377 @@
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+\documentclass[12pt,a4paper,notitlepage,
+%draft,
+bibliography=totoc,
+numbers=endperiod,
+appendixprefix=true,
+usenames,dvipsnames]{scrartcl} 
+\usepackage[autooneside=false, draft=false]{scrlayer-scrpage}
+\usepackage{ifdraft} %allows commands dependent on draft status
+\usepackage{scrhack}
+\usepackage{kpfonts}
+\usepackage[dvipsnames]{xcolor} %general colours
+\usepackage{colortbl} % colour for excel tables
+\usepackage{hyperref}
+\usepackage[inline]{enumitem} %inline/horizontal lists
+\hypersetup{
+	draft=true,
+	final=true,
+	colorlinks=true,
+	linktoc=all,
+	linkcolor=MidnightBlue,
+	citecolor=blue
+	%	allcolors=black
+}
+\usepackage{mwe}
+\usepackage{tipa} %IPA
+\usepackage{phonrule} %phonological rules
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{soul}
+\usepackage{amssymb}
+\usepackage{graphicx} %insert graphics, pdf etc.
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{nameref}
+\usepackage{pdfpages}
+\usepackage{csvsimple}
+\usepackage{booktabs, multicol, multirow}
+\usepackage{array}
+\usepackage{float} % float 
+\usepackage[section]{placeins}
+\usepackage{array}
+\usepackage[section]{placeins}
+\usepackage[round]{natbib} %citation package
+\bibliographystyle{agsm}
+\renewcommand{\harvardurl}{\textbf{URL:} \url}
+\usepackage{scrlayer-scrpage}
+\usepackage{blindtext}% dummy text
+\usepackage{subfiles} %subfile functionality
+\usepackage{csvsimple} %import csv tables
+\usepackage{pdflscape} %allow landscape pages
+\usepackage[inkscapearea=page]{svg}
+\usepackage[titletoc,title]{appendix}
+%\usepackage[marginpar]{todo}
+\usepackage[obeyDraft]{todonotes} %to do notes obedyDraft means not parsed if not draft
+\usepackage{etoolbox}
+%\usepackage{amsthm} % examples
+%\apptocmd{\sloppy}{\hbadness 10000\relax}{}{} %fix overfull/underfull hbox errors
+\usepackage[scaled]{helvet} 
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{layouts}
+\usepackage{gb4e} %numbered examples - must be last package in preamble
+
+
+%keep figure in section & subsection
+\let\Oldsection\section
+\renewcommand{\section}{\FloatBarrier\Oldsection}
+
+\let\Oldsubsection\subsection
+\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+
+\let\Oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
+
+%listings setup
+\lstloadlanguages{R}
+\lstset{ 
+	language=R,                     % the language of the code
+	basicstyle=\normalsize, % the size of the fonts that are used for the code
+	numbers=none,                   % where to put the line-numbers
+	numberstyle=\tiny\color{Blue},  % the style that is used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it is 1, each line
+	% will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{lightgray},  % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	keywordstyle=\color{RoyalBlue},      % keyword style
+	commentstyle=\color{Purple},   % comment style
+	stringstyle=\color{ForestGreen}      % string literal style
+}
+
+% citing
+\newcommand{\citeposs}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand{\citeauthorposs}[1]{\citeauthor{#1}'s}
+\newcommand{\citefc}[1]{\citeauthor{#1} (forthcoming)}
+\newcommand{\citefcp}[1]{(\citeauthor{#1} forthcoming)}
+\defcitealias{PSA1868}{\textit{Public Schools Act} 1868}
+\defcitealias{EA1870}{\textit{Education Act} 1870}
+
+% quote marks
+\newcommand{\quotemarks}[1]{``#1"}
+\newcommand{\quotesingle}[1]{`#1'}
+
+%IPA
+\newcommand{\ipa}[1]{\textipa{/#1/}}
+\newcommand{\prel}{\ipa{l}}
+\newcommand{\darkl}{[\textltilde]}
+\newcommand{\goatV}{\ipa{@U}}
+\newcommand{\oh}{\textipa{[@U]}}
+
+% Lexical sets
+\newcommand{\scs}{\textsc}
+\newcommand{\goat}{\textsc{goat}}
+\newcommand{\goal}{\textsc{goal}}
+\newcommand{\bath}{\scs{bath}}
+\newcommand{\trap}{\scs{trap}}
+\newcommand{\foot}{\scs{foot}}
+\newcommand{\strutt}{\scs{strut}}
+\newcommand{\goose}{\scs{goose}}
+\newcommand{\tilda}{$\sim$}
+\newcommand{\FS}{\scs{foot}-\scs{strut}}
+\newcommand{\TB}{\scs{trap}-\scs{bath}}
+\newcommand{\GG}{\scs{goat}-\scs{goal}}
+\newcommand{\palm}{\scs{palm}}
+
+%To do notes formatting
+\newcommand{\GKcomment}[1]{\todo[color=Blue]{#1}}
+\newcommand{\RTcomment}[1]{\todo[color=YellowGreen]{#1}}
+\newcommand{\todowording}[1]{\todo[color=Aquamarine]{#1}}
+\newcommand{\todofuture}[1]{\todo[color=CornflowerBlue]{#1}}
+\newcommand{\todostructure}[1]{\todo[color=Thistle]{#1}}
+\newcommand{\todoreference}[1]{\todo[color=SeaGreen]{#1}}
+\newcommand{\todocontent}[1]{\todo[color=RoyalPurple]{#1}}
+\newcommand{\todocontentinline}[1]{\todo[color=RoyalPurple,inline]{#1}}
+
+
+
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+%\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+
+%\theoremstyle{definition}
+%\newtheorem{exmp}{}[section]
+
+
+
+%\renewcommand{\subsection}{\FloatBarrier\subsection}
+
+\renewcommand{\familydefault}{\sfdefault}
+\ifoptiondraft{
+	\pagecolor{yellow}
+				}
+
+
+\title{Results: the \textsc{foot}-\textsc{strut} split}
+\author{Caitlin Halfacre}
+\date{\today}
+
+\begin{document}
+
+	%\newcommand{\onlyinsubfile}[1]{#1}
+	%\newcommand{\notinsubfile}[1]{}
+		\maketitle
+		\pagebreak
+		\tableofcontents
+		\onehalfspacing
+	\pagestyle{scrheadings}
+	
+\section{Introduction}
+
+As summarised in chapter \todocontentinline{ref ch:methodology} the \foot{} and \strutt{} vowels were measured once, at one third of the duration \citep{FAVE}. 
+
+In order to prevent over fitting of models the various possible linguistic predictors (particularly phonological environment) were plotted with F1 and F2 \todo{insert img example?} and only included if variation was seen between the levels of the predictor \todocontent{how to defend this better - ask Dan?}. Then the stepCAIC() function from the cAIC4 package \citep{cAIC4} was used to determine the model with the best fit. For model reporting categorical some predictors were sum coded in order to understand the intercept in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables.
+
+\todo{add processing details sum coded using R contr.sum()}
+
+ 
+\section{The Split}	
+\subsection{CoRP-SE speakers}
+The CoRP-SE speakers are assumed to have the prototypical southern \FS{} split. Three is no attestation in the literature \todoreference{ref lit review chapter} that the split in the South East is affected by social class. Analysis of their vowels shows that the split is found mostly in height (F1: 199Hz) and very slightly in frontness (F2: -86Hz), as discussed below and in section \ref{subsubsec:SEF2}, the frontness is a difference in mean but there is full overlap between the ranges.
+From figure \ref{fig:FSvplotSE} (a plot of F1 against F2, ellipses drawn at 0.67 of the standard deviation) it can be seen that there is overlap of individual tokens but the average position of the \strutt{}, words is lower in the vowel space than the \foot\, words. They are also on average further back but the range falls within a subsection of the total F2 range of the  \foot{} words, which are more spread out.
+Full analysis of the F1 and F2 difference is in sections \ref{subsubsec:SEF1} and \ref{subsubsec:SEF2}.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../figures/FS-SE-vplot.png}
+	\caption{Vowel Space plot of \foot{} and \strutt{} in the CoRP-SE speakers} \label{fig:FSvplotSE}
+\end{figure}
+
+\subsubsection{F1} \label{subsubsec:SEF1}
+The model of the normalised F1 of the \foot{}  and \strutt{}  words is shown in table \ref{tbl:FSF1SE}; the model also includes random intercepts for speaker and word. The model intercept is 536Hz, which is the mean F1 of the \foot{} words. The effect size of lexical Set is 199Hz (t=17.28). Therefore, the mean F1 for the vowels in the \strutt{} words is 735Hz. There is an effect of speakers sex (t=3.77) but the effect size is only 21Hz, which is not large in the context of the lexical set variation. This model demonstrates that the vowels of the two lexical sets are distinct in height in CoRP-SE speakers, with the mean of the \strutt{} lexical set lower in the mouth than the mean of the \foot{} lexical set, by 199Hz. The difference is visualised in figure \ref{fig:FSF1SE} (based on raw data, not the model predictions), where the distinction between the vowel measurements in the two lexical sets can be seen clearly, with no overlap between the interquartile ranges.
+
+\input{../models/FS-SE-F1-mod.tex}
+
+\begin{figure}[h]
+	\centering
+	\includesvg[width=\textwidth]{../figures/FS-SE-F1.svg}
+	\caption{F1 of \foot{} and \strutt{} in CoRP-SE speakers} \label{fig:FSF1SE}
+\end{figure}
+
+\subsubsection{F2} \label{subsubsec:SEF2}
+Modelling F2 (see table \ref{tbl:FSF2SE}) showed an intercept of 1383Hz, the mean of the \foot() lexical set, and while there is a lot less variation according to lexical set than seen in F1, there is a difference of -86Hz (t =-2.58) implying that the \strutt{} vowel is slightly further back than the \foot{} vowel in south-eastern speakers, this can be seen in figure \ref{fig:FSF2SE}. This difference is not large and it can be seen in figure \ref{fig:FSF2SE} that the inter-quartile range is almost completely overlapping; the \strutt{} words merely have a smaller range of F2 than the \foot{} words.
+There is also a small but significant effect of style \todo{include in supervisor Qs}.
+
+\input{../models/FS-SE-F2-mod.tex}
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/FS-SE-F2.svg}
+	\caption{F2 of \foot{} and \strutt{} in CoRP-SE speakers} \label{fig:FSF2SE}
+\end{figure}
+
+A further model was run including \strutt{}, \scs{thought}, and schwa, to check  the frontness of the \strutt{} vowel of in comparison to other vowels at a similar height in the English vowel space. The model summary can be found in appendix \ref{app:STSEF2}; it shows that the \strutt{} vowel in these speakers is significantly further forward than the \scs{thought} vowel (-399Hz, t=-13.50) and also significantly further back than the schwa (305Hz, t=8.16), placing it between the two in the vowel space but closer to schwa (see figure \ref{fig:STF2SE}).
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/ST-SE-F2.svg}
+	\caption{F2 of \strutt{}, \scs{thought}, and schwa in CoRP-SE speakers} \label{fig:STF2SE}
+\end{figure}
+
+
+
+\subsection{DECTE speakers}
+The DECTE speakers do not show a split in height, as measured by F1 and while they show some F2 differences between \foot{} and \strutt{} in the old age group (+147Hz) the pattern is clearly different to that found in the CoRP-SE speakers and it can be concluded that according to this sample, the majority of state-educated speakers in the North East do not show a \FS{} split.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../figures/FS-DE-vplot.png}
+	\caption{Vowel Space plot of \foot{} and \strutt{} in the DECTE speakers} \label{fig:FSvplotDE}
+\end{figure}
+
+\subsubsection{F1}
+Modelling F1 of the \foot{} and \strutt{} words in the DECTE speakers gives an intercept of 572Hz (table \ref{tbl:FSF1DE}), which is the mean of the \foot{} words, and no significant effect of lexical set (seen in figure \ref{fig:FSF1DE}). However, when looking at individual speakers, as shown in figure \ref{fig:FSF1DE-id}, it does appear that some speakers have a small difference. Since the best fit model did not include random effect for speaker it is not possible to investigate this further.
+\todo{ask Rory if I should have a worse cAIC4 rather than not be able to get speaker info}
+
+\input{../models/FS-DE-F1-mod.tex}
+
+\begin{figure}
+	\centering
+	\includesvg[width=\textwidth]{../figures/FS-DE-F1.svg}
+	\caption{F1 of \foot{} and \strutt{} in DECTE speakers} \label{fig:FSF1DE}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includesvg[width=\textwidth]{../figures/FS-DE-F1-id.svg}
+	\caption{F1 of \foot{} and \strutt{} in DECTE speakers, by speaker} \label{fig:FSF1DE-id}
+\end{figure}
+
+
+\subsubsection{F2}
+The best fit model of F2 of the \foot{} and \strutt{} words in the DECTE speakers (table \ref{tbl:FSF2DE}) includes an interaction of lexical set and age group. The intercept (mean of \foot{} words in old speakers) is 1232Hz, the mean of \foot{} words in young speakers is 1638Hz. The split in the old age group is +147Hz whereas in the young age group it is -26Hz. It is possible that the split in the younger speakers is affected by the  fronting of \foot{} due to the Tyneside phenomenon of \foot{} merging with \goose{}, which seems to be more prevalent in the younger speakers in this age group (figure \ref{fig:FSGF2DE-age}).
+
+
+\input{../models/FS-DE-F2-mod.tex}
+
+\begin{figure}
+	\centering
+	\includesvg[width=\textwidth]{../figures/FSG-DE-F2-age.svg}
+	\caption{F2 of \foot{}, \strutt{}, and \goose{} in DECTE speakers, by age group} \label{fig:FSGF2DE-age}
+\end{figure}
+
+
+\subsection{CoRP-NE speakers}
+CoRP-NE speakers show some evidence of a \FS{} split, particularly in F1 (on average 110Hz, higher in female speakers) but little evidence of an F2 split except in one speaker. Further analysis of the F1 and F2 differences can be seen in sections \ref{subsubsec:NEF1} and \ref{subsubsec:NEF2}, but from the vowel space plot in figure it can be seen that the \strutt{}, words are lower than the \foot{} words (with some overlap) but have similar frontness.
+
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{../figures/FS-NE-vplot.png}
+	\caption{Vowel Space plot of \foot{} and \strutt{}, in the CoRP-NE speakers} \label{fig:FSvplotNE}
+\end{figure}
+
+
+\subsubsection{F1} \label{subsubsec:NEF1}
+
+The best fit model for F1 of the CoRP-NE speakers can be seen in table \ref{tbl:FSF1NE} and shows a \FS{} split in F1 that interacts with both speaker sex and age group. The mean value of \foot{} is 541.53 and the mean value of \strutt{} is 651Hz, showing an average split of 110Hz. However, this split is overall higher for female speakers (mean=142Hz) compared to male speakers (mean=78Hz) (64 Hz difference), there is also a slightly larger split in older speakers. Overall the size of split is ranked: OF, YF, OM, YM. \todocontent{discuss}
+
+\input{../models/FS-NE-F1-mod.tex}
+
+% Table generated by Excel2LaTeX from sheet 'Sheet1'
+% Table generated by Excel2LaTeX from sheet 'FS-NE-F1-lexSet-sex-ageGroup'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrr}
+		\hline
+		& \multicolumn{1}{l}{\foot{}} & \multicolumn{1}{l}{\strutt{}} & \multicolumn{1}{l}{\textit{size of split}} \\
+		\hline
+		Old Female & 516.3 & 689.22 & \textit{172.92} \\
+		Old Male & 548.47 & 631.6 & \textit{83.13} \\
+		Young Female & 553.07 & 664.33 & \textit{111.26} \\
+		Young Male & 548.29 & 620.65 & \textit{72.36} \\
+		Mean  & 541.53 & 651.45 & \textit{109.92} \\
+		\hline
+	\end{tabular}%
+	\caption{table showing effects of speaker age group and sex on F1 of \foot{} and \strutt{} in CoRP-NE speakers (calculated from table \ref{tbl:FSF1NE})}
+	\label{tbl:FSF1NEinter}%
+\end{table}%
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/FS-NE-F1.svg}
+	\caption{} \label{fig:FSF1NE}
+\end{figure}
+
+
+\subsubsection{F2} \label{subsubsec:NEF2}
+The best fit model for F2 of the CoRP-NE speakers (see table \ref{tbl:FSNEF2}) also includes a three way interaction between lexical set, sex, and age group (summarised in figure \ref{tbl:FSF2NEinter}). The mean value of \foot{} is 1339Hz and the mean value of \strutt{} is 1380Hz, showing very little distinction. This is held up in all speaker groups except OM, however this group is only one speaker, Alexander, who has spent more time in the South than the other speakers (attending a specialist state boarding school in Warwick before returning to a private day sixth form in Newcastle) so it is possible that he has a larger split than the others. If this this speaker is not included it is reasonable to conclude that the CoRP-NE speakers do not have a \FS{} split in frontness.
+
+\input{../models/FS-NE-F2-mod.tex}
+
+% Table generated by Excel2LaTeX from sheet 'FS-NE-F2-lexSet-sex-ageGroup'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrr}
+		\hline
+		& \multicolumn{1}{l}{\foot{}} & \multicolumn{1}{l}{\strutt{}} & \multicolumn{1}{l}{\textit{size of split}} \\
+		\hline
+		Old Female & 1468.01 & 1440.67 & \textit{-27.34} \\
+		Old Male & 1206.15 & 1382.63 & \textit{176.48} \\
+		Young Female & 1390.91 & 1416.12 & \textit{25.21} \\
+		Young Male & 1291.81 & 1280.49 & \textit{-11.32} \\
+		Mean  & 1339.22 & 1379.98 & \textit{40.76} \\
+		\hline
+	\end{tabular}%
+	\caption{table showing effects of speaker age group and sex on F2 of \foot{} and \strutt{} in CoRP-NE speakers (calculated from table \ref{tbl:FSF2NE})}
+	\label{tbl:FSF2NEinter}
+	\end{table}%
+
+
+\subsection{Conclusions on the Split}
+In the CoRP-SE speakers the \foot{} and \strutt{} vowel are distinguished in F1 (a difference of +110Hz) and F2 (-86Hz). The F1 difference is clearly meaningful but while the F2 difference is present and statistically significant it needs to be considered more carefully because it is only a small difference within the whole vowel space. Overall the \FS split can be described as mostly characterised by height and slightly by frontness. It was also found that the frontness of the \strutt{} vowel in the South East is between the schwa and \scs{thought} vowels, but closer to schwa. If the CoRP-NE speakers are behaving like the CoRP-SE speakers, we would expect them to have a similar pattern in both F1 and possibly F2.
+
+In the DECTE speakers we see what can be considered \quotesingle{normal} North East \FS{} positions of \foot{} and \strutt{}. The speakers show no significant difference between \foot{} and \strutt{} in F1, and in F2 a small difference in mainly older speakers (+147Hz). It can be concluded that there is not a robust \FS{} split in the North East as found in the CoRP-SE speakers.
+
+In CoRP-NE speakers we some evidence of a split. They show an F1 difference of 110Hz (average, male and female speakers behave differently) and no F2 difference except in one speaker. This suggests that these speakers have a split, but it is not identical to the split found in the CoRP-SE speakers. It is not as large in height (F1 is 110Hz vs 199Hz) and does not seem to exist in frontness.
+
+\todocontent{ask supervisors about modelling with F1 as a predictor for F2}
+
+By analysis of the \foot{} and \strutt{} words in all three speaker groups it can be concluded that CoRP-NE speakers do not behave identically to either of the other speaker groups. However, conclusions can be drawn in answer to research question \ref{RQ1}. The DECTE speakers (state educated in the North East) do not show any \FS{} split and CoRP-NE speakers clearly have at least some distinction between \foot{} and \strutt{} so it can be concluded that they are not behaving consistently regionally.
+
+
+In order to understand the nature of this difference between speaker groups the \foot{} and \strutt{} words were modelled separately, results of this are discussed in section \ref{sec:STRUT}.
+
+\section{\scs{Strut vowel only}} \label{sec:STRUT}
+\subsection{F1}
+\input{../models/S-F1-mod.tex}
+Modelling the \strutt{}, vowel alone shows that the CoRP-NE speakers are significantly different in F1 from both the CoRP-SE and the DECTE speakers. This means that the CoRP-NE speakers are producing a vowel that's height is in between the two other groups \todocontent{schwa-like?}.
+
+\subsection{F2}
+\input{../models/S-F2-mod.tex}
+
+
+
+
+
+	\pagebreak
+	\listoftodos{}
+	\pagebreak
+	\bibliography{../../../References/methodology
+		}
+
+\appendix
+\section{} \label{app:STSEF2}
+\input{../models/ST-SE-F2-mod.tex}
+
+\end{document} 

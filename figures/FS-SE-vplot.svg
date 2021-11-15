@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='864.00pt' height='576.00pt' viewBox='0 0 864.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='864.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=)'>
+<rect x='0.00' y='0.00' width='864.00' height='576.00' style='stroke-width: 1.16; stroke: none;' />
+</g>
+<defs>
+  <clipPath id='cpNS45OHw4MTcuMjB8MzQuMzV8NTcwLjAy'>
+    <rect x='5.98' y='34.35' width='811.22' height='535.67' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNS45OHw4MTcuMjB8MzQuMzV8NTcwLjAy)'>
+<rect x='5.98' y='34.35' width='811.22' height='535.67' style='stroke-width: 1.16; stroke: none;' />
+<polyline points='5.98,93.48 817.20,93.48 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,163.05 817.20,163.05 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,232.62 817.20,232.62 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,302.19 817.20,302.19 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,371.75 817.20,371.75 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,441.32 817.20,441.32 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,510.89 817.20,510.89 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='743.45,570.02 743.45,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='706.58,570.02 706.58,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='632.83,570.02 632.83,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='559.08,570.02 559.08,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='485.33,570.02 485.33,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='411.59,570.02 411.59,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='337.84,570.02 337.84,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='264.09,570.02 264.09,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='190.35,570.02 190.35,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='116.60,570.02 116.60,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='79.72,570.02 79.72,34.35 ' style='stroke-width: 1.07; stroke: #E5E5E5; stroke-linecap: butt;' />
+<polyline points='5.98,58.70 817.20,58.70 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,128.26 817.20,128.26 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,197.83 817.20,197.83 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,267.40 817.20,267.40 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,336.97 817.20,336.97 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,406.54 817.20,406.54 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,476.11 817.20,476.11 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='5.98,545.67 817.20,545.67 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='669.70,570.02 669.70,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='595.95,570.02 595.95,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='522.21,570.02 522.21,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='448.46,570.02 448.46,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='374.71,570.02 374.71,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='300.97,570.02 300.97,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='227.22,570.02 227.22,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='153.47,570.02 153.47,34.35 ' style='stroke-width: 0.43; stroke: #CCCCCC; stroke-linecap: butt;' />
+<text x='481.28' y='357.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.58px' lengthAdjust='spacingAndGlyphs'>DULWICH</text>
+<text x='407.16' y='345.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.58px' lengthAdjust='spacingAndGlyphs'>DULWICH</text>
+<text x='427.44' y='301.62' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.58px' lengthAdjust='spacingAndGlyphs'>DULWICH</text>
+<text x='437.77' y='252.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='475.38' y='332.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='409.01' y='228.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='477.22' y='225.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='390.57' y='236.93' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='595.22' y='223.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>BOOKS</text>
+<text x='471.32' y='243.88' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='407.16' y='216.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='399.05' y='364.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='487.55' y='296.75' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='26.29px' lengthAdjust='spacingAndGlyphs'>STRUGGLES</text>
+<text x='547.65' y='185.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='415.27' y='240.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='382.83' y='231.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='21.43px' lengthAdjust='spacingAndGlyphs'>COULDN'T</text>
+<text x='441.82' y='394.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='469.85' y='373.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='479.07' y='335.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='26.53px' lengthAdjust='spacingAndGlyphs'>STRUGGLED</text>
+<text x='459.15' y='187.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='497.13' y='188.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='491.97' y='401.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='424.86' y='234.14' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.58px' lengthAdjust='spacingAndGlyphs'>DOESN'T</text>
+<text x='521.47' y='312.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='26.53px' lengthAdjust='spacingAndGlyphs'>STRUGGLED</text>
+<text x='429.29' y='304.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='26.53px' lengthAdjust='spacingAndGlyphs'>STRUGGLED</text>
+<text x='510.41' y='289.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.45px' lengthAdjust='spacingAndGlyphs'>STRUGGLE</text>
+<text x='360.33' y='197.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='469.11' y='202.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='660.85' y='207.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>BOOKS</text>
+<text x='620.29' y='199.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>BOOKS</text>
+<text x='456.20' y='230.66' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='18.71px' lengthAdjust='spacingAndGlyphs'>PUTTING</text>
+<text x='525.89' y='234.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='465.42' y='427.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUCK</text>
+<text x='416.75' y='259.88' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='438.14' y='239.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='463.58' y='211.88' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.45px' lengthAdjust='spacingAndGlyphs'>STRUGGLE</text>
+<text x='532.53' y='284.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.45px' lengthAdjust='spacingAndGlyphs'>STRUGGLE</text>
+<text x='483.12' y='251.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='26.29px' lengthAdjust='spacingAndGlyphs'>STRUGGLES</text>
+<text x='434.08' y='383.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.22px' lengthAdjust='spacingAndGlyphs'>LUXURY</text>
+<text x='360.70' y='316.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='469.48' y='332.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='27.09px' lengthAdjust='spacingAndGlyphs'>CONSULTAN-</text>
+<text x='371.39' y='232.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='424.86' y='196.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='472.80' y='168.05' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='498.61' y='216.75' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='411.22' y='234.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='368.44' y='174.31' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='368.08' y='130.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='277.00' y='171.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='457.68' y='415.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='376.19' y='240.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='355.54' y='186.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='463.21' y='410.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='482.75' y='224.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='521.10' y='367.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='428.18' y='238.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='563.87' y='197.97' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='420.44' y='426.85' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='473.90' y='334.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='478.33' y='496.42' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='540.64' y='234.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='492.34' y='436.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>RUCK</text>
+<text x='521.10' y='240.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.55px' lengthAdjust='spacingAndGlyphs'>ROOK</text>
+<text x='528.48' y='239.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='403.84' y='403.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='449.57' y='233.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='458.79' y='463.72' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='450.67' y='239.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='492.34' y='411.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>CRUX</text>
+<text x='614.02' y='225.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='424.49' y='380.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='517.41' y='379.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='598.17' y='273.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>CROOKS</text>
+<text x='473.53' y='432.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='540.28' y='279.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='451.41' y='431.72' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='655.69' y='225.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='485.33' y='421.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='477.22' y='207.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='431.50' y='457.46' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='604.80' y='227.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='501.93' y='437.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='538.80' y='258.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='464.68' y='271.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='485.70' y='270.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='430.39' y='300.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='486.81' y='356.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>OTHERS</text>
+<text x='534.74' y='356.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.54px' lengthAdjust='spacingAndGlyphs'>STRUCK</text>
+<text x='518.89' y='348.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='491.60' y='352.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='414.17' y='242.49' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='464.68' y='392.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUCK</text>
+<text x='515.20' y='426.85' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='24.88px' lengthAdjust='spacingAndGlyphs'>DISCUSSED</text>
+<text x='352.59' y='233.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='395.73' y='271.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='529.21' y='340.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>OTHERS</text>
+<text x='482.75' y='351.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='371.76' y='369.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>RUGBY</text>
+<text x='349.27' y='263.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='533.64' y='394.85' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='480.17' y='308.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='496.03' y='369.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='199.56' y='161.79' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>SHOULD</text>
+<text x='470.22' y='319.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='421.54' y='275.88' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='497.13' y='292.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.37px' lengthAdjust='spacingAndGlyphs'>*DRUGGY</text>
+<text x='441.45' y='364.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='484.23' y='344.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='516.31' y='351.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.40px' lengthAdjust='spacingAndGlyphs'>DRUGS</text>
+<text x='535.11' y='390.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='507.09' y='317.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='415.27' y='287.02' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='522.21' y='310.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.56px' lengthAdjust='spacingAndGlyphs'>DRUG</text>
+<text x='434.82' y='319.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='355.17' y='277.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.37px' lengthAdjust='spacingAndGlyphs'>*DRUGGY</text>
+<text x='396.84' y='277.97' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='459.52' y='354.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='13.27px' lengthAdjust='spacingAndGlyphs'>*TUCK</text>
+<text x='490.13' y='336.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='13.27px' lengthAdjust='spacingAndGlyphs'>*TUCK</text>
+<text x='201.78' y='157.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='504.88' y='383.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='543.59' y='405.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='515.57' y='374.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='515.57' y='488.07' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='489.39' y='358.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUCK</text>
+<text x='472.80' y='284.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='501.19' y='296.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='473.17' y='305.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='510.41' y='380.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='480.17' y='349.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='382.83' y='270.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='500.45' y='320.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='483.86' y='252.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='26.29px' lengthAdjust='spacingAndGlyphs'>STRUGGLES</text>
+<text x='493.45' y='330.84' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='397.94' y='353.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='509.30' y='417.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='279.95' y='199.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='512.99' y='372.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>RUCK</text>
+<text x='395.73' y='236.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='458.42' y='346.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='304.28' y='193.79' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='368.44' y='249.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='400.52' y='234.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='324.20' y='211.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='512.25' y='338.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>CRUX</text>
+<text x='458.79' y='241.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='484.23' y='395.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='478.33' y='356.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='512.99' y='377.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='381.35' y='245.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='493.81' y='396.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='498.98' y='332.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='480.54' y='232.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='528.84' y='436.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='312.03' y='179.18' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='470.22' y='341.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='446.25' y='238.32' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='568.67' y='357.97' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='489.39' y='348.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='481.28' y='351.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='490.13' y='374.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='279.21' y='175.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='480.91' y='230.66' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='420.44' y='249.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='434.45' y='264.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='465.42' y='346.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>OTHERS</text>
+<text x='540.28' y='321.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='366.23' y='249.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='329.36' y='203.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='176.70' y='175.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='454.36' y='301.62' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='540.28' y='241.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='400.89' y='232.75' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='421.54' y='228.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUSH</text>
+<text x='510.04' y='225.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='400.16' y='246.67' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='416.38' y='275.88' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='431.13' y='469.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='382.83' y='248.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.55px' lengthAdjust='spacingAndGlyphs'>COOK</text>
+<text x='466.16' y='362.84' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>BUS</text>
+<text x='486.44' y='393.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>BUS</text>
+<text x='463.58' y='346.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>BUSES</text>
+<text x='519.63' y='321.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>BUS</text>
+<text x='588.21' y='284.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>BUSES</text>
+<text x='420.07' y='313.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='395.36' y='321.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='388.36' y='330.84' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='458.42' y='345.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='511.88' y='319.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='450.67' y='289.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='478.70' y='322.49' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='22.99px' lengthAdjust='spacingAndGlyphs'>*DUNCHED</text>
+<text x='474.27' y='394.85' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='529.95' y='353.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='352.22' y='234.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='490.50' y='371.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='422.65' y='240.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='399.42' y='309.97' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='457.31' y='284.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='269.99' y='187.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='486.07' y='343.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='480.17' y='226.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='343.74' y='196.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='426.34' y='355.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>CRUX</text>
+<text x='515.94' y='221.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='439.61' y='438.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='491.97' y='306.49' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='403.84' y='225.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>CROOKS</text>
+<text x='463.58' y='389.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='425.60' y='217.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='428.18' y='398.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='451.41' y='311.36' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='542.12' y='253.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='480.54' y='422.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='338.58' y='206.32' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='417.12' y='296.75' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='473.17' y='297.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.30px' lengthAdjust='spacingAndGlyphs'>SUSSEX</text>
+<text x='465.42' y='401.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='494.92' y='465.81' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PLUS</text>
+<text x='487.55' y='357.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='507.83' y='422.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>FUSSY</text>
+<text x='497.87' y='165.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='482.38' y='394.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='21.31px' lengthAdjust='spacingAndGlyphs'>SMUGGLE</text>
+<text x='459.52' y='321.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='16.51px' lengthAdjust='spacingAndGlyphs'>RESULT</text>
+<text x='499.35' y='417.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='16.51px' lengthAdjust='spacingAndGlyphs'>RESULT</text>
+<text x='518.89' y='417.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='525.16' y='250.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='490.50' y='434.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='438.87' y='332.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.30px' lengthAdjust='spacingAndGlyphs'>SUSSEX</text>
+<text x='400.52' y='328.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>JUDGE</text>
+<text x='495.29' y='240.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='486.07' y='344.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.96px' lengthAdjust='spacingAndGlyphs'>RUSSIAN</text>
+<text x='428.92' y='245.27' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.58px' lengthAdjust='spacingAndGlyphs'>DOESN'T</text>
+<text x='492.34' y='495.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='572.72' y='271.01' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>MOTHER</text>
+<text x='462.84' y='467.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='488.28' y='495.72' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='449.94' y='307.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='461.73' y='267.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='16.51px' lengthAdjust='spacingAndGlyphs'>RESULT</text>
+<text x='503.03' y='236.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='490.87' y='386.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>SUCH</text>
+<text x='526.63' y='242.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='10.43px' lengthAdjust='spacingAndGlyphs'>FULL</text>
+<text x='500.45' y='452.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.67px' lengthAdjust='spacingAndGlyphs'>CLUTTER</text>
+<text x='390.57' y='497.81' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.24px' lengthAdjust='spacingAndGlyphs'>CULPRIT</text>
+<text x='402.00' y='268.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='472.43' y='424.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='368.08' y='187.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='390.20' y='279.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='470.22' y='404.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='551.71' y='264.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='442.19' y='353.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='427.07' y='175.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='446.25' y='397.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='489.76' y='204.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='472.80' y='395.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>LUCKY</text>
+<text x='470.95' y='491.55' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>CUT</text>
+<text x='519.63' y='449.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>CUT</text>
+<text x='400.16' y='348.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='372.87' y='355.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.58px' lengthAdjust='spacingAndGlyphs'>DOESN'T</text>
+<text x='410.48' y='312.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='376.56' y='218.84' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='32.85px' lengthAdjust='spacingAndGlyphs'>COMPULSIVELY</text>
+<text x='504.51' y='460.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='465.42' y='402.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='518.15' y='312.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='33.64px' lengthAdjust='spacingAndGlyphs'>HOUSEMOTHER</text>
+<text x='517.05' y='380.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='511.15' y='177.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='475.75' y='243.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='227.59' y='186.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='465.05' y='412.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>BUDGET</text>
+<text x='394.26' y='296.75' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='428.55' y='253.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='20.12px' lengthAdjust='spacingAndGlyphs'>COOKING</text>
+<text x='474.64' y='395.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='477.22' y='442.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='393.89' y='362.84' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='513.73' y='419.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='455.47' y='385.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='507.09' y='396.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>MOTHER</text>
+<text x='486.81' y='444.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>MOTHER</text>
+<text x='438.14' y='365.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='473.17' y='388.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>MOTHER</text>
+<text x='510.78' y='412.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='550.97' y='230.66' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='486.81' y='423.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>RUCK</text>
+<text x='568.67' y='231.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='441.82' y='378.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='474.27' y='225.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='532.16' y='412.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='516.31' y='250.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='430.39' y='228.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='503.40' y='396.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>CRUX</text>
+<text x='563.14' y='250.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='482.38' y='381.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='446.99' y='397.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='480.91' y='444.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='487.55' y='258.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='512.62' y='417.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='374.71' y='391.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='563.51' y='244.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='520.73' y='454.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='421.54' y='213.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='425.60' y='436.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='405.69' y='399.72' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='326.78' y='225.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='30.25px' lengthAdjust='spacingAndGlyphs'>UNDERSTOOD</text>
+<text x='477.22' y='325.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='531.43' y='305.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='358.49' y='376.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUCK</text>
+<text x='511.15' y='338.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='457.68' y='219.53' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='379.88' y='301.62' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='505.25' y='343.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='21.09px' lengthAdjust='spacingAndGlyphs'>MUDDLED</text>
+<text x='410.48' y='277.28' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='490.50' y='405.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='21.09px' lengthAdjust='spacingAndGlyphs'>MUDDLED</text>
+<text x='453.99' y='271.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.16px' lengthAdjust='spacingAndGlyphs'>BOOKS</text>
+<text x='566.46' y='204.92' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='10.43px' lengthAdjust='spacingAndGlyphs'>FULL</text>
+<text x='510.04' y='359.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='25.34px' lengthAdjust='spacingAndGlyphs'>ULTIMATELY</text>
+<text x='354.80' y='463.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.72px' lengthAdjust='spacingAndGlyphs'>STUDIED</text>
+<text x='510.78' y='364.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='391.68' y='375.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='464.68' y='421.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='511.15' y='367.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='447.72' y='412.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='376.19' y='449.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='429.29' y='389.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='329.36' y='213.97' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='390.94' y='293.97' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='372.87' y='349.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>OTHERS</text>
+<text x='386.51' y='228.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='403.47' y='254.32' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='344.85' y='254.32' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='470.58' y='396.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='358.12' y='228.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='378.03' y='236.93' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.78px' lengthAdjust='spacingAndGlyphs'>PUSHED</text>
+<text x='421.91' y='197.97' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.78px' lengthAdjust='spacingAndGlyphs'>PUSHED</text>
+<text x='432.24' y='237.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.78px' lengthAdjust='spacingAndGlyphs'>PUSHED</text>
+<text x='532.53' y='399.72' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='477.22' y='324.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='28.18px' lengthAdjust='spacingAndGlyphs'>STRUGGLING</text>
+<text x='562.77' y='259.88' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.51px' lengthAdjust='spacingAndGlyphs'>PULLS</text>
+<text x='451.78' y='474.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='330.83' y='177.79' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='21.43px' lengthAdjust='spacingAndGlyphs'>COULDN'T</text>
+<text x='429.29' y='225.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.68px' lengthAdjust='spacingAndGlyphs'>LOOKS</text>
+<text x='531.43' y='348.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='458.05' y='367.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>BLOODY</text>
+<text x='434.82' y='332.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='493.81' y='305.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='24.39px' lengthAdjust='spacingAndGlyphs'>LUXMOORE</text>
+<text x='468.37' y='255.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='426.71' y='360.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='30.80px' lengthAdjust='spacingAndGlyphs'>DESTRUCTION</text>
+<text x='493.45' y='371.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='24.16px' lengthAdjust='spacingAndGlyphs'>COLOURED</text>
+<text x='416.75' y='324.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='534.74' y='324.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='24.16px' lengthAdjust='spacingAndGlyphs'>COLOURED</text>
+<text x='426.71' y='266.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='505.25' y='273.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='488.28' y='354.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.96px' lengthAdjust='spacingAndGlyphs'>RUSSIAN</text>
+<text x='494.55' y='289.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='481.65' y='277.28' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='501.19' y='428.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>PLUG</text>
+<text x='398.68' y='405.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>SHUT</text>
+<text x='421.91' y='383.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>SHUT</text>
+<text x='383.93' y='266.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='26.52px' lengthAdjust='spacingAndGlyphs'>FOOTNOTES</text>
+<text x='372.87' y='186.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='465.79' y='396.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='472.80' y='367.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='494.55' y='400.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='349.64' y='284.93' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='428.55' y='416.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='438.14' y='361.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='503.03' y='408.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='387.99' y='261.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='447.35' y='439.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>RUCK</text>
+<text x='433.34' y='280.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='403.84' y='366.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='309.82' y='258.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='490.87' y='410.85' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='355.91' y='307.89' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='278.84' y='255.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='457.31' y='417.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>CRUX</text>
+<text x='387.62' y='309.28' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='423.39' y='284.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='468.00' y='409.46' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='316.45' y='271.71' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='383.93' y='374.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='509.67' y='343.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.93px' lengthAdjust='spacingAndGlyphs'>SOUTHERN</text>
+<text x='530.32' y='304.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.93px' lengthAdjust='spacingAndGlyphs'>SOUTHERN</text>
+<text x='525.53' y='200.75' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='546.18' y='251.54' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='521.84' y='339.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='344.11' y='202.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='16.57px' lengthAdjust='spacingAndGlyphs'>MUSLIM</text>
+<text x='498.61' y='355.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='455.47' y='252.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='444.40' y='318.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='500.82' y='312.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='519.63' y='361.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='458.42' y='224.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='467.27' y='405.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='415.64' y='221.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='501.19' y='403.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.35px' lengthAdjust='spacingAndGlyphs'>RESULTS</text>
+<text x='493.45' y='405.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.35px' lengthAdjust='spacingAndGlyphs'>RESULTS</text>
+<text x='400.52' y='235.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.70px' lengthAdjust='spacingAndGlyphs'>PUSHY</text>
+<text x='532.90' y='373.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='512.25' y='485.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='601.49' y='209.79' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>SHOULD</text>
+<text x='373.61' y='215.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='491.23' y='415.72' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='549.49' y='353.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.58px' lengthAdjust='spacingAndGlyphs'>MUST'VE</text>
+<text x='492.71' y='387.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='555.76' y='351.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.58px' lengthAdjust='spacingAndGlyphs'>MUST'VE</text>
+<text x='515.94' y='394.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='503.40' y='401.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUCK</text>
+<text x='314.61' y='216.75' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='472.43' y='365.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='336.00' y='227.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='379.88' y='203.53' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='21.43px' lengthAdjust='spacingAndGlyphs'>COULDN'T</text>
+<text x='219.84' y='204.92' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>SHOULD</text>
+<text x='557.61' y='377.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='521.84' y='371.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='496.03' y='273.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='452.15' y='421.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='239.76' y='209.79' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='443.67' y='431.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='502.30' y='386.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>SHUT</text>
+<text x='512.25' y='378.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='535.11' y='394.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='553.18' y='367.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='343.74' y='268.93' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='498.98' y='384.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='474.64' y='351.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='539.17' y='371.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='570.88' y='219.53' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='361.44' y='232.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='512.62' y='472.07' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='493.81' y='449.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='486.81' y='227.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.72px' lengthAdjust='spacingAndGlyphs'>STUDIED</text>
+<text x='506.72' y='445.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='317.93' y='217.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='359.23' y='241.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='348.90' y='186.14' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='487.18' y='340.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUCK</text>
+<text x='409.37' y='291.88' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='518.89' y='376.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='479.80' y='298.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.72px' lengthAdjust='spacingAndGlyphs'>STUDIED</text>
+<text x='431.87' y='227.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='414.54' y='283.54' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='289.54' y='149.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>SHOULD</text>
+<text x='372.13' y='199.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='488.65' y='333.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.58px' lengthAdjust='spacingAndGlyphs'>DOESN'T</text>
+<text x='504.51' y='350.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='369.55' y='279.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='324.20' y='191.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='333.41' y='215.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='24.27px' lengthAdjust='spacingAndGlyphs'>SHOULD'VE</text>
+<text x='410.11' y='261.97' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>PUSHING</text>
+<text x='556.13' y='364.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='504.51' y='330.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='521.47' y='353.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>COUSINS</text>
+<text x='264.83' y='207.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>SHOULD</text>
+<text x='450.30' y='215.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>PUSHING</text>
+<text x='348.90' y='230.66' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.43px' lengthAdjust='spacingAndGlyphs'>PUSHING</text>
+<text x='306.13' y='299.54' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='441.45' y='343.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>STUDIES</text>
+<text x='461.37' y='403.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>DOES</text>
+<text x='474.64' y='335.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>STUDIES</text>
+<text x='562.03' y='416.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='556.87' y='317.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='520.00' y='363.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='398.68' y='279.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='438.87' y='428.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='610.34' y='195.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='472.06' y='363.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='446.62' y='341.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='443.67' y='373.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.72px' lengthAdjust='spacingAndGlyphs'>STUDIED</text>
+<text x='430.02' y='285.62' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.72px' lengthAdjust='spacingAndGlyphs'>STUDIED</text>
+<text x='525.53' y='339.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='331.94' y='226.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='413.80' y='313.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.46px' lengthAdjust='spacingAndGlyphs'>STUDY</text>
+<text x='469.11' y='444.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='339.68' y='226.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>PUTS</text>
+<text x='510.04' y='343.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>HUSH</text>
+<text x='480.17' y='393.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>HUSH</text>
+<text x='279.21' y='245.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='466.90' y='358.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.48px' lengthAdjust='spacingAndGlyphs'>UGH</text>
+<text x='515.94' y='409.46' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.66px' lengthAdjust='spacingAndGlyphs'>NOTHING</text>
+<text x='477.59' y='411.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='485.33' y='325.97' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>JUSTIN</text>
+<text x='464.32' y='322.49' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>STUDIES</text>
+<text x='484.60' y='401.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>JUDGE</text>
+<text x='511.15' y='383.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>TOUCH</text>
+<text x='543.96' y='380.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='243.81' y='223.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='500.08' y='404.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='524.42' y='417.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='501.56' y='386.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='522.21' y='332.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='510.78' y='429.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>RUCK</text>
+<text x='477.96' y='385.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='591.90' y='321.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='452.89' y='262.67' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='272.20' y='204.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='601.12' y='213.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='453.62' y='365.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='304.28' y='245.27' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='451.78' y='251.54' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.55px' lengthAdjust='spacingAndGlyphs'>ROOK</text>
+<text x='489.39' y='228.58' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='425.97' y='263.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='524.42' y='420.59' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='261.88' y='246.67' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>SHOULD</text>
+<text x='315.72' y='269.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='522.95' y='409.46' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='464.32' y='385.11' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PLUS</text>
+<text x='573.46' y='237.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='10.43px' lengthAdjust='spacingAndGlyphs'>FULL</text>
+<text x='446.99' y='356.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.77px' lengthAdjust='spacingAndGlyphs'>CUSTODY</text>
+<text x='459.89' y='361.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='433.71' y='374.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='557.61' y='270.32' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='10.43px' lengthAdjust='spacingAndGlyphs'>FULL</text>
+<text x='468.00' y='326.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='486.81' y='339.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='439.61' y='337.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='470.95' y='303.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='377.66' y='173.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='515.20' y='384.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='483.12' y='325.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='374.34' y='426.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>BLOODY</text>
+<text x='425.60' y='232.75' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='438.87' y='214.66' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='536.96' y='305.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='458.79' y='353.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='448.09' y='408.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='454.36' y='362.84' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='407.90' y='351.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='576.41' y='321.10' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='34.67px' lengthAdjust='spacingAndGlyphs'>MULTICULTURAL</text>
+<text x='513.73' y='328.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='47.70px' lengthAdjust='spacingAndGlyphs'>MULTI-CULTURALNESS</text>
+<text x='523.68' y='387.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='367.34' y='205.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='474.27' y='378.85' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='492.34' y='290.49' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='523.31' y='316.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='525.16' y='366.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='529.95' y='253.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>BULLIED</text>
+<text x='517.78' y='218.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.77px' lengthAdjust='spacingAndGlyphs'>BULLIED</text>
+<text x='403.47' y='296.75' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='568.30' y='223.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='492.34' y='387.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='570.14' y='220.93' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='22.26px' lengthAdjust='spacingAndGlyphs'>FOOTBALL</text>
+<text x='472.80' y='422.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>BUS</text>
+<text x='459.52' y='412.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.19px' lengthAdjust='spacingAndGlyphs'>FUCKING</text>
+<text x='424.86' y='381.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>SUCH</text>
+<text x='324.93' y='243.19' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='500.82' y='256.41' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='476.48' y='437.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='8.77px' lengthAdjust='spacingAndGlyphs'>CUT</text>
+<text x='424.49' y='282.84' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='524.05' y='383.02' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='468.37' y='356.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='425.60' y='377.45' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>ANOTHER</text>
+<text x='402.00' y='408.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='15.40px' lengthAdjust='spacingAndGlyphs'>DRUGS</text>
+<text x='326.41' y='275.88' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='498.61' y='469.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>MOTHER</text>
+<text x='475.01' y='444.93' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>GUTS</text>
+<text x='451.41' y='197.97' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='378.40' y='451.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='477.59' y='376.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='464.32' y='355.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>SUCH</text>
+<text x='461.37' y='295.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='427.81' y='232.06' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='466.16' y='249.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='19.41px' lengthAdjust='spacingAndGlyphs'>LOOKING</text>
+<text x='456.20' y='277.28' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='474.27' y='419.19' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.19px' lengthAdjust='spacingAndGlyphs'>FUCKING</text>
+<text x='437.40' y='249.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='18.71px' lengthAdjust='spacingAndGlyphs'>PUTTING</text>
+<text x='443.67' y='210.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='365.49' y='467.20' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>BLOODY</text>
+<text x='384.67' y='378.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>OTHER</text>
+<text x='410.48' y='305.80' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LOOKED</text>
+<text x='464.32' y='394.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>BUSS</text>
+<text x='454.36' y='357.97' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>BUSS</text>
+<text x='464.32' y='364.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>SUCH</text>
+<text x='479.80' y='328.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>SUCH</text>
+<text x='483.12' y='369.80' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='493.45' y='299.54' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='458.42' y='359.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='509.30' y='362.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>FUCK</text>
+<text x='473.53' y='414.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='485.70' y='375.37' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<text x='413.80' y='428.24' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>BLOODY</text>
+<text x='390.20' y='175.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='13.02px' lengthAdjust='spacingAndGlyphs'>GOOD</text>
+<text x='382.09' y='416.41' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='19.66px' lengthAdjust='spacingAndGlyphs'>NOTHING</text>
+<text x='448.83' y='333.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.08px' lengthAdjust='spacingAndGlyphs'>MUST</text>
+<text x='440.72' y='344.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='24.51px' lengthAdjust='spacingAndGlyphs'>BROTHER'S</text>
+<text x='513.36' y='373.98' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>BROTHERS</text>
+<text x='415.27' y='381.63' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>BLOODY</text>
+<text x='445.14' y='258.49' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='493.45' y='268.93' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='18.48px' lengthAdjust='spacingAndGlyphs'>CROOKS</text>
+<text x='496.40' y='405.28' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='465.05' y='240.40' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>COULD</text>
+<text x='476.48' y='392.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>TUCK</text>
+<text x='487.92' y='398.32' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.14px' lengthAdjust='spacingAndGlyphs'>PUTT</text>
+<text x='478.33' y='403.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>LUCK</text>
+<text x='462.47' y='378.15' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='9.24px' lengthAdjust='spacingAndGlyphs'>CUD</text>
+<text x='504.88' y='406.67' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.09px' lengthAdjust='spacingAndGlyphs'>RUCK</text>
+<text x='414.17' y='340.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='430.39' y='328.06' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='20.85px' lengthAdjust='spacingAndGlyphs'>BROTHER</text>
+<text x='524.05' y='275.88' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='461.73' y='239.01' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>HOOD</text>
+<text x='491.97' y='257.10' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='8.53px' lengthAdjust='spacingAndGlyphs'>PUT</text>
+<text x='466.53' y='360.76' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='10.90px' lengthAdjust='spacingAndGlyphs'>DULL</text>
+<text x='454.36' y='270.32' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>TOOK</text>
+<text x='529.58' y='281.45' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.55px' lengthAdjust='spacingAndGlyphs'>ROOK</text>
+<text x='473.17' y='236.23' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='11.84px' lengthAdjust='spacingAndGlyphs'>LOOK</text>
+<text x='527.37' y='221.62' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='12.31px' lengthAdjust='spacingAndGlyphs'>BOOK</text>
+<text x='512.99' y='354.50' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.85px' lengthAdjust='spacingAndGlyphs'>BUCK</text>
+<text x='407.90' y='262.67' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='21.43px' lengthAdjust='spacingAndGlyphs'>COULDN'T</text>
+<text x='365.13' y='279.36' text-anchor='middle' style='font-size: 4.27px; fill: #C70E7B; fill-opacity: 0.75; font-family: Arial;' textLength='15.08px' lengthAdjust='spacingAndGlyphs'>STOOD</text>
+<text x='459.52' y='323.89' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='11.61px' lengthAdjust='spacingAndGlyphs'>STUD</text>
+<text x='487.55' y='332.23' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.93px' lengthAdjust='spacingAndGlyphs'>SOUTHERN</text>
+<text x='459.52' y='319.71' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='23.93px' lengthAdjust='spacingAndGlyphs'>SOUTHERN</text>
+<text x='458.05' y='340.58' text-anchor='middle' style='font-size: 4.27px; fill: #A6E000; fill-opacity: 0.75; font-family: Arial;' textLength='12.79px' lengthAdjust='spacingAndGlyphs'>MUCH</text>
+<polygon points='549.90,240.26 548.97,235.06 546.20,229.83 541.63,224.65 535.33,219.59 527.39,214.72 517.94,210.13 507.12,205.89 495.09,202.05 482.03,198.67 468.15,195.82 453.65,193.52 438.75,191.81 423.68,190.73 408.67,190.29 393.94,190.48 379.72,191.32 366.23,192.79 353.66,194.86 342.21,197.51 332.05,200.69 323.34,204.35 316.21,208.45 310.76,212.92 307.09,217.68 305.23,222.68 305.23,227.82 307.09,233.04 310.76,238.26 316.21,243.39 323.34,248.37 332.05,253.10 342.21,257.53 353.66,261.58 366.23,265.19 379.72,268.32 393.94,270.90 408.67,272.90 423.68,274.30 438.75,275.06 453.65,275.19 468.15,274.67 482.03,273.52 495.09,271.74 507.12,269.38 517.94,266.46 527.39,263.03 535.33,259.14 541.63,254.85 546.20,250.23 548.97,245.34 549.90,240.26 ' style='stroke-width: 1.07; stroke: #C70E7B; fill: #C70E7B; fill-opacity: 0.50;' />
+<polygon points='533.04,372.65 532.61,364.00 531.34,355.39 529.23,346.93 526.34,338.76 522.69,331.00 518.34,323.76 513.36,317.17 507.83,311.32 501.83,306.29 495.44,302.16 488.77,299.00 481.92,296.85 474.99,295.75 468.09,295.72 461.32,296.74 454.78,298.82 448.57,301.91 442.79,305.97 437.53,310.93 432.86,316.73 428.85,323.28 425.57,330.47 423.07,338.20 421.38,346.34 420.53,354.78 420.53,363.39 421.38,372.04 423.07,380.60 425.57,388.93 428.85,396.91 432.86,404.42 437.53,411.34 442.79,417.58 448.57,423.03 454.78,427.62 461.32,431.27 468.09,433.92 474.99,435.55 481.92,436.12 488.77,435.63 495.44,434.07 501.83,431.49 507.83,427.91 513.36,423.38 518.34,417.99 522.69,411.81 526.34,404.92 529.23,397.45 531.34,389.50 532.61,381.19 533.04,372.65 ' style='stroke-width: 1.07; stroke: #A6E000; fill: #A6E000; fill-opacity: 0.50;' />
+<polygon points='408.16,238.67 442.63,238.67 442.55,238.67 442.90,238.65 443.24,238.58 443.56,238.46 443.86,238.29 444.13,238.07 444.36,237.81 444.55,237.51 444.68,237.19 444.77,236.85 444.79,236.51 444.79,236.51 444.79,225.48 444.79,225.48 444.77,225.14 444.68,224.80 444.55,224.48 444.36,224.19 444.13,223.93 443.86,223.71 443.56,223.53 443.24,223.41 442.90,223.34 442.63,223.32 408.16,223.32 408.42,223.34 408.07,223.33 407.73,223.37 407.40,223.46 407.08,223.61 406.80,223.81 406.54,224.05 406.34,224.33 406.17,224.64 406.06,224.97 406.01,225.31 406.00,225.48 406.00,236.51 406.01,236.33 406.01,236.68 406.06,237.02 406.17,237.35 406.34,237.66 406.54,237.94 406.80,238.18 407.08,238.38 407.40,238.53 407.73,238.62 408.07,238.67 ' style='stroke-width: 0.53; fill: #FFFFFF;' />
+<text x='425.40' y='235.07' text-anchor='middle' style='font-size: 11.38px; font-family: Arial;' textLength='31.59px' lengthAdjust='spacingAndGlyphs'>FOOT</text>
+<polygon points='453.07,371.29 493.87,371.29 493.78,371.29 494.13,371.27 494.47,371.20 494.79,371.08 495.09,370.91 495.36,370.69 495.59,370.43 495.78,370.13 495.92,369.81 496.00,369.48 496.03,369.13 496.03,369.13 496.03,358.11 496.03,358.11 496.00,357.76 495.92,357.42 495.78,357.10 495.59,356.81 495.36,356.55 495.09,356.33 494.79,356.15 494.47,356.03 494.13,355.96 493.87,355.95 453.07,355.95 453.33,355.96 452.98,355.95 452.64,355.99 452.31,356.09 451.99,356.23 451.71,356.43 451.45,356.67 451.25,356.95 451.08,357.26 450.97,357.59 450.92,357.93 450.91,358.11 450.91,369.13 450.92,368.95 450.92,369.30 450.97,369.65 451.08,369.98 451.25,370.28 451.45,370.56 451.71,370.80 451.99,371.00 452.31,371.15 452.64,371.24 452.98,371.29 ' style='stroke-width: 0.53; fill: #FFFFFF;' />
+<text x='473.47' y='367.69' text-anchor='middle' style='font-size: 11.38px; font-family: Arial;' textLength='37.92px' lengthAdjust='spacingAndGlyphs'>STRUT</text>
+<rect x='5.98' y='34.35' width='811.22' height='535.67' style='stroke-width: 1.16; stroke: #333333;' />
+</g>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='669.70' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>800</text>
+<text x='595.95' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>1000</text>
+<text x='522.21' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>1200</text>
+<text x='448.46' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>1400</text>
+<text x='374.71' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>1600</text>
+<text x='300.97' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>1800</text>
+<text x='227.22' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>2000</text>
+<text x='153.47' y='28.97' text-anchor='middle' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>2200</text>
+<polyline points='669.70,34.35 669.70,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='595.95,34.35 595.95,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='522.21,34.35 522.21,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='448.46,34.35 448.46,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='374.71,34.35 374.71,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='300.97,34.35 300.97,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='227.22,34.35 227.22,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='153.47,34.35 153.47,31.36 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,58.70 820.18,58.70 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,128.26 820.18,128.26 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,197.83 820.18,197.83 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,267.40 820.18,267.40 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,336.97 820.18,336.97 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,406.54 820.18,406.54 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,476.11 820.18,476.11 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='817.20,545.67 820.18,545.67 ' style='stroke-width: 1.16; stroke: #333333; stroke-linecap: butt;' />
+<text x='822.58' y='62.13' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>300</text>
+<text x='822.58' y='131.70' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>400</text>
+<text x='822.58' y='201.27' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>500</text>
+<text x='822.58' y='270.84' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>600</text>
+<text x='822.58' y='340.40' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>700</text>
+<text x='822.58' y='409.97' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>800</text>
+<text x='822.58' y='479.54' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='16.01px' lengthAdjust='spacingAndGlyphs'>900</text>
+<text x='822.58' y='549.11' style='font-size: 9.60px; fill: #4D4D4D; font-family: Arial;' textLength='21.34px' lengthAdjust='spacingAndGlyphs'>1000</text>
+<text x='411.59' y='17.09' text-anchor='middle' style='font-size: 12.00px; font-family: Arial;' textLength='48.02px' lengthAdjust='spacingAndGlyphs'>norm_F2</text>
+<text transform='translate(846.91,302.19) rotate(90)' text-anchor='middle' style='font-size: 12.00px; font-family: Arial;' textLength='48.02px' lengthAdjust='spacingAndGlyphs'>norm_F1</text>
+</g>
+</svg>

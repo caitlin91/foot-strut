@@ -1,0 +1,144 @@
+source("scripts/FS_cleaning.R")
+packages = c("lme4","stats","cAIC4","stargazer","tidymodels","broom.mixed")
+
+## Now load or install&load all
+package.check <- lapply(
+  packages,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE)
+      library(x, character.only = TRUE)
+    }
+  }
+)
+
+data_FS_stats <- data_FS %>% 
+  dplyr::select(rowNumber_all, rowid, word, norm_F1, norm_F2, dur, rowid_fac, rowNumber_all_fac, lastName, sex, DOB, age, ageGroup, corpus, id, juniorEd, SecondEd, sixthFEd, privateTotal, occupation, occClass, edLevel, fatherRegion, motherRegion, fatherEd, motherEd, motherEdLevel, fatherEdLevel, parentEdLevelHigh, motherOccupation, fatherOccupation, parentOccClass, lexicalSet_broad, lexicalSet_narrow, folMan, folPlace, folVc, preSeg, folSeq, lexSet) %>% 
+  droplevels() %>% 
+  mutate(rowid_z = scale(rowid))
+
+
+# South East ####
+data_FS_statsSE <- data_FS_stats %>% filter(corpus == "CoRP-SE")
+data_strut_statsSE <- data_FS_stats %>%
+  filter(corpus == "CoRP-SE") %>% 
+  filter(lexSet == "STRUT")
+
+## FS
+
+#fullest model
+FS_SE_F1.full.mod <- lmer(norm_F1 ~ lexSet +
+                            sex +
+                            ageGroup +
+                            rowid_z +
+                            folMan +
+                            folPlace +
+                            folVc +
+                            preSeg +
+                            folSeq +
+                            (1|id) + (1|word)
+                          , data_FS_statsSE)
+#stepwise
+FS_SE_F1.step <- cAIC4::stepcAIC(FS_SE_F1.full.mod, calcNonOptimMod=TRUE,numberOfSavedModels = 2)
+FS_SE_F1.step
+FS_SE_F1.step.mod <- lmer(norm_F1 ~ lexSet +
+                            sex +
+                            ageGroup +
+                            rowid_z +
+                            folMan +
+                            folPlace +
+                            folVc +
+                            preSeg +
+                            folSeq +
+                            (1 | id), data_FS_statsSE)
+
+summary(FS_SE_F1.step.mod)
+ranef(FS_SE_F1.step.mod)
+
+
+
+#Final Model
+# lmer(norm_F1 ~ lexSet + sex +   ageGroup +  rowid_z +   folMan +   folPlace +  folVc + preSeg +  folSeq +  (1 | id), data_FS_statsSE) -Notebook
+
+print(
+  xtable(
+  broom.mixed::tidy(FS_SE_F1.step.mod,effects=c("fixed")) %>% 
+  select(-1) %>% 
+    rename(tvalue = statistic) %>% 
+    rename(fixedeffect = term)
+,caption = "Linear Mixed Effects Model of \\textsc{foot} and \\textsc{strut} in the South East")
+,include.rownames=FALSE
+,file="models/FS-SE-F1-mod.tex"
+)
+
+## STRUT ----
+S_SE_F1.full.mod <- lmer(norm_F1 ~ sex +
+                           ageGroup +
+                           rowid_z +
+                           folMan +
+                           folPlace +
+                           folVc +
+                           preSeg +
+                           folSeq +
+                           (1|id) + (1|word)
+                         , data_strut_statsSE)
+S_SE_F1.step <- cAIC4::stepcAIC(S_SE_F1.full.mod,calcNonOptimMod=TRUE,numberOfSavedModels = 2)
+S_SE_F1.step
+S_SE_F1.step.mod <- lmer(norm_F1 ~ sex +
+                           ageGroup +
+                           rowid_z +
+                           folMan +
+                           folPlace +
+                           folVc +
+                           preSeg + 
+                           folSeq + 
+                           (1 | id) + (1 | word),
+                         data_strut_statsSE)
+summary(S_SE_F1.step.mod)
+ranef(S_SE_F1.step.mod)
+
+#F2----
+FS_SE_F2.full.mod <- lmer(norm_F2 ~ lexSet +
+                       sex +
+                       ageGroup +
+                       rowid_z +
+                       folMan +
+                       folPlace +
+                       folVc +
+                       preSeg + 
+                       folSeq + 
+                       (1 | id) + (1 | word), data_FS_statsSE)
+summary(FS_SE_F2.full.mod) #Confirms difference is predominantly F1
+FS_SE_F2.step <- cAIC4::stepcAIC(FS_SE_F2.full.mod,calcNonOptimMod=TRUE,numberOfSavedModels = 2)
+FS_SE_F2.step
+FS_SE_F2.step.mod <- lmer(norm_F2 ~ lexSet +
+                             sex + 
+                             ageGroup + 
+                             rowid_z + 
+                             folMan + 
+                             folPlace +  
+                             folVc + 
+                             preSeg + 
+                             folSeq + 
+                             (1 | id) + (1 | word), data_FS_statsSE)
+summary(FS_SE_F2.step.mod)
+
+
+# North East ------------
+data_FS_statsNE <- data_FS_stats %>% filter(corpus == "CoRP-NE")
+data_strut_statsNE <- data_FS_stats %>%
+  filter(corpus == "CoRP-NE") %>% 
+  filter(lexSet == "STRUT")
+
+FS_NE_F1.mod <- lmer(norm_F1 ~ lexSet + ageGroup + sex + privateTotal + folMan + folPlace + folVc + preSeg + folSeq + (1|id) + (1|word), data_FS_stats %>% filter(region == "North-East"))
+AIC(FS_NE_F1.mod)
+summary(FS_NE_F1.mod)
+
+STRUT_NE_F1.mod <- lmer(norm_F1 ~ ageGroup + sex + privateTotal + folMan + folPlace + folVc + preSeg + folSeq + (1|id) + (1|word), data_FS_stats %>% filter(lexSet == "STRUT") %>% filter(region == "North-East"))
+AIC(STRUT_NE_F1.mod)
+summary(STRUT_NE_F1.mod)
+
+STRUT_F1.mod <- lmer(norm_F1 ~ region + ageGroup + (region*sex) + sex + privateTotal + folMan + folPlace + folVc + preSeg + folSeq + (1|id) + (1|word), data_FS_stats %>% filter(lexSet == "STRUT"))
+AIC(STRUT_F1.mod)
+summary(STRUT_F1.mod)
+

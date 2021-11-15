@@ -1,0 +1,34 @@
+{
+    "type": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        0,
+        1,
+        3,
+        3,
+        2,
+        3,
+        2
+    ],
+    "data": [
+        "\nR version 4.0.2 (2020-06-22) -- \"Taking Off Again\"\nCopyright (C) 2020 The R Foundation for Statistical Computing\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\n",
+        "Type 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n",
+        "Warning:",
+        " namespace ‘ggplot2’ is not available and has been replaced\nby .GlobalEnv when processing object ‘FS_F1.plot’\n",
+        "Warning:",
+        " namespace ‘scales’ is not available and has been replaced\nby .GlobalEnv when processing object ‘FS_F1.plot’\n",
+        "[Workspace loaded from C:/Users/Caitlin Halfacre/OneDrive - Newcastle University/Documents/Linguistics/PhD/MyProject/Analysis/foot-strut/.RData]\n\n",
+        "> ",
+        "source(\"scripts/FS_cleaning.R\")",
+        "Loading required package: tidyverse\n",
+        "Error: package or namespace load failed for ‘tidyverse’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):\n namespace ‘rlang’ 0.4.7 is already loaded, but >= 0.4.10 is required\n",
+        "Error in install.packages : Updating loaded packages\n",
+        "Error: package or namespace load failed for ‘tidyverse’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):\n namespace ‘rlang’ 0.4.7 is already loaded, but >= 0.4.10 is required\n",
+        "\nRestarting R session...\n\n"
+    ]
+}

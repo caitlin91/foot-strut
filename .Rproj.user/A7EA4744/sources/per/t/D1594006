@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1623238082845.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "740900928",
+    "id" : "D1594006",
+    "lastKnownWriteTime" : 1623269805,
+    "last_content_update" : 1623269805647,
+    "path" : "C:/Users/b4010220/OneDrive - Newcastle University/Documents/Linguistics/PhD/MyProject/Analysis/foot-strut/scripts/FS_plots.R",
+    "project_path" : "scripts/FS_plots.R",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

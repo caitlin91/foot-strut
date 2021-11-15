@@ -1,0 +1,178 @@
+source("scripts/FS_cleaning.R")
+## Load and install packages, control options ####
+## First specify the packages of interest
+options(pillar.sigfig = 7)
+packages = c("plyr","patchwork")
+
+## Now load or install&load all
+package.check <- lapply(
+  packages,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE)
+      library(x, character.only = TRUE)
+    }
+  }
+)
+
+## Data ####
+data_FS_plots <- data_FS %>%
+  droplevels() %>% 
+  mutate(juniorEd = recode(juniorEd, "primary" = "state"))
+
+## theme ------------------------------------------
+theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
+    theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+          panel.background = element_rect(fill="gray90", colour=NA),
+          legend.background = element_rect(fill="transparent", colour=NA),
+          legend.key = element_rect(fill="transparent", colour=NA),
+          panel.grid.major = element_line(colour = "white", size = 0.2), 
+          panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+
+theme_Caitlin <- function() {theme_bw(base_size = 12) %+replace%
+    theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+          panel.background = element_rect(fill="gray90", colour=NA),
+          legend.background = element_rect(fill="transparent", colour=NA),
+          legend.key = element_rect(fill="transparent", colour=NA),
+          panel.grid.major = element_line(colour = "white", size = 0.2), 
+          panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+
+FSColours <- c("#C70E7B", "#A6E000")
+names(FSColours) = levels(data_FS_plots$lexSet)
+FSFillScale <- scale_fill_manual(name = "lexSet", values = FSColours)
+FSColScale <- scale_colour_manual(name= "lexSet", values = FSColours)
+
+#SE speakers ----------------------
+FS_SE_F1.plot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+  geom_boxplot() +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  xlab("lexical set") +
+  ylab("F1 (Hz)") +
+  scale_y_continuous(limits = c(200,1000), breaks = seq(0,1000,100))+
+  FSFillScale +
+  ggtitle("F1 of foot & strut - CoRP-SE") +
+  # facet_wrap(~sex) +
+  NULL
+FS_SE_F1.plot
+ggsave("figures/FS-SE-F1.png",FS_SE_F1.plot,height=4,width=6,units="in")
+
+
+FS_SE_F2.plot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=lexSet,y=norm_F2,fill=lexSet)) +
+  geom_boxplot() +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  FSFillScale +
+  NULL
+FS_SE_F2.plot
+
+#vowel space plots
+data_FS_plots_SE.means = as_tibble(ddply(data_FS_plots %>% filter(region=="South-East"),.(lexSet),summarise,
+                         mean_F2 = mean(norm_F2),
+                         mean_F1 = mean(norm_F1)))
+
+data_FS_plots_SE.means
+
+FS_SE.vplot = ggplot(data_FS_plots %>% filter(region == "South-East"), aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = lexSet)) +
+  geom_label(data = data_FS_plots_SE.means, aes(x = mean_F2, y = mean_F1), size = 1) + 
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  geom_label(data = data_FS_plots_SE.means, aes(x = mean_F2, y = mean_F1)) + 
+  scale_x_reverse(position = "top", breaks=seq(800, 2200, 200), limits=c(2200,800)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(1000, 300)) +
+  FSColScale +
+  FSFillScale +
+  ggtitle("FS-CorP-SE")+
+  NULL
+FS_SE.vplot
+
+
+
+# NE speakers ------------------------
+FS_NE_F1.plot <- ggplot(data_FS_plots %>% filter(region == "North-East"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+  geom_boxplot() +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  FSFillScale +
+  scale_y_continuous(limits = c(200,1000), breaks = seq(0,1000,100))+
+  ggtitle("F1 of foot & strut - CoRP-NE") +
+  NULL
+FS_NE_F1.plot
+ggsave("figures/FS-NE-F1.png", FS_NE_F1.plot, width=6, height = 4, units = "in")
+
+
+#vowel space plots
+data_FS_plots_NE.means = as_tibble(ddply(data_FS_plots%>% filter(region == "North-East"),.(lexSet),summarise,
+                                      mean_F2 = mean(norm_F2),
+                                      mean_F1 = mean(norm_F1)))
+
+data_FS_plots_NE.means
+
+FS_NE.vplot = ggplot(data_FS_plots %>% filter(region=="North-East"), aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = lexSet)) +
+  geom_label(data = data_FS_plots_NE.means, aes(x = mean_F2, y = mean_F1), size = 1) + 
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top", breaks=seq(800, 2200, 200), limits=c(2200,800)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(1000, 300)) +
+  FSColScale +
+  FSFillScale +
+  # facet_wrap(~SecondEd) +
+  # facet_grid(rows=vars(juniorEd),cols=vars(SecondEd)) +
+  ggtitle("FS-CorP-NE")+
+  NULL
+FS_NE.vplot
+
+FS.vplot = FS_SE.vplot + FS_NE.vplot + theme(legend.position = "none")
+FS.vplot
+
+strut_NE.vplot = ggplot(data_FS_plots %>% filter(lexSet == "STRUT") %>% filter(region=="North-East"), aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  # stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = lexSet)) +
+  geom_density2d() +
+  #geom_label(data = data_FS_plots_NE.means, aes(x = mean_F2, y = mean_F1), size = 2) + 
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top") + 
+  scale_y_reverse(position = "right") +
+  FSColScale +
+  FSFillScale +
+  # facet_wrap(~SecondEd) +
+  # facet_grid(rows=vars(juniorEd),cols=vars(SecondEd)) +
+  NULL
+strut_NE.vplot
+
+strut.vplot = ggplot(data_FS_plots %>% filter(lexSet == "STRUT"), aes(x=norm_F2, y = norm_F1)
+                     ) +
+  geom_text(aes(label=region,color=region), size=1.5, alpha=0.75) +
+  # stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = lexSet)) +
+  geom_density2d() +
+  #geom_label(data = data_FS_plots_NE.means, aes(x = mean_F2, y = mean_F1), size = 2) + 
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top") + 
+  scale_y_reverse(position = "right") +
+  # FSColScale +
+  # FSFillScale +
+  # facet_wrap(~SecondEd) +
+  # facet_grid(rows=vars(juniorEd),cols=vars(SecondEd)) +
+  NULL
+strut.vplot
+
+# comparison ----------------
+FS_F1.patchwork = FS_NE_F1.plot + FS_SE_F1.plot
+
+FS_F1.plot <- ggplot(data_FS_plots, aes(x=lexSet,y=norm_F1,fill=lexSet)) +
+  geom_boxplot() +
+  theme_Caitlin() +
+  facet_wrap("region") +
+  theme(legend.position = "none") +
+  FSFillScale +
+  scale_y_continuous(limits = c(300,1000), breaks = seq(0,1000,100))+
+  xlab("Lexical Set")+
+  ylab("F1")+
+  NULL
+FS_F1.plot

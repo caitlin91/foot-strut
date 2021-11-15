@@ -1,0 +1,89 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'FS-NE-F1_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{864bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.66666667)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.26427084,0.64509259){\color[rgb]{0.10196078,0.10196078,0.10196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Female\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.69138887,0.64509259){\color[rgb]{0.10196078,0.10196078,0.10196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Male\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.16877316,0.02557868){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FOOT\end{tabular}}}}%
+    \put(0.35976852,0.02557868){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}STRUT\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.59589118,0.02557868){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FOOT\end{tabular}}}}%
+    \put(0.78688657,0.02557868){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}STRUT\end{tabular}}}}%
+    \put(0.04793981,0.06298609){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0.04793981,0.13101853){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}300\end{tabular}}}}%
+    \put(0.04793981,0.19903935){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}400\end{tabular}}}}%
+    \put(0.04793981,0.26707176){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}500\end{tabular}}}}%
+    \put(0.04793981,0.33510417){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}600\end{tabular}}}}%
+    \put(0.04793981,0.403125){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}700\end{tabular}}}}%
+    \put(0.04793981,0.47115741){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}800\end{tabular}}}}%
+    \put(0.04793981,0.53917824){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}900\end{tabular}}}}%
+    \put(0.04793981,0.60721065){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1000\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.47783565,0.00983796){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}lexical set\end{tabular}}}}%
+    \put(0.01686343,0.33907407){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}F1 (Hz)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.92224538,0.40128473){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ageGroup\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.94916669,0.37893518){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Old\end{tabular}}}}%
+    \put(0.94916669,0.35893518){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Young\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.92224538,0.31383101){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}lexSet\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{FS-NE-F1_svg-tex.pdf}}%
+    \put(0.94916669,0.29148148){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FOOT\end{tabular}}}}%
+    \put(0.94916669,0.27148148){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}STRUT\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
