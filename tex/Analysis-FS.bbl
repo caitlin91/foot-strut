@@ -1,5 +1,28 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Braber \harvardand\ Flynn}{2015}{Braber2015}
+Braber, N. \harvardand\ Flynn, N.  \harvardyearleft 2015\harvardyearright , The
+  {{East Midlands}}, {\em in} R.~Hickey, ed., `Researching {{Northern
+  English}}'.
+
+\harvarditem{Evans \harvardand\ Iverson}{2007}{Evans2007}
+Evans, B.~G. \harvardand\ Iverson, P.  \harvardyearleft 2007\harvardyearright ,
+  `Plasticity in vowel perception and production: A study of accent change in
+  young adults', {\em The Journal of the Acoustical Society of America} {\bf
+  121}(6),~3814--3826.
+
+\harvarditem{Jansen \harvardand\ Braber}{2020}{Jansen2020}
+Jansen, S. \harvardand\ Braber, N.  \harvardyearleft 2020\harvardyearright ,
+  `\textbackslash\textbackslash textsc\{foot\}-fronting and
+  \textbackslash\textbackslash textsc\{foot\textendash Strut\} splitting: Vowel
+  variation in the \{\vphantom\}{{East Midlands}}\vphantom\{\}', {\em English
+  Language \& Linguistics} pp.~1--31.
+\newline\harvardurl{https://www.cambridge.org/core/journals/english-language-and-linguistics/article/footfronting-and-footstrut-splitting-vowel-variation-in-the-east-midlands/F2CA2668460B36CCD9EDF633681F437F}
+
+\harvarditem{Labov}{2001}{Labov2001b}
+Labov, W.  \harvardyearleft 2001\harvardyearright , {\em Principles of
+  {{Linguistic Change}}: Social {{Factors}}}, {Blackwell}, {Oxford}.
+
 \harvarditem[Rosenfelder et~al.]{Rosenfelder, Fruehwald, Evanini, Seyfarth,
   Gorman, Prichard \harvardand\ Yuan}{2014}{FAVE}
 Rosenfelder, I., Fruehwald, J., Evanini, K., Seyfarth, S., Gorman, K.,
@@ -10,6 +33,11 @@ Rosenfelder, I., Fruehwald, J., Evanini, K., Seyfarth, S., Gorman, K.,
 Saefken, B. \harvardand\ Ruegamer, D.  \harvardyearleft 2018\harvardyearright ,
   `{{cAIC4}}: Conditional {{Akaike}} information criterion for lme4'.
 \newline\harvardurl{https://arxiv.org/abs/1803.05664}
+
+\harvarditem{Watt}{1998}{Watt1998}
+Watt, D.  \harvardyearleft 1998\harvardyearright , Variation and Change in the
+  Vowel System of {{Tyneside English}}, PhD thesis, Newcastle University.
+\newline\harvardurl{http://hdl.handle.net/10443/350}
 
 \harvarditem{Winter}{2019}{Winter2019}
 Winter, B.  \harvardyearleft 2019\harvardyearright , {\em Statistics for

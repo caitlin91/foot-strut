@@ -1,12 +1,21 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  13 NOV 2021 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  17 NOV 2021 12:54
 entering extended mode
 **./Analysis-FS.tex
 (Analysis-FS.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01>
+(C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\sub
+files.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../../../00.FullDoc/tex/ThesisSkeleton-draft2'
+
+(C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/import\impor
+t.sty
+Package: import 2020/04/01  v 6.2
+) (../../../00.FullDoc/tex/ThesisSkeleton-draft2.tex
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\
-scrartcl.cls
-Document Class: scrartcl 2021/06/25 v3.34 KOMA-Script document class (article)
+scrreprt.cls
+Document Class: scrreprt 2021/06/25 v3.34 KOMA-Script document class (report)
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\
 scrkbase.sty
@@ -47,21 +56,21 @@ Package: tocbasic 2021/06/25 v3.34 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numbox=\box50
 )
 Package tocbasic Info: babel extension for `toc' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 135.
-Package scrartcl Info: You've used standard option `12pt'.
-(scrartcl)             This is correct!
-(scrartcl)             Internally I'm using `fontsize=12pt'.
-(scrartcl)             If you'd like to set the option with \KOMAoptions,
-(scrartcl)             you'd have to use `fontsize=12pt' there
-(scrartcl)             instead of `12pt', too.
-Class scrartcl Info: You've used standard option `notitlepage'.
-(scrartcl)           This is correct!
-(scrartcl)           Internally I'm using `titlepage=false'.
-(scrartcl)           If you'd like to set the option with \KOMAoptions,
-(scrartcl)           you'd have to use `titlepage=false' there
-(scrartcl)           instead of `notitlepage', too.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 2241.
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Package scrreprt Info: You've used standard option `12pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=12pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=12pt' there
+(scrreprt)             instead of `12pt', too.
+Class scrreprt Info: You've used standard option `notitlepage'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `titlepage=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `titlepage=false' there
+(scrreprt)           instead of `notitlepage', too.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2486.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\
 scrsize12pt.clo
@@ -102,53 +111,57 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 1742.
 )
 \c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\scr@dte@section@maxnumwidth=\skip53
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 4851.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 4851.
-\scr@dte@part@maxnumwidth=\skip54
-Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 4859.
-\scr@dte@subsection@maxnumwidth=\skip55
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 4869.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 4869.
-\scr@dte@subsubsection@maxnumwidth=\skip56
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 4879.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 4879.
-\scr@dte@paragraph@maxnumwidth=\skip57
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 4890.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 4890.
-\scr@dte@subparagraph@maxnumwidth=\skip58
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 4900.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 4900.
-\abovecaptionskip=\skip59
-\belowcaptionskip=\skip60
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5716.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5727.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5727.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5736.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5746.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5746.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5756.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5756.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5767.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5767.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5777.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5777.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
 \c@pti@nb@sid@b@x=\box51
 Package tocbasic Info: babel extension for `lof' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6075.
+(tocbasic)             because of missing \bbl@set@language on input line 6957.
 
-\scr@dte@figure@maxnumwidth=\skip61
-\c@figure=\count189
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count190
 Package tocbasic Info: babel extension for `lot' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6087.
+(tocbasic)             because of missing \bbl@set@language on input line 6974.
 
-\scr@dte@table@maxnumwidth=\skip62
-\c@table=\count190
-Class scrartcl Info: Redefining `\numberline' on input line 6251.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count191
+Class scrreprt Info: Redefining `\numberline' on input line 7143.
 \bibindent=\dimen138
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\
@@ -190,7 +203,7 @@ Package: expl3 2021-06-01 L3 programming layer (loader)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3
 backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count191
+\l__color_backend_stack_int=\count192
 \l__pdf_internal_box=\box52
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
@@ -202,7 +215,7 @@ Package: xparse 2021-06-01 L3 Experimental document command parser
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\eto
 olbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count192
+\etb@tempcnta=\count193
 )))
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\kpfo
 nts.sty
@@ -216,7 +229,7 @@ LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 78.
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsm
 ath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip63
+\@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
 
@@ -239,13 +252,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 pn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count193
+\inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count194
-\leftroot@=\count195
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count196
-\DOTSCASE@=\count197
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -254,15 +267,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count198
-\c@MaxMatrixCols=\count199
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count266
-\dspbrk@lvl=\count267
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
 \tag@help=\toks18
-\row@=\count268
-\column@=\count269
-\maxfields@=\count270
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
 \andhelp@=\toks19
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -271,16 +284,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \totwidth@=\dimen146
 \lineht@=\dimen147
 \@envbody=\toks20
-\multlinegap=\skip64
-\multlinetaggap=\skip65
+\multlinegap=\skip65
+\multlinetaggap=\skip66
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-\c@mv@rm=\count271
-\c@mv@boldrm=\count272
-\c@mv@sf=\count273
-\c@mv@boldsf=\count274
+\c@mv@rm=\count272
+\c@mv@boldrm=\count273
+\c@mv@sf=\count274
+\c@mv@boldsf=\count275
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 354.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/jkp/m/n on input line 354.
@@ -585,12 +598,12 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \ar@mcellbox=\box55
 \extrarowheight=\dimen149
 \NC@list=\toks22
-\extratabsurround=\skip66
-\backup@length=\skip67
+\extratabsurround=\skip67
+\backup@length=\skip68
 \ar@cellbox=\box56
 )
 \everycr=\toks23
-\minrowclearance=\skip68
+\minrowclearance=\skip69
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
@@ -650,8 +663,8 @@ options.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen150
-\Hy@linkcounter=\count275
-\Hy@pagecounter=\count276
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1
 enc.def
@@ -672,7 +685,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 texcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count277
+\Hy@SavedSpaceFactor=\count278
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pue
 nc.def
@@ -687,7 +700,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count278
+\c@Hy@tempcnt=\count279
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -705,7 +718,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count279
+\Fld@menulength=\count280
 \Field@Width=\dimen152
 \Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -723,9 +736,9 @@ i-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count280
-\c@Item=\count281
-\c@Hfootnote=\count282
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -739,8 +752,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count283
-\c@bookmark@seq@number=\count284
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/rerunfileche
 ck\rerunfilecheck.sty
@@ -753,17 +766,17 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip70
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enu
 mitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip70
+\labelindent=\skip71
 \enit@outerparindent=\dimen154
 \enit@toks=\toks24
 \enit@inbox=\box57
-\enit@count@id=\count285
-\enitdp@description=\count286
+\enit@count@id=\count286
+\enitdp@description=\count287
 )
 Package hyperref Info: Option `draft' set `true' on input line 24.
 Package hyperref Info: Option `final' set `true' on input line 24.
@@ -809,24 +822,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 .sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count287
-\c@Blindtext=\count288
-\c@blind@countparstart=\count289
-\blind@countxx=\count290
-\blindtext@numBlindtext=\count291
-\blind@countyy=\count292
-\c@blindlist=\count293
-\c@blindlistlevel=\count294
-\c@blindlist@level=\count295
-\blind@listitem=\count296
-\c@blind@listcount=\count297
-\c@blind@levelcount=\count298
-\blind@mathformula=\count299
-\blind@Mathformula=\count300
-\c@blind@randomcount=\count301
-\c@blind@randommax=\count302
-\c@blind@pangramcount=\count303
-\c@blind@pangrammax=\count304
+\c@blindtext=\count288
+\c@Blindtext=\count289
+\c@blind@countparstart=\count290
+\blind@countxx=\count291
+\blindtext@numBlindtext=\count292
+\blind@countyy=\count293
+\c@blindlist=\count294
+\c@blindlistlevel=\count295
+\c@blindlist@level=\count296
+\blind@listitem=\count297
+\c@blind@listcount=\count298
+\c@blind@levelcount=\count299
+\blind@mathformula=\count300
+\blind@Mathformula=\count301
+\c@blind@randomcount=\count302
+\c@blind@randommax=\count303
+\c@blind@pangramcount=\count304
+\c@blind@pangrammax=\count305
 ))
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.st
 y
@@ -904,7 +917,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks27
 \SOUL@buffer=\toks28
 \SOUL@token=\toks29
-\SOUL@spaceskip=\skip71
+\SOUL@spaceskip=\skip72
 \SOUL@ttwidth=\dimen157
 \SOUL@uldp=\dimen158
 \SOUL@ulht=\dimen159
@@ -1147,8 +1160,8 @@ ion-koma.sto
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count305
-\c@continuedfloat=\count306
+\c@caption@flags=\count306
+\c@continuedfloat=\count307
 Package caption Info: hyperref package is loaded.
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/setspace\set
@@ -1174,7 +1187,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count307
+\c@section@level=\count308
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdf
 pages.sty
@@ -1187,16 +1200,16 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.s
 ty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count308
-\calc@Bcount=\count309
+\calc@Acount=\count309
+\calc@Bcount=\count310
 \calc@Adimen=\dimen167
 \calc@Bdimen=\dimen168
-\calc@Askip=\skip72
-\calc@Bskip=\skip73
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count310
-\calc@Cskip=\skip74
+\calc@Ccount=\count311
+\calc@Cskip=\skip75
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-
 pic.sty
@@ -1212,12 +1225,12 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 dftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count311
+\pdfpages@includegraphics@status=\count312
 \AM@pagebox=\box58
 \AM@global@opts=\toks30
-\AM@pagecnt=\count312
+\AM@pagecnt=\count313
 \AM@toc@title=\toks31
-\c@AM@survey=\count313
+\c@AM@survey=\count314
 \AM@templatesizebox=\box59
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\cs
@@ -1261,9 +1274,9 @@ Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
 \csv@file=\read2
-\c@csvinputline=\count314
-\c@csvrow=\count315
-\c@csvcol=\count316
+\c@csvinputline=\count315
+\c@csvrow=\count316
+\c@csvcol=\count317
 \csv@out=\write3
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\boo
@@ -1279,31 +1292,31 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen183
 \cmidrulekern=\dimen184
 \defaultaddspace=\dimen185
-\@cmidla=\count317
-\@cmidlb=\count318
+\@cmidla=\count318
+\@cmidlb=\count319
 \@aboverulesep=\dimen186
 \@belowrulesep=\dimen187
-\@thisruleclass=\count319
-\@lastruleclass=\count320
+\@thisruleclass=\count320
+\@lastruleclass=\count321
 \@thisrulewidth=\dimen188
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/tools\multic
 ol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count321
+\c@tracingmulticols=\count322
 \mult@box=\box61
 \multicol@leftmargin=\dimen189
-\c@unbalance=\count322
-\c@collectmore=\count323
-\doublecol@number=\count324
-\multicoltolerance=\count325
-\multicolpretolerance=\count326
+\c@unbalance=\count323
+\c@collectmore=\count324
+\doublecol@number=\count325
+\multicoltolerance=\count326
+\multicolpretolerance=\count327
 \full@width=\dimen190
 \page@free=\dimen191
 \premulticols=\dimen192
 \postmulticols=\dimen193
-\multicolsep=\skip75
-\multicolbaselineskip=\skip76
+\multicolsep=\skip76
+\multicolbaselineskip=\skip77
 \partial@page=\box62
 \last@line=\box63
 \maxbalancingoverflow=\dimen194
@@ -1348,28 +1361,28 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box102
 \@tempa=\box103
 \@tempa=\box104
-\c@minrows=\count327
-\c@columnbadness=\count328
-\c@finalcolumnbadness=\count329
+\c@minrows=\count328
+\c@columnbadness=\count329
+\c@finalcolumnbadness=\count330
 \last@try=\dimen195
 \multicolovershoot=\dimen196
 \multicolundershoot=\dimen197
 \mult@nat@firstbox=\box105
 \colbreak@box=\box106
-\mc@col@check@num=\count330
+\mc@col@check@num=\count331
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/multirow\mul
 tirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip77
-\multirow@cntb=\count331
-\multirow@dima=\skip78
+\multirow@colwidth=\skip78
+\multirow@cntb=\count332
+\multirow@dima=\skip79
 \bigstrutjot=\dimen198
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/float\float.
 sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count332
+\c@float@type=\count333
 \float@exts=\toks36
 \float@box=\box107
 \@float@everytoks=\toks37
@@ -1392,19 +1405,15 @@ Package: placeins 2005/04/18  v 2.2
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbi
 b.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip79
-\bibsep=\skip80
+\bibhang=\skip80
+\bibsep=\skip81
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count333
+\c@NAT@ctr=\count334
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\sub
 files.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
-
-(C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/import\impor
-t.sty
-Package: import 2020/04/01  v 6.2
-))
+)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pd
 flscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -1421,7 +1430,7 @@ File: lscape.hak 2021/06/25 v3.34 KOMA-Script scrhack part (hacking package lsc
 ape)
 Package scrhack Info: \landscape patched to make \textheight change optional on
  input line 90.
-\scrh@LT@textheight=\skip81
+\scrh@LT@textheight=\skip82
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
@@ -1444,9 +1453,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 atex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
-\c@svg@param@lastpage=\count334
+\c@svg@param@lastpage=\count335
 \svg@box=\box109
-\c@svg@param@currpage=\count335
+\c@svg@param@currpage=\count336
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/transparent\
 transparent.sty
@@ -1473,14 +1482,14 @@ ies\pgfkeys.code.tex)
 \pgf@yd=\dimen264
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count336
-\c@pgf@countb=\count337
-\c@pgf@countc=\count338
-\c@pgf@countd=\count339
+\c@pgf@counta=\count337
+\c@pgf@countb=\count338
+\c@pgf@countc=\count339
+\c@pgf@countd=\count340
 \t@pgf@toka=\toks38
 \t@pgf@tokb=\toks39
 \t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count340
+\pgf@sys@id@count=\count341
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/system
 layer\pgf.cfg
@@ -1499,8 +1508,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/system
 layer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count341
-\pgfsyssoftpath@bigbuffer@items=\count342
+\pgfsyssoftpath@smallbuffer@items=\count342
+\pgfsyssoftpath@bigbuffer@items=\count343
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/system
 layer\pgfsysprotocol.code.tex
@@ -1509,9 +1518,9 @@ File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/appendix\app
 endix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count343
-\c@@ppsavesec=\count344
-\c@@ppsaveapp=\count345
+\c@@pps=\count344
+\c@@ppsavesec=\count345
+\c@@ppsaveapp=\count346
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\to
 donotes.sty
@@ -1529,7 +1538,7 @@ vutils.tex
 \XKV@toks=\toks41
 \XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count346
+\XKV@depth=\count347
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontend
@@ -1553,7 +1562,7 @@ gfmathutil.code.tex)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\p
 gfmathparser.code.tex
 \pgfmath@dimen=\dimen265
-\pgfmath@count=\count347
+\pgfmath@count=\count348
 \pgfmath@box=\box110
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
@@ -1579,7 +1588,7 @@ gfmathfunctions.misc.code.tex)
 gfmathfunctions.integerarithmetics.code.tex)))
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\p
 gfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count348
+\c@pgfmathroundto@lastzeros=\count349
 ))
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\p
 gfint.code.tex)
@@ -1619,7 +1628,7 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box111
 \pgf@hbox=\box112
 \pgf@layerbox@main=\box113
-\pgf@picture@serial@count=\count349
+\pgf@picture@serial@count=\count350
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicl
 ayer\pgfcoregraphicstate.code.tex
@@ -1654,8 +1663,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen289
-\pgf@sys@shading@range@num=\count350
-\pgf@shadingcount=\count351
+\pgf@sys@shading@range@num=\count351
+\pgf@shadingcount=\count352
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicl
 ayer\pgfcoreimage.code.tex
@@ -1725,7 +1734,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/librar
 ies\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count352
+\pgf@plot@mark@count=\count353
 \pgfplotmarksize=\dimen294
 )
 \tikz@lastx=\dimen295
@@ -1740,19 +1749,19 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box117
 \tikz@tempbox=\box118
 \tikz@tempbox@bg=\box119
-\tikztreelevel=\count353
-\tikznumberofchildren=\count354
-\tikznumberofcurrentchild=\count355
-\tikz@fig@count=\count356
+\tikztreelevel=\count354
+\tikznumberofchildren=\count355
+\tikznumberofcurrentchild=\count356
+\tikz@fig@count=\count357
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/module
 s\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count357
-\pgfmatrixcurrentcolumn=\count358
-\pgf@matrix@numberofcolumns=\count359
+\pgfmatrixcurrentrow=\count358
+\pgfmatrixcurrentcolumn=\count359
+\pgf@matrix@numberofcolumns=\count360
 )
-\tikz@expandcount=\count360
+\tikz@expandcount=\count361
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/fronte
 ndlayer/tikz/libraries\tikzlibrarytopaths.code.tex
@@ -1762,7 +1771,7 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ndlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-\c@@todonotes@numberoftodonotes=\count361
+\c@@todonotes@numberoftodonotes=\count362
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helve
 t.sty
@@ -1783,24 +1792,24 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/listings\lis
 tings.sty
-\lst@mode=\count362
+\lst@mode=\count363
 \lst@gtempboxa=\box120
 \lst@token=\toks48
-\lst@length=\count363
+\lst@length=\count364
 \lst@currlwidth=\dimen303
-\lst@column=\count364
-\lst@pos=\count365
+\lst@column=\count365
+\lst@pos=\count366
 \lst@lostspace=\dimen304
 \lst@width=\dimen305
-\lst@newlines=\count366
-\lst@lineno=\count367
+\lst@newlines=\count367
+\lst@lineno=\count368
 \lst@maxwidth=\dimen306
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/listings\lst
 misc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count368
-\lst@skipnumbers=\count369
+\c@lstnumber=\count369
+\lst@skipnumbers=\count370
 \lst@framebox=\box121
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/listings\lis
@@ -1822,84 +1831,84 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/layouts\layo
 uts.sty
 Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
-\l@ylen=\skip82
+\l@ylen=\skip83
 \layoutsbox=\box122
-\l@youtunitlength=\skip83
-\l@youtlinethick=\skip84
-\l@youtlinethickii=\skip85
-\l@ysetupparskip=\skip86
-\l@ysetupbaselineskip=\skip87
-\l@yonem=\skip88
-\l@yonex=\skip89
-\l@ylmarg=\skip90
-\l@yrmarg=\skip91
-\l@yitmindent=\skip92
-\l@ylblwidth=\skip93
-\l@ylblsep=\skip94
-\l@ylparindent=\skip95
-\l@ytsep=\skip96
-\l@ypskip=\skip97
-\l@yptsep=\skip98
-\l@ypsep=\skip99
-\l@yitmsep=\skip100
+\l@youtunitlength=\skip84
+\l@youtlinethick=\skip85
+\l@youtlinethickii=\skip86
+\l@ysetupparskip=\skip87
+\l@ysetupbaselineskip=\skip88
+\l@yonem=\skip89
+\l@yonex=\skip90
+\l@ylmarg=\skip91
+\l@yrmarg=\skip92
+\l@yitmindent=\skip93
+\l@ylblwidth=\skip94
+\l@ylblsep=\skip95
+\l@ylparindent=\skip96
+\l@ytsep=\skip97
+\l@ypskip=\skip98
+\l@yptsep=\skip99
+\l@ypsep=\skip100
+\l@yitmsep=\skip101
 \l@ytok=\toks49
-\l@youtpw=\count370
-\l@youtph=\count371
-\l@youthpi=\count372
-\l@youthpii=\count373
-\l@youthpiii=\count374
-\l@youthpiv=\count375
-\l@youthpv=\count376
-\l@youthpvi=\count377
-\l@youthpvii=\count378
-\l@youtparskip=\count379
-\l@youtvpi=\count380
-\l@youtvpii=\count381
-\l@youtvpiii=\count382
-\l@youtvpiv=\count383
-\l@youtvpv=\count384
-\l@youtvpvi=\count385
-\l@youtvpvii=\count386
-\l@youthdo=\count387
-\l@youthdi=\count388
-\l@youthdii=\count389
-\l@youthdiii=\count390
-\l@youthdiv=\count391
-\l@youthdv=\count392
-\l@youthdvi=\count393
-\l@youthdvii=\count394
-\l@youtvdo=\count395
-\l@youtvdi=\count396
-\l@youtvdii=\count397
-\l@youtvdiii=\count398
-\l@youtvdiv=\count399
-\l@youtvdv=\count400
-\l@youtvdvi=\count401
-\l@youtvdvii=\count402
-\l@youtvdviii=\count403
-\l@youtxci=\count404
-\l@youtxcii=\count405
-\l@youtxciii=\count406
-\l@youtxciv=\count407
-\l@youtxcv=\count408
-\l@youtxcvi=\count409
-\l@youtyci=\count410
-\l@youtycii=\count411
-\l@youtyciii=\count412
-\l@youtyciv=\count413
-\l@youtycv=\count414
-\l@youtycvi=\count415
-\l@youtycvii=\count416
-\l@youtycviii=\count417
-\l@youtxco=\count418
-\l@youtyco=\count419
-\l@ytempdima=\skip101
-\stockwidth=\skip102
-\stockheight=\skip103
-\trimedge=\skip104
-\trimtop=\skip105
-\uppermargin=\skip106
-\spinemargin=\skip107
+\l@youtpw=\count371
+\l@youtph=\count372
+\l@youthpi=\count373
+\l@youthpii=\count374
+\l@youthpiii=\count375
+\l@youthpiv=\count376
+\l@youthpv=\count377
+\l@youthpvi=\count378
+\l@youthpvii=\count379
+\l@youtparskip=\count380
+\l@youtvpi=\count381
+\l@youtvpii=\count382
+\l@youtvpiii=\count383
+\l@youtvpiv=\count384
+\l@youtvpv=\count385
+\l@youtvpvi=\count386
+\l@youtvpvii=\count387
+\l@youthdo=\count388
+\l@youthdi=\count389
+\l@youthdii=\count390
+\l@youthdiii=\count391
+\l@youthdiv=\count392
+\l@youthdv=\count393
+\l@youthdvi=\count394
+\l@youthdvii=\count395
+\l@youtvdo=\count396
+\l@youtvdi=\count397
+\l@youtvdii=\count398
+\l@youtvdiii=\count399
+\l@youtvdiv=\count400
+\l@youtvdv=\count401
+\l@youtvdvi=\count402
+\l@youtvdvii=\count403
+\l@youtvdviii=\count404
+\l@youtxci=\count405
+\l@youtxcii=\count406
+\l@youtxciii=\count407
+\l@youtxciv=\count408
+\l@youtxcv=\count409
+\l@youtxcvi=\count410
+\l@youtyci=\count411
+\l@youtycii=\count412
+\l@youtyciii=\count413
+\l@youtyciv=\count414
+\l@youtycv=\count415
+\l@youtycvi=\count416
+\l@youtycvii=\count417
+\l@youtycviii=\count418
+\l@youtxco=\count419
+\l@youtyco=\count420
+\l@ytempdima=\skip102
+\stockwidth=\skip103
+\stockheight=\skip104
+\trimedge=\skip105
+\trimtop=\skip106
+\uppermargin=\skip107
+\spinemargin=\skip108
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/gb4e\gb4e.st
 y
@@ -1912,20 +1921,20 @@ e.sty
 \wordtwo=\box127
 \wordthree=\box128
 \gline=\box129
-\glossglue=\skip108
+\glossglue=\skip109
 )
-\c@fnx=\count420
-\@xnumdepth=\count421
-\c@xnumi=\count422
-\c@xnumii=\count423
-\c@xnumiii=\count424
-\c@xnumiv=\count425
-\c@exx=\count426
-\c@rxnumi=\count427
-\c@rxnumii=\count428
-\c@rxnumiii=\count429
-\c@rxnumiv=\count430
-\lcommentsep=\skip109
+\c@fnx=\count421
+\@xnumdepth=\count422
+\c@xnumi=\count423
+\c@xnumii=\count424
+\c@xnumiii=\count425
+\c@xnumiv=\count426
+\c@exx=\count427
+\c@rxnumi=\count428
+\c@rxnumii=\count429
+\c@rxnumiii=\count430
+\c@rxnumiv=\count431
+\lcommentsep=\skip110
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/listings\lst
 lang1.sty
@@ -1945,10 +1954,10 @@ LaTeX Info: Redefining \tt on input line 150.
 LaTeX Info: Redefining \bf on input line 151.
 LaTeX Info: Redefining \sl on input line 153.
 LaTeX Info: Redefining \sc on input line 154.
-
+))
 
 LaTeX Warning: Unused global option(s):
-    [appendixprefix,usenames].
+    [usenames].
 
 (Analysis-FS.aux
 
@@ -1957,78 +1966,78 @@ LaTeX Warning: Label `tbl:FSF2SE' multiply defined.
 )
 \openout1 = `Analysis-FS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 173.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 175.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
-73.
+75.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omlj
 kp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 175.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
-73.
+75.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsj
 kp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 175.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
-73.
+75.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxj
 kp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 175.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-173.
+175.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkp
 exa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 175.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 17
-3.
+5.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.f
 d
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 173.
-Package scrbase Info: activating english \contentsname on input line 173.
-Package scrbase Info: activating english \listfigurename on input line 173.
-Package scrbase Info: activating english \listtablename on input line 173.
+LaTeX Font Info:    ... okay on input line 175.
+Package scrbase Info: activating english \contentsname on input line 175.
+Package scrbase Info: activating english \listfigurename on input line 175.
+Package scrbase Info: activating english \listtablename on input line 175.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\
 supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count431
+\scratchcounter=\count432
 \scratchdimen=\dimen307
 \scratchbox=\box130
-\nofMPsegments=\count432
-\nofMParguments=\count433
+\nofMPsegments=\count433
+\nofMParguments=\count434
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count434
+\MPscratchCnt=\count435
 \MPscratchDim=\dimen308
-\MPnumerator=\count435
-\makeMPintoPDFobject=\count436
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
 \everyMPtoPDFconversion=\toks51
 )
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg
@@ -2045,22 +2054,22 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring ON on input line 173.
-LaTeX Info: Redefining \ref on input line 173.
-LaTeX Info: Redefining \pageref on input line 173.
-LaTeX Info: Redefining \nameref on input line 173.
+Package hyperref Info: Link coloring ON on input line 175.
+LaTeX Info: Redefining \ref on input line 175.
+LaTeX Info: Redefining \pageref on input line 175.
+LaTeX Info: Redefining \nameref on input line 175.
 (Analysis-FS.out) (Analysis-FS.out)
 \@outlinefile=\write5
 \openout5 = `Analysis-FS.out'.
 
-Class scrartcl Info: loading recommended package `bookmark'.
-(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
-(scrartcl)           because of handling of possible bookmark level gaps.
-(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
-(scrartcl)           `bookmarkpackage=false' before \begin{document} and
-(scrartcl)           you can avoid this message adding:
-(scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 173.
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 175.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\boo
 kmark.sty
@@ -2069,7 +2078,7 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm
 -pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count437
+\BKM@id=\count438
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -2080,36 +2089,38 @@ Package caption Info: End \AtBeginDocument code.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 173.
+loading the todonotes package. on input line 175.
 
-\c@lstlisting=\count438
-Package scrhack Info: undefining \float@addtolists on input line 173.
+\c@lstlisting=\count439
+Package scrhack Info: undefining \float@addtolists on input line 175.
 
-Package layouts Warning: Layout scale set to 0.5 on input line 173.
+Package layouts Warning: Layout scale set to 0.5 on input line 175.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 178.
+(Font)              scaled to size 11.39996pt on input line 180.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 178.
+(Font)              scaled to size 23.63593pt on input line 180.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 23.63593pt on input line 178.
+(Font)              scaled to size 23.63593pt on input line 180.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 180.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 178.
+(Font)              scaled to size 16.41594pt on input line 180.
 LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-178.
+180.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkp
 mia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 178
+LaTeX Font Info:    Trying to load font information for U+msa on input line 180
 .
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ums
 a.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 178
+LaTeX Font Info:    Trying to load font information for U+msb on input line 180
 .
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ums
@@ -2117,49 +2128,51 @@ b.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-178.
+180.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkp
 syc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 179.
+(Font)              scaled to size 11.39996pt on input line 181.
  [1
 
 
-{C:/Users/Caitlin Halfacre/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 179.
- (Analysis-FS.toc
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+{C:/Users/Caitlin Halfacre/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Ana
+lysis-FS.toc
+LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 (Font)              scaled to size 11.39996pt on input line 13.
 )
 \tf@toc=\write6
 \openout6 = `Analysis-FS.toc'.
 
-LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 185.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 193.
- [2]
-<../figures/FS-SE-vplot.png, id=79, 433.62pt x 289.08pt>
+(Font)              scaled to size 16.41594pt on input line 185.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 188.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 188.
+ [2
+
+]
+<../figures/FS-SE-vplot.png, id=65, 433.62pt x 289.08pt>
 File: ../figures/FS-SE-vplot.png Graphic file (type png)
 <use ../figures/FS-SE-vplot.png>
-Package pdftex.def Info: ../figures/FS-SE-vplot.png  used on input line 201.
+Package pdftex.def Info: ../figures/FS-SE-vplot.png  used on input line 199.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
  [3 <../figures/FS-SE-vplot.png>]
 (../models/FS-SE-F1-mod.tex)
 Package svg Info: Last page of `./svg-inkscape/FS-SE-F1_svg-tex.pdf' is 2 on in
-put line 212.
+put line 210.
  (svg-inkscape/FS-SE-F1_svg-tex.pdf_tex
-<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=90, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=78, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F1_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=91, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=79, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F1_svg-tex.pdf , page2 used on in
@@ -2171,15 +2184,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] (../models/FS-SE-F2-mod.tex)
 Package svg Info: Last page of `./svg-inkscape/FS-SE-F2_svg-tex.pdf' is 2 on in
-put line 223.
+put line 221.
  (svg-inkscape/FS-SE-F2_svg-tex.pdf_tex
-<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=102, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=91, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F2_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=103, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=92, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F2_svg-tex.pdf , page2 used on in
@@ -2190,15 +2203,15 @@ put line 65.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package svg Info: Last page of `./svg-inkscape/ST-SE-F2_svg-tex.pdf' is 2 on in
-put line 230.
+put line 228.
 (svg-inkscape/ST-SE-F2_svg-tex.pdf_tex
-<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=107, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=96, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/ST-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ST-SE-F2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ST-SE-F2_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=108, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=97, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/ST-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ST-SE-F2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/ST-SE-F2_svg-tex.pdf , page2 used on in
@@ -2223,22 +2236,22 @@ f
 pdfTeX warning: pdflatex (file ./svg-inkscape/ST-SE-F2_svg-tex.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<../figures/FS-DE-vplot.png, id=151, 433.62pt x 289.08pt>
+<../figures/FS-DE-vplot.png, id=141, 433.62pt x 289.08pt>
 File: ../figures/FS-DE-vplot.png Graphic file (type png)
 <use ../figures/FS-DE-vplot.png>
-Package pdftex.def Info: ../figures/FS-DE-vplot.png  used on input line 241.
+Package pdftex.def Info: ../figures/FS-DE-vplot.png  used on input line 239.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
  (../models/FS-DE-F1-mod.tex)
 Package svg Info: Last page of `./svg-inkscape/FS-DE-F1_svg-tex.pdf' is 2 on in
-put line 253.
+put line 250.
  (svg-inkscape/FS-DE-F1_svg-tex.pdf_tex
-<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=156, page=1, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=146, page=1, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=157, page=2, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=147, page=2, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1_svg-tex.pdf , page2 used on in
@@ -2246,106 +2259,106 @@ put line 66.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
 )
 Package svg Info: Last page of `./svg-inkscape/FS-DE-F1-id_svg-tex.pdf' is 17 o
-n input line 259.
+n input line 256.
 
 (svg-inkscape/FS-DE-F1-id_svg-tex.pdf_tex
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=159, page=1, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=149, page=1, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page1 used on
  input line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=160, page=2, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=150, page=2, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page2 used on
  input line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=161, page=3, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=151, page=3, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page3 used on
  input line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=162, page=4, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=152, page=4, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page4 used on
  input line 62.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=163, page=5, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=153, page=5, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page5 used on
  input line 64.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=164, page=6, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=154, page=6, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page6 used on
  input line 66.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=165, page=7, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=155, page=7, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page7 used on
  input line 68.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=166, page=8, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=156, page=8, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page8 used on
  input line 70.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=167, page=9, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=157, page=9, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page9 used on
  input line 72.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=168, page=10, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=158, page=10, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page10 used o
 n input line 74.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=169, page=11, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=159, page=11, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page11 used o
 n input line 76.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=170, page=12, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=160, page=12, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page12 used o
 n input line 79.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=171, page=13, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=161, page=13, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page13 used o
 n input line 82.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=172, page=14, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=162, page=14, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page14 used o
 n input line 85.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=173, page=15, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=163, page=15, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 15>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page15 used o
 n input line 92.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=174, page=16, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=164, page=16, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 16>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page16 used o
 n input line 97.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=175, page=17, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, id=165, page=17, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf, page 17>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf , page17 used o
@@ -2425,37 +2438,37 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/FS-DE-F1-id_svg-tex.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >] (../models/FS-DE-F2-mod.tex)
 Package svg Info: Last page of `./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf' is 5 
-on input line 272.
+on input line 269.
  (svg-inkscape/FSG-DE-F2-age_svg-tex.pdf_tex
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=288, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=279, page=1, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page1 used 
 on input line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=289, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=280, page=2, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page2 used 
 on input line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=290, page=3, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=281, page=3, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page3 used 
 on input line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=291, page=4, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=282, page=4, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page4 used 
 on input line 64.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=292, page=5, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=283, page=5, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 5>
@@ -2481,72 +2494,68 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-<../figures/FS-NE-vplot.png, id=330, 433.62pt x 289.08pt>
+<../figures/FS-NE-vplot.png, id=321, 433.62pt x 289.08pt>
 File: ../figures/FS-NE-vplot.png Graphic file (type png)
 <use ../figures/FS-NE-vplot.png>
-Package pdftex.def Info: ../figures/FS-NE-vplot.png  used on input line 281.
+Package pdftex.def Info: ../figures/FS-NE-vplot.png  used on input line 278.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] (../models/FS-NE-F1-mod.tex)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 298.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 298.
 Package svg Info: Last page of `./svg-inkscape/FS-NE-F1_svg-tex.pdf' is 9 on in
-put line 312.
+put line 309.
  (svg-inkscape/FS-NE-F1_svg-tex.pdf_tex
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=341, page=1, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=333, page=1, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=342, page=2, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=334, page=2, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=343, page=3, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=335, page=3, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page3 used on in
 put line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=344, page=4, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=336, page=4, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page4 used on in
 put line 63.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=345, page=5, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=337, page=5, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page5 used on in
 put line 75.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=346, page=6, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=338, page=6, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page6 used on in
 put line 78.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=347, page=7, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=339, page=7, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page7 used on in
 put line 80.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=348, page=8, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=340, page=8, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page8 used on in
 put line 83.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=349, page=9, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=341, page=9, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page9 used on in
@@ -2589,27 +2598,146 @@ ion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FS-NE-F1_svg-tex.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->]
+>] (../models/FS-NE-F2-mod.tex) [17
 
-LaTeX Warning: Reference `tbl:FSNEF2' on page 17 undefined on input line 318.
-
-(../models/FS-NE-F2-mod.tex) [17
-
-]
+] [18]
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 16.41594pt on input line 344.
- (../models/S-F1-mod.tex) [18]
-(../models/S-F2-mod.tex) [19] (Analysis-FS.bbl
+(Font)              scaled to size 16.41594pt on input line 349.
+ (../models/S-F1-mod.tex)
+Package svg Info: Last page of `./svg-inkscape/strut-F1-sex_svg-tex.pdf' is 5 o
+n input line 371.
+
+(svg-inkscape/strut-F1-sex_svg-tex.pdf_tex
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=411, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=412, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page2 used o
+n input line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=413, page=3, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page3 used o
+n input line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=414, page=4, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page4 used o
+n input line 64.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=415, page=5, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page5 used o
+n input line 76.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] (../models/S-F2-mod.tex) [20 <./svg-inkscape/strut-F1-sex_svg-tex.pdf> <./
+svg-inkscape/strut-F1-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F1-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/strut-F1-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F1-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/strut-F1-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F1-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/strut-F1-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F1-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+Package svg Info: Last page of `./svg-inkscape/strut-F2-sex_svg-tex.pdf' is 5 o
+n input line 398.
+ (svg-inkscape/strut-F2-sex_svg-tex.pdf_tex
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=454, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=455, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page2 used o
+n input line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=456, page=3, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page3 used o
+n input line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=457, page=4, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page4 used o
+n input line 64.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=458, page=5, 433.62pt x 289.08pt>
+File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page5 used o
+n input line 75.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21] [22 <./svg-inkscape/strut-F2-sex_svg-tex.pdf> <./svg-inkscape/strut-F2-sex
+_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F2-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/strut-F2-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F2-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/strut-F2-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F2-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/strut-F2-sex_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F2-sex_svg-tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [23] (Analysis-FS.bbl
+chapter without number
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
-12.
+20.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jk
 ptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-)) (../models/ST-SE-F2-mod.tex) [20] [21] (Analysis-FS.aux)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+\T1/phv/b/n/12 URL: [][]$\T1/jkptt/m/n/12 https : / / www . cambridge . org / c
+ore / journals /
+ []
 
-LaTeX Warning: There were undefined references.
 
+Overfull \hbox (301.26736pt too wide) in paragraph at lines 15--21
+\T1/jkptt/m/n/12 english-[]language-[]and-[]linguistics / article / footfrontin
+g-[]and-[]footstrut-[]splitting-[]vowel-[]variation-[]in-[]the-[]east-[]midland
+s /
+ []
+
+) (../models/ST-SE-F2-mod.tex) [24
+
+] [25] (Analysis-FS.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2617,43 +2745,22 @@ Package rerunfilecheck Info: File `Analysis-FS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34140 strings out of 478864
- 663349 string characters out of 2843410
- 1361099 words of memory out of 3000000
- 51264 multiletter control sequences out of 15000+600000
- 461367 words of font info for 95 fonts, out of 8000000 for 9000
+ 34372 strings out of 478864
+ 670447 string characters out of 2843410
+ 1375977 words of memory out of 3000000
+ 51469 multiletter control sequences out of 15000+600000
+ 456293 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,108p,10669b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.17} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.14} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.11} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.8} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8
-r.enc}<C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/kpfonts/jkpttmn8a.pfb><C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Caitlin Halfacre/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Caitlin Halfacre
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Analysis-FS.pdf (21 pages, 1425743 bytes).
+ 128i,20n,125p,10693b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base
+/8r.enc}<C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/kpfonts/jkpttmn8a.pfb><C:/Users/Caitlin Halfacre/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Caitlin Halfacre/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Caitlin Halfac
+re/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Analysis-FS.pdf (25 pages, 1459244 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 

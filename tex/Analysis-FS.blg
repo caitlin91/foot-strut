@@ -4,45 +4,55 @@ The top-level auxiliary file: Analysis-FS.aux
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 32 items.
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+Reallocating 'name_of_file' (item size: 1) to 36 items.
 Database file #1: ../../../References/methodology.bib
-You've used 3 entries,
+Database file #2: ../../../References/footStrut.bib
+Database file #3: ../../../References/tynesideEnglish.bib
+Repeated entry---line 32 of file ../../../References/tynesideEnglish.bib
+ : @phdthesis{Watt1998
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--empty publisher in Braber2015
+You've used 8 entries,
             2909 wiz_defined-function locations,
-            656 strings with 5280 characters,
-and the built_in function-call counts, 16220 in all, are:
-= -- 2671
-> -- 225
+            698 strings with 6471 characters,
+and the built_in function-call counts, 29373 in all, are:
+= -- 4731
+> -- 418
 < -- 0
-+ -- 1318
-- -- 70
-* -- 1419
-:= -- 3224
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 41
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 38
-empty$ -- 82
-format.name$ -- 81
-if$ -- 2904
++ -- 2246
+- -- 127
+* -- 2493
+:= -- 6004
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 109
+chr.to.int$ -- 8
+cite$ -- 9
+duplicate$ -- 119
+empty$ -- 241
+format.name$ -- 160
+if$ -- 5251
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 31
-pop$ -- 26
+missing$ -- 7
+newline$ -- 30
+num.names$ -- 83
+pop$ -- 57
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 120
 quote$ -- 0
-skip$ -- 32
+skip$ -- 92
 stack$ -- 0
-substring$ -- 3823
-swap$ -- 3
-text.length$ -- 42
+substring$ -- 6614
+swap$ -- 14
+text.length$ -- 112
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
-warning$ -- 0
-while$ -- 63
+type$ -- 28
+warning$ -- 1
+while$ -- 174
 width$ -- 0
-write$ -- 39
+write$ -- 103
+(There was 1 error message)

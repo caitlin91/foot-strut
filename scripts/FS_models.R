@@ -517,34 +517,35 @@ contrasts(data_strut_stats$preSeg_smallSum) <- contr.sum(5)
 
 
 ## F1 ####
-strut_F1.full.mod <- lmer(norm_F1 ~ relevel(corpus, "CoRP-NE") + 
+strut_F1.full.mod <- lmer(norm_F1 ~ relevel(corpus, "CoRP-NE")* 
                             sex+
-                            ageGroup +
-                            folMan +
-                            preSeg_small +
+                            ageGroupSum +
+                            folManSum +
+                            preSeg_smallSum +
                             freq.zipf_z +
-                            style +
+                            styleSum +
                             # time_z+
-                            (1+time_z|id) +
-                            # (1|id) +
+                            # (1+time_z|id) +
+                            (1|id) +
                             (1|word),
                           data_strut_stats)
 cAIC(strut_F1.full.mod)
 strut_F1.step <- cAIC4::stepcAIC(strut_F1.full.mod,calcNonOptimMod=TRUE,numberOfSavedModels = 2)
 strut_F1.step
 
-strut_F1.step.mod <- lmer(norm_F1 ~ relevel(corpus, "CoRP-NE") + 
-                            sex+
-                            ageGroup +
-                            folMan +
-                            preSeg_small +
-                            freq.zipf_z +
-                            style +
-                            # time_z+
-                            # (1+time_z|id) +
-                            (1|id) +
-                            (1|word),
-                          data_strut_stats) %>%
+strut_F1.step.og <- lmer(norm_F1 ~ relevel(corpus, "CoRP-NE")* 
+                           sex+
+                           ageGroupSum +
+                           folManSum +
+                           preSeg_smallSum +
+                           freq.zipf_z +
+                           styleSum +
+                           # time_z+
+                           # (1+time_z|id) +
+                           (1|id) +
+                           (1|word),
+                         data_strut_stats)
+strut_F1.step.mod <- strut_F1.step.og %>%
   tidy()
 print(strut_F1.step.mod, n=nrow(strut_F1.step.mod))
 
@@ -556,39 +557,40 @@ print(
        dplyr::select(term, estimate, statistic) %>%
        dplyr::rename(tvalue = statistic) %>% 
        dplyr::rename(fixedeffect = term)),
-    caption = "Linear Mixed Effects Model of F1 of \\textsc{strut} \\label{tbl:SF1}"),
+    caption = "Linear Mixed Effects Model of F1 of \\textsc{strut} \\label{tbl:strutF1}"),
   include.rownames=FALSE,
   file="models/S-F1-mod.tex"
 )
 ## F2 ####
-strut_F2.full.mod <- lmer(norm_F2 ~ relevel(corpus, "CoRP-NE") + 
+strut_F2.full.mod <- lmer(norm_F2 ~ relevel(corpus, "CoRP-NE")*
                             sex+
-                            ageGroup +
-                            folMan +
-                            preSeg_small +
+                            ageGroupSum +
+                            folManSum +
+                            preSeg_smallSum +
                             freq.zipf_z +
-                            style +
-                            time_z+
-                            # (1+time_z|id) +
-                            (1|id) +
+                            styleSum +
+                            # time_z+
+                            (1+time_z|id) +
+                            # (1|id) +
                             (1|word),
                           data_strut_stats)
 cAIC(strut_F2.full.mod)
 strut_F2.step <- cAIC4::stepcAIC(strut_F2.full.mod,calcNonOptimMod=TRUE,numberOfSavedModels = 2)
 strut_F2.step
+strut_F2.step.og <- lmer(norm_F2 ~ relevel(corpus, "CoRP-NE")*
+                           sex+
+                           ageGroupSum +
+                           folManSum +
+                           preSeg_smallSum +
+                           freq.zipf_z +
+                           styleSum +
+                           # time_z+
+                           (1+time_z|id) +
+                           # (1|id) +
+                           (1|word),
+                         data_strut_stats)
 
-strut_F2.step.mod <- lmer(norm_F2 ~ relevel(corpus, "CoRP-NE") + 
-                            sex+
-                            ageGroup +
-                            folMan +
-                            preSeg_small +
-                            freq.zipf_z +
-                            style +
-                            time_z+
-                            # (1+time_z|id) +
-                            (1|id) +
-                            (1|word),
-                          data_strut_stats) %>%
+strut_F2.step.mod <- strut_F2.step.og %>%
   tidy()
 print(strut_F2.step.mod, n=nrow(strut_F2.step.mod))
 
@@ -600,7 +602,21 @@ print(
        dplyr::select(term, estimate, statistic) %>%
        dplyr::rename(tvalue = statistic) %>% 
        dplyr::rename(fixedeffect = term)),
-    caption = "Linear Mixed Effects Model of F2 of \\textsc{strut} \\label{tbl:SF2}"),
+    caption = "Linear Mixed Effects Model of F2 of \\textsc{strut} \\label{tbl:strutF2}"),
   include.rownames=FALSE,
   file="models/S-F2-mod.tex"
 )
+
+strut_F2_noNE.full.mod <- lmer(norm_F2 ~ corpus*
+                            sex+
+                            ageGroupSum +
+                            folManSum +
+                            preSeg_smallSum +
+                            freq.zipf_z +
+                            styleSum +
+                            time_z+
+                            # (1+time_z|id) +
+                            (1|id) +
+                            (1|word),
+                          data_strut_stats %>% filter(corpus !="CoRP-NE"))
+summary(strut_F2_noNE.full.mod)

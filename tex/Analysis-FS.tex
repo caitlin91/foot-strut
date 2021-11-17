@@ -1,197 +1,195 @@
 % !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
-\documentclass[12pt,a4paper,notitlepage,
+\documentclass[../../../00.FullDoc/tex/ThesisSkeleton-draft2]{subfiles}
+
+%\documentclass[12pt,a4paper,notitlepage,
 %draft,
-bibliography=totoc,
-numbers=endperiod,
-appendixprefix=true,
-usenames,dvipsnames]{scrartcl} 
-\usepackage[autooneside=false, draft=false]{scrlayer-scrpage}
-\usepackage{ifdraft} %allows commands dependent on draft status
-\usepackage{scrhack}
-\usepackage{kpfonts}
-\usepackage[dvipsnames]{xcolor} %general colours
-\usepackage{colortbl} % colour for excel tables
-\usepackage{hyperref}
-\usepackage[inline]{enumitem} %inline/horizontal lists
-\hypersetup{
-	draft=true,
-	final=true,
-	colorlinks=true,
-	linktoc=all,
-	linkcolor=MidnightBlue,
-	citecolor=blue
-	%	allcolors=black
-}
-\usepackage{mwe}
-\usepackage{tipa} %IPA
-\usepackage{phonrule} %phonological rules
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{soul}
-\usepackage{amssymb}
-\usepackage{graphicx} %insert graphics, pdf etc.
-\usepackage{caption}
-\usepackage{setspace}
-\usepackage{nameref}
-\usepackage{pdfpages}
-\usepackage{csvsimple}
-\usepackage{booktabs, multicol, multirow}
-\usepackage{array}
-\usepackage{float} % float 
-\usepackage[section]{placeins}
-\usepackage{array}
-\usepackage[section]{placeins}
-\usepackage[round]{natbib} %citation package
-\bibliographystyle{agsm}
-\renewcommand{\harvardurl}{\textbf{URL:} \url}
-\usepackage{scrlayer-scrpage}
-\usepackage{blindtext}% dummy text
-\usepackage{subfiles} %subfile functionality
-\usepackage{csvsimple} %import csv tables
-\usepackage{pdflscape} %allow landscape pages
-\usepackage[inkscapearea=page]{svg}
-\usepackage[titletoc,title]{appendix}
-%\usepackage[marginpar]{todo}
-\usepackage[obeyDraft]{todonotes} %to do notes obedyDraft means not parsed if not draft
-\usepackage{etoolbox}
-%\usepackage{amsthm} % examples
-%\apptocmd{\sloppy}{\hbadness 10000\relax}{}{} %fix overfull/underfull hbox errors
-\usepackage[scaled]{helvet} 
-\renewcommand\familydefault{\sfdefault} 
-\usepackage[T1]{fontenc}
-\usepackage{listings}
-\usepackage{layouts}
-\usepackage{gb4e} %numbered examples - must be last package in preamble
+%bibliography=totoc,
+%numbers=endperiod,
+%appendixprefix=true,
+%usenames,dvipsnames]{scrartcl} 
+%\usepackage[autooneside=false, draft=false]{scrlayer-scrpage}
+%\usepackage{ifdraft} %allows commands dependent on draft status
+%\usepackage{scrhack}
+%\usepackage{kpfonts}
+%\usepackage[dvipsnames]{xcolor} %general colours
+%\usepackage{colortbl} % colour for excel tables
+%\usepackage{hyperref}
+%\usepackage[inline]{enumitem} %inline/horizontal lists
+%\hypersetup{
+%	draft=true,
+%	final=true,
+%	colorlinks=true,
+%	linktoc=all,
+%	linkcolor=MidnightBlue,
+%	citecolor=blue
+%	%	allcolors=black
+%}
+%\usepackage{mwe}
+%\usepackage{tipa} %IPA
+%\usepackage{phonrule} %phonological rules
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{soul}
+%\usepackage{amssymb}
+%\usepackage{graphicx} %insert graphics, pdf etc.
+%\usepackage{caption}
+%\usepackage{setspace}
+%\usepackage{nameref}
+%\usepackage{pdfpages}
+%\usepackage{csvsimple}
+%\usepackage{booktabs, multicol, multirow}
+%\usepackage{array}
+%\usepackage{float} % float 
+%\usepackage[section]{placeins}
+%\usepackage{array}
+%\usepackage[section]{placeins}
+%\usepackage[round]{natbib} %citation package
+%\bibliographystyle{agsm}
+%\renewcommand{\harvardurl}{\textbf{URL:} \url}
+%\usepackage{scrlayer-scrpage}
+%\usepackage{blindtext}% dummy text
+%\usepackage{subfiles} %subfile functionality
+%\usepackage{csvsimple} %import csv tables
+%\usepackage{pdflscape} %allow landscape pages
+%\usepackage[inkscapearea=page]{svg}
+%\usepackage[titletoc,title]{appendix}
+%%\usepackage[marginpar]{todo}
+%\usepackage[obeyDraft]{todonotes} %to do notes obedyDraft means not parsed if not draft
+%\usepackage{etoolbox}
+%%\usepackage{amsthm} % examples
+%%\apptocmd{\sloppy}{\hbadness 10000\relax}{}{} %fix overfull/underfull hbox errors
+%\usepackage[scaled]{helvet} 
+%\renewcommand\familydefault{\sfdefault} 
+%\usepackage[T1]{fontenc}
+%\usepackage{listings}
+%\usepackage{layouts}
+%\usepackage{gb4e} %numbered examples - must be last package in preamble
+%
+%
+%%keep figure in section & subsection
+%\let\Oldsection\section
+%\renewcommand{\section}{\FloatBarrier\Oldsection}
+%
+%\let\Oldsubsection\subsection
+%\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+%
+%\let\Oldsubsubsection\subsubsection
+%\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
+%
+%%listings setup
+%\lstloadlanguages{R}
+%\lstset{ 
+%	language=R,                     % the language of the code
+%	basicstyle=\normalsize, % the size of the fonts that are used for the code
+%	numbers=none,                   % where to put the line-numbers
+%	numberstyle=\tiny\color{Blue},  % the style that is used for the line-numbers
+%	stepnumber=1,                   % the step between two line-numbers. If it is 1, each line
+%	% will be numbered
+%	numbersep=5pt,                  % how far the line-numbers are from the code
+%	backgroundcolor=\color{lightgray},  % choose the background color. You must add \usepackage{color}
+%	showspaces=false,               % show spaces adding particular underscores
+%	showstringspaces=false,         % underline spaces within strings
+%	showtabs=false,                 % show tabs within strings adding particular underscores
+%	frame=single,                   % adds a frame around the code
+%	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+%	tabsize=2,                      % sets default tabsize to 2 spaces
+%	captionpos=b,                   % sets the caption-position to bottom
+%	breaklines=true,                % sets automatic line breaking
+%	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+%	keywordstyle=\color{RoyalBlue},      % keyword style
+%	commentstyle=\color{Purple},   % comment style
+%	stringstyle=\color{ForestGreen}      % string literal style
+%}
+%
+%% citing
+%\newcommand{\citeposs}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+%\newcommand{\citeauthorposs}[1]{\citeauthor{#1}'s}
+%\newcommand{\citefc}[1]{\citeauthor{#1} (forthcoming)}
+%\newcommand{\citefcp}[1]{(\citeauthor{#1} forthcoming)}
+%\defcitealias{PSA1868}{\textit{Public Schools Act} 1868}
+%\defcitealias{EA1870}{\textit{Education Act} 1870}
+%
+%% quote marks
+%\newcommand{\quotemarks}[1]{``#1"}
+%\newcommand{\quotesingle}[1]{`#1'}
+%
+%%IPA
+%\newcommand{\ipa}[1]{\textipa{/#1/}}
+%\newcommand{\prel}{\ipa{l}}
+%\newcommand{\darkl}{[\textltilde]}
+%\newcommand{\goatV}{\ipa{@U}}
+%\newcommand{\oh}{\textipa{[@U]}}
+%
+%% Lexical sets
+%\newcommand{\scs}{\textsc}
+%\newcommand{\goat}{\textsc{goat}}
+%\newcommand{\goal}{\textsc{goal}}
+%\newcommand{\bath}{\scs{bath}}
+%\newcommand{\trap}{\scs{trap}}
+%\newcommand{\foot}{\scs{foot}}
+%\newcommand{\strutt}{\scs{strut}}
+%\newcommand{\goose}{\scs{goose}}
+%\newcommand{\tilda}{$\sim$}
+%\newcommand{\FS}{\scs{foot}-\scs{strut}}
+%\newcommand{\TB}{\scs{trap}-\scs{bath}}
+%\newcommand{\GG}{\scs{goat}-\scs{goal}}
+%\newcommand{\palm}{\scs{palm}}
+%
+%%To do notes formatting
+%\newcommand{\GKcomment}[1]{\todo[color=Blue]{#1}}
+%\newcommand{\RTcomment}[1]{\todo[color=YellowGreen]{#1}}
+%\newcommand{\todowording}[1]{\todo[color=Aquamarine]{#1}}
+%\newcommand{\todofuture}[1]{\todo[color=CornflowerBlue]{#1}}
+%\newcommand{\todostructure}[1]{\todo[color=Thistle]{#1}}
+%\newcommand{\todoreference}[1]{\todo[color=SeaGreen]{#1}}
+%\newcommand{\todocontent}[1]{\todo[color=RoyalPurple]{#1}}
+%\newcommand{\todocontentinline}[1]{\todo[color=RoyalPurple,inline]{#1}}
+%
+%
+%
+%\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+%\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+%\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+%\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+%%\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+%\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+%\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+%
+%%\theoremstyle{definition}
+%%\newtheorem{exmp}{}[section]
+%
+%
+%
+%%\renewcommand{\subsection}{\FloatBarrier\subsection}
+%
+%\renewcommand{\familydefault}{\sfdefault}
+%\ifoptiondraft{
+%	\pagecolor{yellow}
+%				}
 
 
-%keep figure in section & subsection
-\let\Oldsection\section
-\renewcommand{\section}{\FloatBarrier\Oldsection}
-
-\let\Oldsubsection\subsection
-\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
-
-\let\Oldsubsubsection\subsubsection
-\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
-
-%listings setup
-\lstloadlanguages{R}
-\lstset{ 
-	language=R,                     % the language of the code
-	basicstyle=\normalsize, % the size of the fonts that are used for the code
-	numbers=none,                   % where to put the line-numbers
-	numberstyle=\tiny\color{Blue},  % the style that is used for the line-numbers
-	stepnumber=1,                   % the step between two line-numbers. If it is 1, each line
-	% will be numbered
-	numbersep=5pt,                  % how far the line-numbers are from the code
-	backgroundcolor=\color{lightgray},  % choose the background color. You must add \usepackage{color}
-	showspaces=false,               % show spaces adding particular underscores
-	showstringspaces=false,         % underline spaces within strings
-	showtabs=false,                 % show tabs within strings adding particular underscores
-	frame=single,                   % adds a frame around the code
-	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
-	tabsize=2,                      % sets default tabsize to 2 spaces
-	captionpos=b,                   % sets the caption-position to bottom
-	breaklines=true,                % sets automatic line breaking
-	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
-	keywordstyle=\color{RoyalBlue},      % keyword style
-	commentstyle=\color{Purple},   % comment style
-	stringstyle=\color{ForestGreen}      % string literal style
-}
-
-% citing
-\newcommand{\citeposs}[1]{\citeauthor{#1}'s (\citeyear{#1})}
-\newcommand{\citeauthorposs}[1]{\citeauthor{#1}'s}
-\newcommand{\citefc}[1]{\citeauthor{#1} (forthcoming)}
-\newcommand{\citefcp}[1]{(\citeauthor{#1} forthcoming)}
-\defcitealias{PSA1868}{\textit{Public Schools Act} 1868}
-\defcitealias{EA1870}{\textit{Education Act} 1870}
-
-% quote marks
-\newcommand{\quotemarks}[1]{``#1"}
-\newcommand{\quotesingle}[1]{`#1'}
-
-%IPA
-\newcommand{\ipa}[1]{\textipa{/#1/}}
-\newcommand{\prel}{\ipa{l}}
-\newcommand{\darkl}{[\textltilde]}
-\newcommand{\goatV}{\ipa{@U}}
-\newcommand{\oh}{\textipa{[@U]}}
-
-% Lexical sets
-\newcommand{\scs}{\textsc}
-\newcommand{\goat}{\textsc{goat}}
-\newcommand{\goal}{\textsc{goal}}
-\newcommand{\bath}{\scs{bath}}
-\newcommand{\trap}{\scs{trap}}
-\newcommand{\foot}{\scs{foot}}
-\newcommand{\strutt}{\scs{strut}}
-\newcommand{\goose}{\scs{goose}}
-\newcommand{\tilda}{$\sim$}
-\newcommand{\FS}{\scs{foot}-\scs{strut}}
-\newcommand{\TB}{\scs{trap}-\scs{bath}}
-\newcommand{\GG}{\scs{goat}-\scs{goal}}
-\newcommand{\palm}{\scs{palm}}
-
-%To do notes formatting
-\newcommand{\GKcomment}[1]{\todo[color=Blue]{#1}}
-\newcommand{\RTcomment}[1]{\todo[color=YellowGreen]{#1}}
-\newcommand{\todowording}[1]{\todo[color=Aquamarine]{#1}}
-\newcommand{\todofuture}[1]{\todo[color=CornflowerBlue]{#1}}
-\newcommand{\todostructure}[1]{\todo[color=Thistle]{#1}}
-\newcommand{\todoreference}[1]{\todo[color=SeaGreen]{#1}}
-\newcommand{\todocontent}[1]{\todo[color=RoyalPurple]{#1}}
-\newcommand{\todocontentinline}[1]{\todo[color=RoyalPurple,inline]{#1}}
-
-
-
-\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
-\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
-\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
-\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
-%\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
-\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
-\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
-
-%\theoremstyle{definition}
-%\newtheorem{exmp}{}[section]
-
-
-
-%\renewcommand{\subsection}{\FloatBarrier\subsection}
-
-\renewcommand{\familydefault}{\sfdefault}
-\ifoptiondraft{
-	\pagecolor{yellow}
-				}
-
-
-\title{Results: the \textsc{foot}-\textsc{strut} split}
+\title{Analysis \& Results: the \textsc{foot}-\textsc{strut} split}
 \author{Caitlin Halfacre}
 \date{\today}
 
 \begin{document}
 
-	%\newcommand{\onlyinsubfile}[1]{#1}
-	%\newcommand{\notinsubfile}[1]{}
+	\newcommand{\onlyinsubfile}[1]{#1}
+	\newcommand{\notinsubfile}[1]{}
 		\maketitle
 		\pagebreak
 		\tableofcontents
 		\onehalfspacing
 	\pagestyle{scrheadings}
 	
-\section{Introduction}
+\section{Introduction} \label{sec:FSintro}
 
-As summarised in chapter \todocontentinline{ref ch:methodology} the \foot{} and \strutt{} vowels were measured once, at one third of the duration \citep{FAVE}. 
-
-In order to prevent over fitting of models the various possible linguistic predictors (particularly phonological environment) were plotted with F1 and F2 \todo{insert img example?} and only included if variation was seen between the levels of the predictor \todocontent{how to defend this better - ask Dan?}. Then the stepCAIC() function from the cAIC4 package \citep{cAIC4} was used to determine the model with the best fit. For model reporting categorical some predictors were sum coded in order to understand the intercept in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables.
-
-\todo{add processing details sum coded using R contr.sum()}
-
+As summarised in chapter \onlyinsubfile{5}\notinsubfile{\ref{ch:Methodology}} the \foot{} and \strutt{} vowels were measured once, at one third of the duration \citep{FAVE}. Data cleaning methods are also explained in chapter \onlyinsubfile{5}\notinsubfile{\ref{ch:Methodology}}.
+In order to prevent over fitting of models the linguistic predictors were plotted with F1 and F2 and only included if variation was seen between the levels of the predictor \todocontent{how to defend this better - ask Dan?}. Models were compared using CAIC, including using stepCAIC() function from the cAIC4 package \citep{cAIC4} to determine the model with the best fit. Categorical predictors were sum coded unless an interaction was observed, in order to understand the intercept as a mean in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables as predictor\textit{Sum}.
  
-\section{The Split}	
+\section{The Split}	 \label{sec:FSSplit}
 \subsection{CoRP-SE speakers}
-The CoRP-SE speakers are assumed to have the prototypical southern \FS{} split. Three is no attestation in the literature \todoreference{ref lit review chapter} that the split in the South East is affected by social class. Analysis of their vowels shows that the split is found mostly in height (F1: 199Hz) and very slightly in frontness (F2: -86Hz), as discussed below and in section \ref{subsubsec:SEF2}, the frontness is a difference in mean but there is full overlap between the ranges.
+The CoRP-SE speakers are assumed to have the prototypical southern \FS{} split. There is no attestation in the literature (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}}) that the split in the South East is affected by social class. Analysis of their vowels shows that the split is found mostly in height (F1: 199Hz) and very slightly in frontness (F2: -86Hz), as discussed below and in section \ref{subsubsec:SEF2}, the frontness is a difference in mean but there is full overlap between the ranges.
 From figure \ref{fig:FSvplotSE} (a plot of F1 against F2, ellipses drawn at 0.67 of the standard deviation) it can be seen that there is overlap of individual tokens but the average position of the \strutt{}, words is lower in the vowel space than the \foot\, words. They are also on average further back but the range falls within a subsection of the total F2 range of the  \foot{} words, which are more spread out.
 Full analysis of the F1 and F2 difference is in sections \ref{subsubsec:SEF1} and \ref{subsubsec:SEF2}.
 
@@ -215,7 +213,7 @@ The model of the normalised F1 of the \foot{}  and \strutt{}  words is shown in 
 
 \subsubsection{F2} \label{subsubsec:SEF2}
 Modelling F2 (see table \ref{tbl:FSF2SE}) showed an intercept of 1383Hz, the mean of the \foot() lexical set, and while there is a lot less variation according to lexical set than seen in F1, there is a difference of -86Hz (t =-2.58) implying that the \strutt{} vowel is slightly further back than the \foot{} vowel in south-eastern speakers, this can be seen in figure \ref{fig:FSF2SE}. This difference is not large and it can be seen in figure \ref{fig:FSF2SE} that the inter-quartile range is almost completely overlapping; the \strutt{} words merely have a smaller range of F2 than the \foot{} words.
-There is also a small but significant effect of style \todo{include in supervisor Qs}.
+There is also a small but significant effect of style.
 
 \input{../models/FS-SE-F2-mod.tex}
 
@@ -244,7 +242,6 @@ The DECTE speakers do not show a split in height, as measured by F1 and while th
 
 \subsubsection{F1}
 Modelling F1 of the \foot{} and \strutt{} words in the DECTE speakers gives an intercept of 572Hz (table \ref{tbl:FSF1DE}), which is the mean of the \foot{} words, and no significant effect of lexical set (seen in figure \ref{fig:FSF1DE}). However, when looking at individual speakers, as shown in figure \ref{fig:FSF1DE-id}, it does appear that some speakers have a small difference. Since the best fit model did not include random effect for speaker it is not possible to investigate this further.
-\todo{ask Rory if I should have a worse cAIC4 rather than not be able to get speaker info}
 
 \input{../models/FS-DE-F1-mod.tex}
 
@@ -285,7 +282,7 @@ CoRP-NE speakers show some evidence of a \FS{} split, particularly in F1 (on ave
 
 \subsubsection{F1} \label{subsubsec:NEF1}
 
-The best fit model for F1 of the CoRP-NE speakers can be seen in table \ref{tbl:FSF1NE} and shows a \FS{} split in F1 that interacts with both speaker sex and age group. The mean value of \foot{} is 541.53 and the mean value of \strutt{} is 651Hz, showing an average split of 110Hz. However, this split is overall higher for female speakers (mean=142Hz) compared to male speakers (mean=78Hz) (64 Hz difference), there is also a slightly larger split in older speakers. Overall the size of split is ranked: OF, YF, OM, YM. \todocontent{discuss}
+The best fit model for F1 of the CoRP-NE speakers can be seen in table \ref{tbl:FSF1NE} and shows a \FS{} split in F1 that interacts with both speaker sex and age group. The mean value of \foot{} is 541.53 and the mean value of \strutt{} is 651Hz, showing an average split of 110Hz. However, this split is overall higher for female speakers (mean=142Hz) compared to male speakers (mean=78Hz) (64 Hz difference), there is also a slightly larger split in older speakers. Overall the size of split is ranked: old female, young female, old male, young male.
 
 \input{../models/FS-NE-F1-mod.tex}
 
@@ -315,7 +312,7 @@ The best fit model for F1 of the CoRP-NE speakers can be seen in table \ref{tbl:
 
 
 \subsubsection{F2} \label{subsubsec:NEF2}
-The best fit model for F2 of the CoRP-NE speakers (see table \ref{tbl:FSNEF2}) also includes a three way interaction between lexical set, sex, and age group (summarised in figure \ref{tbl:FSF2NEinter}). The mean value of \foot{} is 1339Hz and the mean value of \strutt{} is 1380Hz, showing very little distinction. This is held up in all speaker groups except OM, however this group is only one speaker, Alexander, who has spent more time in the South than the other speakers (attending a specialist state boarding school in Warwick before returning to a private day sixth form in Newcastle) so it is possible that he has a larger split than the others. If this this speaker is not included it is reasonable to conclude that the CoRP-NE speakers do not have a \FS{} split in frontness.
+The best fit model for F2 of the CoRP-NE speakers (see table \ref{tbl:FSF2NE}) also includes a three way interaction between lexical set, sex, and age group (summarised in figure \ref{tbl:FSF2NEinter}). The mean value of \foot{} is 1339Hz and the mean value of \strutt{} is 1380Hz, showing very little distinction. This is held up in all speaker groups except OM, however this group is only one speaker, Alexander, who has spent more time in the South than the other speakers (attending a specialist state boarding school in Warwick before returning to a private day sixth form in Newcastle) so it is possible that he has a larger split than the others. If this this speaker is not included it is reasonable to conclude that the CoRP-NE speakers do not have a \FS{} split in frontness.
 
 \input{../models/FS-NE-F2-mod.tex}
 
@@ -345,33 +342,89 @@ In the DECTE speakers we see what can be considered \quotesingle{normal} North E
 
 In CoRP-NE speakers we some evidence of a split. They show an F1 difference of 110Hz (average, male and female speakers behave differently) and no F2 difference except in one speaker. This suggests that these speakers have a split, but it is not identical to the split found in the CoRP-SE speakers. It is not as large in height (F1 is 110Hz vs 199Hz) and does not seem to exist in frontness.
 
-\todocontent{ask supervisors about modelling with F1 as a predictor for F2}
+By analysis of the \foot{} and \strutt{} words in all three speaker groups it can be concluded that CoRP-NE speakers do not behave identically to either of the other speaker groups. However, conclusions can be drawn in answer to research question \onlyinsubfile{1}\notinsubfile{\ref{RQ1}}. The DECTE speakers (state educated in the North East) do not show any \FS{} split and CoRP-NE speakers clearly have at least some distinction between \foot{} and \strutt{} so it can be concluded that they are not behaving consistently regionally. While the CoRP-NE speakers do not show as large a split as the CoRP-SE speakers, there is clearly a split present, demonstrating non-regional behaviour.
 
-By analysis of the \foot{} and \strutt{} words in all three speaker groups it can be concluded that CoRP-NE speakers do not behave identically to either of the other speaker groups. However, conclusions can be drawn in answer to research question \ref{RQ1}. The DECTE speakers (state educated in the North East) do not show any \FS{} split and CoRP-NE speakers clearly have at least some distinction between \foot{} and \strutt{} so it can be concluded that they are not behaving consistently regionally.
+In order to further understand the nature of the difference between the split in different speaker groups the \foot{} and \strutt{} words were modelled separately, results of this are discussed in section \ref{sec:FSSTRUT}.
 
-
-In order to understand the nature of this difference between speaker groups the \foot{} and \strutt{} words were modelled separately, results of this are discussed in section \ref{sec:STRUT}.
-
-\section{\scs{Strut vowel only}} \label{sec:STRUT}
+\section{\scs{Strut vowel only}} \label{sec:FSSTRUT}
 \subsection{F1}
 \input{../models/S-F1-mod.tex}
-Modelling the \strutt{}, vowel alone shows that the CoRP-NE speakers are significantly different in F1 from both the CoRP-SE and the DECTE speakers. This means that the CoRP-NE speakers are producing a vowel that's height is in between the two other groups \todocontent{schwa-like?}.
+Modelling the \strutt{} vowel alone (see table \ref{tbl:strutF1}) shows that the CoRP-NE speakers are significantly different in F1 from both the CoRP-SE and the DECTE speakers. The best fit model included an interaction between corpus and speaker sex, the results of which are shown in table \ref{tbl:strutF1inter}. These results partially support those above but add an extra dimension. The mean F1 value for \strutt{} in CoRP-NE female speakers is between the CoRP-SE and DECTE values, but the male speakers show a vowel that is very similar to the DECTE speakers (visualised in figure \ref{fig:strutF1-sex}). This implies that while female speakers are not behaving regionally, male speakers are.
+
+% Table generated by Excel2LaTeX from sheet 'strut corpus-sex'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrr}
+		\hline
+		& \multicolumn{1}{l}{CoRP-SE} & \multicolumn{1}{l}{DECTE} & \multicolumn{1}{l}{CoRP-NE} \\
+		\hline
+		Female & 764.91 & 591.57 & 671.04 \\
+		Male  & 721.78 & 621.7 & 623.19 \\
+		\textit{Mean} & \textit{743.35} & \textit{606.64} & \textit{647.12} \\
+		\hline
+	\end{tabular}%
+	\caption{table showing effects of corpus group and speaker sex on F1 of \strutt{} (calculated from table \ref{tbl:strutF1})}
+	\label{tbl:strutF1inter}%
+\end{table}%
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/strut-F1-sex.svg}
+	\caption{} \label{fig:strutF1-sex}
+\end{figure}
+
 
 \subsection{F2}
+Modelling F2 of the \strutt{} words alone again shows an interaction of corpus and speaker sex (\ref{tbl:strutF2}). In each corpus the male speakers have a less front vowel, and overall the CoRP-NE speakers have the most front vowel, in both male and female speakers. Even if the CoRP-SE vowel is taken as the prototypical \strutt{} vowel there is variation between male and female, with male speakers producing a less front vowel (82Hz difference). The DECTE speakers show a relatively similar frontness to the CoRP-SE speakers, it is the CoRP-NE speakers who have a larger difference, both male and female speakers produce a fronter vowel than either of DECTE or CoRP-SE speakers, though the female difference is bigger.
 \input{../models/S-F2-mod.tex}
 
+% Table generated by Excel2LaTeX from sheet 'strut-F2 corpus-sex'
+\begin{table}[htbp]
+	\centering
+	\caption{Add caption}
+	\begin{tabular}{lrrr}
+		\hline
+		& \multicolumn{1}{l}{CoRP-SE} & \multicolumn{1}{l}{DECTE} & \multicolumn{1}{l}{CoRP-NE} \\
+		\hline
+		Female & 1308.8 & 1327.07 & 1476.1 \\
+		Male  & 1226.93 & 1263.47 & 1353.37 \\
+		\textit{Mean} & \textit{1267.87} & \textit{1295.27} & \textit{1414.74} \\
+		\hline
+	\end{tabular}%
+	\label{tbl:strutF2-inter}%
+\end{table}%
+
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/strut-F2-sex.svg}
+	\caption{} \label{fig:strutF2-sex}
+\end{figure}
+
+\section{Discussion \& Conclusion}
+From modelling the behaviour of both \foot{} and \strutt{} in section \ref{sec:FSSplit} showed that the \FS{} split is mostly characterised by a difference in height, though some evidence of a frontness difference is found. The CoRP-NE speakers were found to have some evidence of a \FS{} split, the difference between the two lexical sets was larger than the DECTE speakers but smaller than the CoRP-SE speakers. Further analysis of the \strutt{} vowel alone showed that this difference is mainly due to the female speakers. The majority of male speakers seem to maintain the local pattern found in the DECTE speakers. The F2 pattern is a little more complex and likely is less informative when it comes to behaviour of the \FS{} split. As stated above, there is only some evidence of a split in frontness in the CoRP-SE speakers, who only show a difference of -86Hz, which is not a large change in frontness. In the focussed analysis of \strutt{} alone it can be seen that the CoRP-NE speakers have a different F2 to both the DECTE and CoRP-SE speakers. This shows that their production of the \strut{} vowel, particularly in the female speakers is diverging from both groups.
+
+From a social perspective there are two factors that need to be considered in relation to the results described above.
+First, the differences between privately educated and state-educated speakers as a type of social class variation, since while it is not occupation based, it is a form of social stratification connected to income, education and other social opportunities (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}} for further discussion of this approach). It is a known effect that male and female speakers diverge in socially stratified accent variation \citep{Labov2001b}, and this effect has been specifically attested in Newcastle \citep{Watt1998}. In general it has been seen that female speakers tend towards a standard and local variants are more often found in male speakers (for example the Tyneside centring diphthongs in \goat{} and \scs{face} are found in male working class speakers by \cite{Watt1998}). The pattern we see in the CoRP-NE speakers where male speakers have a \strutt{} vowel that is similar to the DECTE speakers whereas female speakers have a \strutt{} vowel that is different to them and more similar to the CoRP-SE speakers clearly reflects this tendency. Male speakers are producing a local variant (though local here is likely \quotesingle{northern} rather than Tyneside specific) and female speakers are tending towards a non-local variant.
+
+Secondly, while the CoRP-NE female speakers discussed above do seem to tend towards a southern-like \strutt{} vowel, they do not successfully reach the target. The F1 is lower than in the CoRP-SE speakers and the F2 is slightly higher. This difference may be the source of a the description occasinoally given to \strutt{} realisations found in the north as \quotesingle{schwa-like} \citep{Braber2015,Jansen2020}. \todocontent{include graph or is that overkill?}. It is possible that the speakers are creating a different target for the \strutt{} vowel but it is also possible that they are aiming for the target as realised by CoRP-SE and other southern speakers but not hitting it. Not being able to reach the target could be be due to later acquisition \citep{Evans2007} , but this is difficult to determine with the data available. While information on parent's education and region was collected, there are not enough speakers to draw meaningful conclusions. Another approach to understanding this would be to record people still at school (at various stages) to see when the \FS{} split appears in their speech.
+
+Further discussion on the implications of the variation found here will be undertaken in chapter \onlyinsubfile{9}\notinsubfile{\ref{ch:Discussion}}.
 
 
 
 
+\onlyinsubfile{
 	\pagebreak
 	\listoftodos{}
 	\pagebreak
-	\bibliography{../../../References/methodology
+	\bibliography{../../../References/methodology,
+					../../../References/footStrut,
+					../../../References/tynesideEnglish
 		}
-
+			
 \appendix
 \section{} \label{app:STSEF2}
 \input{../models/ST-SE-F2-mod.tex}
+
+			}
 
 \end{document} 

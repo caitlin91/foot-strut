@@ -35,6 +35,8 @@ data_G_plots <- data_G %>%
   droplevels()
 
 data_FSG_plots <- rbind(data_FS_plots,data_G_plots)
+
+corpus_order <- c("CoRP-SE","DECTE-NE","CoRP-NE")
 ## theme ------------------------------------------
 theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
     theme(plot.background  = element_rect(fill = "transparent", colour = NA),
@@ -309,6 +311,24 @@ FS_NE.vplot
 ggsave("figures/FS-NE-vplot.png", FS_NE.vplot,height = 4, width = 6,units = "in")
 
 
+Ss_NE_female.vplot <-  ggplot(data_FST_plots %>% filter(corpus=="CoRP-NE") %>% filter(lexSet %in% c("schwa","STRUT","FOOT")), aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  # geom_text(aes(label=word), size=2.5, alpha=1) +
+  stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = lexSet)) +
+  # geom_label(data = data_FS_plots_NE.means, aes(x = mean_F2, y = mean_F1), size = 3,alpha=1.5) +
+  # stat_density2d() 
+  theme_Caitlin() +
+  theme(legend.position = "bottom") +
+  scale_x_reverse(position = "top", breaks=seq(800, 2200, 200), limits=c(2250,750)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(900, 300)) +
+  ylab("F1 (Hz)") +
+  xlab("F2 (Hz)") +
+  FSColScale +
+  FSFillScale +
+  facet_wrap(~sex) +
+  # facet_grid(rows=vars(ageGroup),cols=vars(sex)) +
+  # ggtitle("FS-CorP-NE")+
+  NULL
+
 # DECTE ####
 FS_DE_F1.plot <- ggplot(data_FS_plots %>% filter(corpus == "DECTE-NE"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
   geom_boxplot() +
@@ -426,19 +446,27 @@ FSG_DE.vplot <- ggplot(data_FSG_plots %>% filter(corpus=="DECTE-NE"), aes(x=norm
 FSG_DE.vplot
 
 # All ####
+data_FS_plots.means = as_tibble(ddply(data_FS_plots,.(lexSet,corpus,sex),summarise,
+                                         mean_F2 = mean(norm_F2),
+                                         mean_F1 = mean(norm_F1)))
+
+data_FS_plots.means
+
+
 FS.vplot <- ggplot(data_FS, aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
-  geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  # geom_text(aes(label=word), size=1.5, alpha=0.75) +
   stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.5, aes(fill = lexSet)) +
+  geom_label(data = data_FS_plots.means, aes(x = mean_F2, y = mean_F1), size = 1.5,color="black") +
   theme_Caitlin() +
   theme(legend.position = "none") +
-  scale_x_reverse(position = "top", breaks=seq(0, 2300, 100), limits=c(2200,600)) + 
+  scale_x_reverse(position = "top", breaks=seq(0, 2300, 200), limits=c(2200,600)) + 
   scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(950, 350)) +
   FSColScale +
   FSFillScale +
   xlab("F2 (Hz)")+
   ylab("F1 (Hz)") +
   # facet_wrap(~ageGroup) +
-  facet_grid(rows=vars(corpus),cols=vars(ageGroup)) +
+  facet_grid(rows=vars(corpus),cols=vars(sex)) +
   # ggtitle("FST-CorP-SE")+
   NULL
 FS.vplot
@@ -532,7 +560,87 @@ FSG_DE.vplot <- ggplot(data_FSTG %>% filter(corpus=="CoRP-SE") %>% filter(lexSet
 FSG_DE.vplot
 
 
-## STRUT ####
+# STRUT ####
+## F1 ####
+strut_F1.plot = ggplot(data_FS_plots %>% filter(lexSet == "STRUT"), aes(x=factor(corpus, level = corpus_order),y=norm_F1,fill=corpus)) +
+  geom_boxplot() +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  xlab("speaker group") +
+  ylab("F1 (Hz)") +
+  scale_y_continuous(limits = c(300,1000), breaks = seq(0,1000,100))+
+  regionFillScale+
+  # ggtitle("\\scs{foot}-STRUT (F1) CoRP-SE") +
+  # facet_wrap(~sex) +
+  NULL
+strut_F1.plot
+ggsave("figures/strut-F1.svg",strut_F1.plot,height=4,width=6,units="in")
+
+# by sex
+strut_F1_sex.plot = strut_F1.plot +
+  facet_wrap(~sex) +
+  NULL
+strut_F1_sex.plot
+ggsave("figures/strut-F1-sex.svg",strut_F1_sex.plot,height=4,width=6,units="in")
+
+#by id
+strut_F1_id.plot <- 
+  strut_F1.plot +
+  facet_wrap(~id)
+strut_F1_id.plot
+
+## F2 ####
+
+strut_F2.plot = ggplot(data_FS_plots %>% filter(lexSet == "STRUT"), aes(x=factor(corpus, level = corpus_order),y=norm_F2,fill=corpus)) +
+  geom_boxplot() +
+  xlab("speaker group") +
+  ylab("F2 (Hz)") +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  regionFillScale +
+  scale_y_continuous(limits = c(700,2000), breaks = seq(0,3000,200))+
+  # ggtitle("\\scs{foot}-STRUT (F2) CoRP-SE") +
+  NULL
+strut_F2.plot
+ggsave("figures/strut-F2.svg",strut_F2.plot,height=4,width=6,units="in")
+
+
+strut_F2_flip.plot = ggplot(data_FS_plots %>% filter(lexSet == "STRUT"), aes(x=sex,y=norm_F2,fill=corpus)) +
+  geom_boxplot() +
+  xlab("speaker group") +
+  ylab("F2 (Hz)") +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  regionFillScale +
+  scale_y_continuous(limits = c(700,2000), breaks = seq(0,3000,200))+
+  # ggtitle("\\scs{foot}-STRUT (F2) CoRP-SE") +
+  facet_wrap(~corpus) +
+  NULL
+strut_F2_flip.plot
+ggsave("figures/strut-F2.svg",strut_F2.plot,height=4,width=6,units="in")
+
+
+strut_F2_sex.plot <- strut_F2.plot+
+  facet_wrap(~sex)
+strut_F2_sex.plot
+ggsave("figures/strut-F2-sex.svg",strut_F2_sex.plot,height=4,width=6,units="in")
+
+ST_SE_F2.plot <- ggplot(data_FST_plots %>% filter(lexSet %in% c("STRUT","THOUGHT")) %>% filter(corpus == "CoRP-SE"), aes(x=lexSet,y=norm_F2,fill=lexSet)) +
+  geom_boxplot() +
+  xlab("speaker group") +
+  ylab("F2 (Hz)") +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  # regionFillScale +
+  FSFillScale+
+  # scale_y_continuous(limits = c(700,2000), breaks = seq(0,3000,200))+
+    facet_wrap(~sex) +
+  # ggtitle("\\scs{foot}-STRUT (F2) CoRP-SE") +
+  NULL
+ST_SE_F2.plot
+
+##vowel space ####
+
 data_strut_plots.means = as_tibble(ddply(data_FS_plots%>% filter(lexSet == "STRUT"),.(corpus),summarise,
                                          mean_F2 = mean(norm_F2),
                                          mean_F1 = mean(norm_F1)))
@@ -540,19 +648,18 @@ data_strut_plots.means = as_tibble(ddply(data_FS_plots%>% filter(lexSet == "STRU
 data_strut_plots.means
 
 strut.vplot = ggplot(data_FS_plots %>% filter(lexSet=="STRUT"), aes(x=norm_F2, y = norm_F1, color = corpus, label = corpus)) +
-  geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  # geom_text(aes(label=word), size=1.5, alpha=0.75) +
   stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.2, aes(fill = corpus)) +
-  geom_label(data = data_strut_plots.means, aes(x = mean_F2, y = mean_F1), size = 1.5,color="black") + 
+  geom_label(data = data_strut_plots.means, aes(x = mean_F2, y = mean_F1), size = 1.5) + 
   theme_Caitlin() +
-  theme(legend.position = "top") +
-  scale_x_reverse(position = "top", breaks=seq(800, 2200, 200), limits=c(2200,800)) + 
-  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(1000, 300)) +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top", breaks=seq(0, 2300, 100), limits=c(2200,600)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(950, 350)) +
   regionColScale +
   regionFillScale +
   # facet_wrap(~SecondEd) +
   # facet_grid(rows=vars(juniorEd),cols=vars(SecondEd)) +
-  ggtitle("\\scs{strut} by corpus")+
   NULL
 strut.vplot
-
+ggsave("figures/strut-corpus.png",strut.vplot,height=4,width=6,units="in")
 
