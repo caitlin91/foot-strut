@@ -2,17 +2,19 @@
 \contentsline {section}{\numberline {0.2}The Split}{3}{section.0.2}%
 \contentsline {subsection}{\numberline {0.2.1}CoRP-SE speakers}{3}{subsection.0.2.1}%
 \contentsline {subsubsection}{\nonumberline F1}{4}{subsubsection*.4}%
-\contentsline {subsubsection}{\nonumberline F2}{5}{subsubsection*.8}%
-\contentsline {subsection}{\numberline {0.2.2}DECTE speakers}{8}{subsection.0.2.2}%
-\contentsline {subsubsection}{\nonumberline F1}{8}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline F2}{11}{subsubsection*.19}%
-\contentsline {subsection}{\numberline {0.2.3}CoRP-NE speakers}{13}{subsection.0.2.3}%
-\contentsline {subsubsection}{\nonumberline F1}{14}{subsubsection*.24}%
-\contentsline {subsubsection}{\nonumberline F2}{17}{subsubsection*.29}%
-\contentsline {subsection}{\numberline {0.2.4}Conclusions on the Split}{18}{subsection.0.2.4}%
-\contentsline {section}{\numberline {0.3}\textsc {Strut vowel only}}{19}{section.0.3}%
-\contentsline {subsection}{\numberline {0.3.1}F1}{19}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {0.3.2}F2}{20}{subsection.0.3.2}%
-\contentsline {section}{\numberline {0.4}Discussion \& Conclusion}{22}{section.0.4}%
-\contentsline {chapter}{\nonumberline Bibliography}{24}{chapter*.38}%
+\contentsline {subsubsection}{\nonumberline F2}{6}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {0.2.2}DECTE speakers}{9}{subsection.0.2.2}%
+\contentsline {subsubsection}{\nonumberline F1}{9}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline F2}{12}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {0.2.3}CoRP-NE speakers}{14}{subsection.0.2.3}%
+\contentsline {subsubsection}{\nonumberline F1}{15}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline F2}{18}{subsubsection*.29}%
+\contentsline {subsection}{\numberline {0.2.4}Conclusions on the nature of the \textsc {foot}-\textsc {strut}{} Split in all three speaker groups}{19}{subsection.0.2.4}%
+\contentsline {section}{\numberline {0.3}\textsc {Strut vowel only}}{20}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}F1}{20}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}F2}{21}{subsection.0.3.2}%
+\contentsline {section}{\numberline {0.4}Discussion \& Conclusion}{24}{section.0.4}%
+\contentsline {chapter}{\nonumberline Bibliography}{26}{chapter*.38}%
+\contentsline {section}{\numberline {.1}Extra models}{27}{section.Alph0.1}%
+\contentsline {subsection}{\numberline {.1.1}F2 of \textsc {strut}{} and \textsc {thought} in the CoRP-SE speakers}{27}{subsection.Alph0.1.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

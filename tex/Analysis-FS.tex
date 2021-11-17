@@ -184,13 +184,15 @@
 	
 \section{Introduction} \label{sec:FSintro}
 
+This chapter will consider the \FS{} split in all three speakers groups (CoRP-SE, DECTE, and CoRP-NE, henceforth referred to as corpora), first, in section \ref{sec:FSSplit} by modelling \foot{} and \strutt{} together in each corpus (in both F1 and F2 dimensions), then in section \ref{sec:FSSTRUT} by modelling the \strutt{} vowel alone in all three corpora together.
+
 As summarised in chapter \onlyinsubfile{5}\notinsubfile{\ref{ch:Methodology}} the \foot{} and \strutt{} vowels were measured once, at one third of the duration \citep{FAVE}. Data cleaning methods are also explained in chapter \onlyinsubfile{5}\notinsubfile{\ref{ch:Methodology}}.
-In order to prevent over fitting of models the linguistic predictors were plotted with F1 and F2 and only included if variation was seen between the levels of the predictor \todocontent{how to defend this better - ask Dan?}. Models were compared using CAIC, including using stepCAIC() function from the cAIC4 package \citep{cAIC4} to determine the model with the best fit. Categorical predictors were sum coded unless an interaction was observed, in order to understand the intercept as a mean in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables as predictor\textit{Sum}.
+In order to prevent over fitting of models the linguistic predictors were plotted with F1 and F2, and only included if variation was seen between the levels of the predictor\todocontent{how to defend this better - ask Dan?}. Models were compared using CAIC, including using the stepCAIC() function from the cAIC4 package \citep{cAIC4} to determine the model with the best fit. Unless involved in an interaction, categorical predictors were sum coded (suing contr.sum() from the stats package \citealt{RCoreTeam2021}) in order to understand the intercept as a mean in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables as \quotesingle{predictor\textit{Sum}}. Continuous predictors were scaled to a z-score using the scale() function \citep{RCoreTeam2021}.
  
 \section{The Split}	 \label{sec:FSSplit}
 \subsection{CoRP-SE speakers}
-The CoRP-SE speakers are assumed to have the prototypical southern \FS{} split. There is no attestation in the literature (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}}) that the split in the South East is affected by social class. Analysis of their vowels shows that the split is found mostly in height (F1: 199Hz) and very slightly in frontness (F2: -86Hz), as discussed below and in section \ref{subsubsec:SEF2}, the frontness is a difference in mean but there is full overlap between the ranges.
-From figure \ref{fig:FSvplotSE} (a plot of F1 against F2, ellipses drawn at 0.67 of the standard deviation) it can be seen that there is overlap of individual tokens but the average position of the \strutt{}, words is lower in the vowel space than the \foot\, words. They are also on average further back but the range falls within a subsection of the total F2 range of the  \foot{} words, which are more spread out.
+There is no reference in the literature (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}}) that the split in the South East is affected by social class and so the CoRP-SE speakers are assumed to have the prototypical southern \FS{} split. Analysis of their vowels shows that the split is found mostly in height (F1: +199Hz) and very slightly in frontness (F2: -86Hz). As discussed below and in section \ref{subsubsec:SEF2}, the frontness is a difference in mean but there is full overlap between the ranges.
+From figure \ref{fig:FSvplotSE} (a plot of F1 against F2, ellipses drawn at 0.67 of the standard deviation) it can be seen that there is overlap of individual tokens but the mean position of the \strutt{} words is lower in the vowel space than the \foot\ words. They are also on average further back but the range falls within a subsection of the total F2 range of the  \foot{} words, which are more spread out.
 Full analysis of the F1 and F2 difference is in sections \ref{subsubsec:SEF1} and \ref{subsubsec:SEF2}.
 
 
@@ -201,7 +203,7 @@ Full analysis of the F1 and F2 difference is in sections \ref{subsubsec:SEF1} an
 \end{figure}
 
 \subsubsection{F1} \label{subsubsec:SEF1}
-The model of the normalised F1 of the \foot{}  and \strutt{}  words is shown in table \ref{tbl:FSF1SE}; the model also includes random intercepts for speaker and word. The model intercept is 536Hz, which is the mean F1 of the \foot{} words. The effect size of lexical Set is 199Hz (t=17.28). Therefore, the mean F1 for the vowels in the \strutt{} words is 735Hz. There is an effect of speakers sex (t=3.77) but the effect size is only 21Hz, which is not large in the context of the lexical set variation. This model demonstrates that the vowels of the two lexical sets are distinct in height in CoRP-SE speakers, with the mean of the \strutt{} lexical set lower in the mouth than the mean of the \foot{} lexical set, by 199Hz. The difference is visualised in figure \ref{fig:FSF1SE} (based on raw data, not the model predictions), where the distinction between the vowel measurements in the two lexical sets can be seen clearly, with no overlap between the interquartile ranges.
+The best fit model of the normalised F1 of the \foot{}  and \strutt{}  words is shown in table \ref{tbl:FSF1SE}; the model also includes random intercepts for speaker and word. The model intercept is 536Hz, which is the mean F1 of the \foot{} words. The effect size of lexical Set is +199Hz (t=17.28). Therefore, the mean F1 for the vowels in the \strutt{} words is 735Hz. There is an effect of speaker sex (t=3.77) but the effect size is only 21Hz, which is not large in the context of the lexical set variation. This model demonstrates that the vowels of the two lexical sets are distinct in height in CoRP-SE speakers, with the mean of the \strutt{} lexical set lower in the mouth than the mean of the \foot{} lexical set, by 199Hz. The difference is visualised in figure \ref{fig:FSF1SE} (based on raw data, not the model predictions), where the distinction between the vowel measurements in the two lexical sets can be seen clearly, with no overlap between the interquartile ranges.
 
 \input{../models/FS-SE-F1-mod.tex}
 
@@ -212,7 +214,7 @@ The model of the normalised F1 of the \foot{}  and \strutt{}  words is shown in 
 \end{figure}
 
 \subsubsection{F2} \label{subsubsec:SEF2}
-Modelling F2 (see table \ref{tbl:FSF2SE}) showed an intercept of 1383Hz, the mean of the \foot() lexical set, and while there is a lot less variation according to lexical set than seen in F1, there is a difference of -86Hz (t =-2.58) implying that the \strutt{} vowel is slightly further back than the \foot{} vowel in south-eastern speakers, this can be seen in figure \ref{fig:FSF2SE}. This difference is not large and it can be seen in figure \ref{fig:FSF2SE} that the inter-quartile range is almost completely overlapping; the \strutt{} words merely have a smaller range of F2 than the \foot{} words.
+Modelling F2 (see table \ref{tbl:FSF2SE}) showed an intercept of 1383Hz, the mean of the \foot() lexical set, and while there is a lot less variation according to lexical set than seen in F1, there is a difference of -86Hz (t =-2.58) implying that the mean of the \strutt{} vowel is slightly further back than the mean of the \foot{} vowel in south-eastern speakers, this can be seen in figure \ref{fig:FSF2SE}. This difference is not large and it can be seen in figure \ref{fig:FSF2SE} that the inter-quartile range is almost completely overlapping; the \strutt{} words sit almost completely within the range of the \foot{} words.
 There is also a small but significant effect of style.
 
 \input{../models/FS-SE-F2-mod.tex}
@@ -222,8 +224,8 @@ There is also a small but significant effect of style.
 	\caption{F2 of \foot{} and \strutt{} in CoRP-SE speakers} \label{fig:FSF2SE}
 \end{figure}
 
-A further model was run including \strutt{}, \scs{thought}, and schwa, to check  the frontness of the \strutt{} vowel of in comparison to other vowels at a similar height in the English vowel space. The model summary can be found in appendix \ref{app:STSEF2}; it shows that the \strutt{} vowel in these speakers is significantly further forward than the \scs{thought} vowel (-399Hz, t=-13.50) and also significantly further back than the schwa (305Hz, t=8.16), placing it between the two in the vowel space but closer to schwa (see figure \ref{fig:STF2SE}).
-
+A further model was run including \strutt{}, \scs{thought}, and schwa, to check  the frontness of the \strutt{} vowel of in comparison to other vowels at a similar height in the English vowel space. The model summary can be found in appendix \ref{app:STSEF2}; it shows that the \strutt{} vowel in these speakers is significantly further forward than the \scs{thought} vowel (-399Hz, t=-13.50) and also significantly further back than the schwa (305Hz, t=8.16), placing it between the two in the vowel space, but closer to schwa (see figure \ref{fig:STF2SE}).
+`
 \begin{figure}[h]
 	\includesvg[width=\textwidth]{../figures/ST-SE-F2.svg}
 	\caption{F2 of \strutt{}, \scs{thought}, and schwa in CoRP-SE speakers} \label{fig:STF2SE}
@@ -232,7 +234,7 @@ A further model was run including \strutt{}, \scs{thought}, and schwa, to check 
 
 
 \subsection{DECTE speakers}
-The DECTE speakers do not show a split in height, as measured by F1 and while they show some F2 differences between \foot{} and \strutt{} in the old age group (+147Hz) the pattern is clearly different to that found in the CoRP-SE speakers and it can be concluded that according to this sample, the majority of state-educated speakers in the North East do not show a \FS{} split.
+Overall, the DECTE speakers do not show a split in height, as measured by F1 and while they show some F2 differences between \foot{} and \strutt{} in the old age group (+147Hz) the pattern is clearly different to that found in the CoRP-SE speakers and it can be concluded that according to this sample, the majority of state-educated speakers in the North East do not show a \FS{} split. Further analysis of the F1 and F2 dimensions is continued below.
 
 \begin{figure}[h]
 	\centering
@@ -259,7 +261,7 @@ Modelling F1 of the \foot{} and \strutt{} words in the DECTE speakers gives an i
 
 
 \subsubsection{F2}
-The best fit model of F2 of the \foot{} and \strutt{} words in the DECTE speakers (table \ref{tbl:FSF2DE}) includes an interaction of lexical set and age group. The intercept (mean of \foot{} words in old speakers) is 1232Hz, the mean of \foot{} words in young speakers is 1638Hz. The split in the old age group is +147Hz whereas in the young age group it is -26Hz. It is possible that the split in the younger speakers is affected by the  fronting of \foot{} due to the Tyneside phenomenon of \foot{} merging with \goose{}, which seems to be more prevalent in the younger speakers in this age group (figure \ref{fig:FSGF2DE-age}).
+The best fit model of F2 of the \foot{} and \strutt{} words in the DECTE speakers (table \ref{tbl:FSF2DE}) includes an interaction of lexical set and age group. The intercept (mean of \foot{} words in old speakers) is 1232Hz, the mean of \foot{} words in young speakers is 1638Hz. The split in the old age group is +147Hz whereas in the young age group it is -26Hz. It is possible that the split in the younger speakers is affected by the  fronting of \foot{} due to the Tyneside phenomenon of \foot{} merging with \goose{}, which seems to be more prevalent in the younger speakers in this age group (figure \ref{fig:FSGF2DE-age})\todoreference{find a reference}.
 
 
 \input{../models/FS-DE-F2-mod.tex}
@@ -271,8 +273,8 @@ The best fit model of F2 of the \foot{} and \strutt{} words in the DECTE speaker
 \end{figure}
 
 
-\subsection{CoRP-NE speakers}
-CoRP-NE speakers show some evidence of a \FS{} split, particularly in F1 (on average 110Hz, higher in female speakers) but little evidence of an F2 split except in one speaker. Further analysis of the F1 and F2 differences can be seen in sections \ref{subsubsec:NEF1} and \ref{subsubsec:NEF2}, but from the vowel space plot in figure it can be seen that the \strutt{}, words are lower than the \foot{} words (with some overlap) but have similar frontness.
+\subsection{CoRP-NE speakers} \label{subsec:FSNE}
+CoRP-NE speakers show some evidence of a \FS{} split, particularly in F1 (on average 110Hz, higher in female speakers) but little evidence of an F2 split except in one speaker. Further analysis of the F1 and F2 differences can be seen below, but from the vowel space plot in figure it can be seen that the \strutt{} words are lower than the \foot{} words (with some overlap) but have similar frontness.
 
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]{../figures/FS-NE-vplot.png}
@@ -301,18 +303,18 @@ The best fit model for F1 of the CoRP-NE speakers can be seen in table \ref{tbl:
 		Mean  & 541.53 & 651.45 & \textit{109.92} \\
 		\hline
 	\end{tabular}%
-	\caption{table showing effects of speaker age group and sex on F1 of \foot{} and \strutt{} in CoRP-NE speakers (calculated from table \ref{tbl:FSF1NE})}
+	\caption{table showing interactions effects of speaker age group and sex on F1 of \foot{} and \strutt{} in CoRP-NE speakers (calculated from interactions in table \ref{tbl:FSF1NE})}
 	\label{tbl:FSF1NEinter}%
 \end{table}%
 
 \begin{figure}[h]
 	\includesvg[width=\textwidth]{../figures/FS-NE-F1.svg}
-	\caption{} \label{fig:FSF1NE}
+	\caption{F1 of \foot{} and \strutt{} in CoRP-NE speakers} \label{fig:FSF1NE}
 \end{figure}
 
 
 \subsubsection{F2} \label{subsubsec:NEF2}
-The best fit model for F2 of the CoRP-NE speakers (see table \ref{tbl:FSF2NE}) also includes a three way interaction between lexical set, sex, and age group (summarised in figure \ref{tbl:FSF2NEinter}). The mean value of \foot{} is 1339Hz and the mean value of \strutt{} is 1380Hz, showing very little distinction. This is held up in all speaker groups except OM, however this group is only one speaker, Alexander, who has spent more time in the South than the other speakers (attending a specialist state boarding school in Warwick before returning to a private day sixth form in Newcastle) so it is possible that he has a larger split than the others. If this this speaker is not included it is reasonable to conclude that the CoRP-NE speakers do not have a \FS{} split in frontness.
+The best fit model for F2 of the CoRP-NE speakers (see table \ref{tbl:FSF2NE}) also includes a three way interaction between lexical set, sex, and age group (summarised in figure \ref{tbl:FSF2NEinter}). The mean value of \foot{} is 1339Hz and the mean value of \strutt{} is 1380Hz, showing very little distinction, when the interaction is considered the largest distinction that is seen is in the opposite direction to the CoRP-SE speakers showing a \strutt{} vowel that is slightly fronter than the \foot{} vowel.
 
 \input{../models/FS-NE-F2-mod.tex}
 
@@ -335,16 +337,16 @@ The best fit model for F2 of the CoRP-NE speakers (see table \ref{tbl:FSF2NE}) a
 	\end{table}%
 
 
-\subsection{Conclusions on the Split}
+\subsection{Conclusions on the nature of the \FS{} Split in all three speaker groups}
 In the CoRP-SE speakers the \foot{} and \strutt{} vowel are distinguished in F1 (a difference of +110Hz) and F2 (-86Hz). The F1 difference is clearly meaningful but while the F2 difference is present and statistically significant it needs to be considered more carefully because it is only a small difference within the whole vowel space. Overall the \FS split can be described as mostly characterised by height and slightly by frontness. It was also found that the frontness of the \strutt{} vowel in the South East is between the schwa and \scs{thought} vowels, but closer to schwa. If the CoRP-NE speakers are behaving like the CoRP-SE speakers, we would expect them to have a similar pattern in both F1 and possibly F2.
 
 In the DECTE speakers we see what can be considered \quotesingle{normal} North East \FS{} positions of \foot{} and \strutt{}. The speakers show no significant difference between \foot{} and \strutt{} in F1, and in F2 a small difference in mainly older speakers (+147Hz). It can be concluded that there is not a robust \FS{} split in the North East as found in the CoRP-SE speakers.
 
-In CoRP-NE speakers we some evidence of a split. They show an F1 difference of 110Hz (average, male and female speakers behave differently) and no F2 difference except in one speaker. This suggests that these speakers have a split, but it is not identical to the split found in the CoRP-SE speakers. It is not as large in height (F1 is 110Hz vs 199Hz) and does not seem to exist in frontness.
+In CoRP-NE speakers we some evidence of a split. They show an F1 difference of 110Hz (mean, male and female speakers behave differently) and some F2 difference in the opposite direction to CoRP-SE. This suggests that these speakers have a split, but it is not identical to the split found in the CoRP-SE speakers. It is not as large in height (F1 is 110Hz vs the 199Hz found in CoRP-SE speakers) and does not seem to exist in frontness.
 
-By analysis of the \foot{} and \strutt{} words in all three speaker groups it can be concluded that CoRP-NE speakers do not behave identically to either of the other speaker groups. However, conclusions can be drawn in answer to research question \onlyinsubfile{1}\notinsubfile{\ref{RQ1}}. The DECTE speakers (state educated in the North East) do not show any \FS{} split and CoRP-NE speakers clearly have at least some distinction between \foot{} and \strutt{} so it can be concluded that they are not behaving consistently regionally. While the CoRP-NE speakers do not show as large a split as the CoRP-SE speakers, there is clearly a split present, demonstrating non-regional behaviour.
+By analysis of the \foot{} and \strutt{} words in all three speaker groups it can be concluded that CoRP-NE speakers do not behave identically to either of the other speaker groups. However, conclusions can be drawn in answer to research question \onlyinsubfile{1}\notinsubfile{\ref{RQ1}}. The DECTE speakers (state educated in the North East) do not show any \FS{} split and CoRP-NE speakers clearly have at least some distinction between \foot{} and \strutt{} so it can be concluded that they are not behaving consistently regionally. While the CoRP-NE speakers do not show as large a split as the CoRP-SE speakers, there is clearly a split present, demonstrating at least a tendency towards non-regional behaviour.
 
-In order to further understand the nature of the difference between the split in different speaker groups the \foot{} and \strutt{} words were modelled separately, results of this are discussed in section \ref{sec:FSSTRUT}.
+In order to further understand the nature of the difference between the split in different speaker groups the \strutt{} words were modelled separately, results of this are discussed in section \ref{sec:FSSTRUT}.
 
 \section{\scs{Strut vowel only}} \label{sec:FSSTRUT}
 \subsection{F1}
@@ -369,18 +371,17 @@ Modelling the \strutt{} vowel alone (see table \ref{tbl:strutF1}) shows that the
 
 \begin{figure}[h]
 	\includesvg[width=\textwidth]{../figures/strut-F1-sex.svg}
-	\caption{} \label{fig:strutF1-sex}
+	\caption{F1 of \strutt{} in CoRP-SE, DECTE, and CoRP-NE speakers, by speaker sex} \label{fig:strutF1-sex}
 \end{figure}
 
 
 \subsection{F2}
-Modelling F2 of the \strutt{} words alone again shows an interaction of corpus and speaker sex (\ref{tbl:strutF2}). In each corpus the male speakers have a less front vowel, and overall the CoRP-NE speakers have the most front vowel, in both male and female speakers. Even if the CoRP-SE vowel is taken as the prototypical \strutt{} vowel there is variation between male and female, with male speakers producing a less front vowel (82Hz difference). The DECTE speakers show a relatively similar frontness to the CoRP-SE speakers, it is the CoRP-NE speakers who have a larger difference, both male and female speakers produce a fronter vowel than either of DECTE or CoRP-SE speakers, though the female difference is bigger.
+Modelling F2 of the \strutt{} words alone again shows an interaction of corpus and speaker sex (\ref{tbl:strutF2}). In each corpus the male speakers have a less front vowel, and overall the CoRP-NE speakers have the most front vowel, in both male and female speakers. Even if the CoRP-SE vowel is taken as the prototypical \strutt{} vowel there is variation between male and female, with male speakers producing a less front vowel (82Hz difference). The DECTE speakers show a relatively similar frontness to the CoRP-SE speakers, however the CoRP-NE speakers behave differently, both male and female speakers produce a fronter \strutt{} vowel than either of DECTE or CoRP-SE speakers, though the female difference is larger (see tables \ref{tbl:strutF2} and \ref{tbl:strutF2-inter}).
 \input{../models/S-F2-mod.tex}
 
 % Table generated by Excel2LaTeX from sheet 'strut-F2 corpus-sex'
 \begin{table}[htbp]
 	\centering
-	\caption{Add caption}
 	\begin{tabular}{lrrr}
 		\hline
 		& \multicolumn{1}{l}{CoRP-SE} & \multicolumn{1}{l}{DECTE} & \multicolumn{1}{l}{CoRP-NE} \\
@@ -390,6 +391,7 @@ Modelling F2 of the \strutt{} words alone again shows an interaction of corpus a
 		\textit{Mean} & \textit{1267.87} & \textit{1295.27} & \textit{1414.74} \\
 		\hline
 	\end{tabular}%
+	\caption{table showing effects of corpus on F2 of \strutt{} (calculated from interaction effects in table \ref{tbl:strutF2})}
 	\label{tbl:strutF2-inter}%
 \end{table}%
 
@@ -400,12 +402,12 @@ Modelling F2 of the \strutt{} words alone again shows an interaction of corpus a
 \end{figure}
 
 \section{Discussion \& Conclusion}
-From modelling the behaviour of both \foot{} and \strutt{} in section \ref{sec:FSSplit} showed that the \FS{} split is mostly characterised by a difference in height, though some evidence of a frontness difference is found. The CoRP-NE speakers were found to have some evidence of a \FS{} split, the difference between the two lexical sets was larger than the DECTE speakers but smaller than the CoRP-SE speakers. Further analysis of the \strutt{} vowel alone showed that this difference is mainly due to the female speakers. The majority of male speakers seem to maintain the local pattern found in the DECTE speakers. The F2 pattern is a little more complex and likely is less informative when it comes to behaviour of the \FS{} split. As stated above, there is only some evidence of a split in frontness in the CoRP-SE speakers, who only show a difference of -86Hz, which is not a large change in frontness. In the focussed analysis of \strutt{} alone it can be seen that the CoRP-NE speakers have a different F2 to both the DECTE and CoRP-SE speakers. This shows that their production of the \strut{} vowel, particularly in the female speakers is diverging from both groups.
+Modelling the behaviour of both \foot{} and \strutt{} in section \ref{sec:FSSplit} showed that the \FS{} split is mostly characterised by a difference in height, though some evidence of a frontness difference is found. The CoRP-NE speakers were found to have some evidence of a \FS{} split, the difference between the two lexical sets was larger than in the DECTE speakers but smaller than in the CoRP-SE speakers. Further analysis of the \strutt{} vowel alone showed that this difference is mainly due to the female speakers. The majority of male speakers seem to maintain the local pattern found in the DECTE speakers. The F2 pattern is a little more complex and likely is less informative when it comes to behaviour of the \FS{} split. As stated above, there is only some evidence of a split in frontness in the CoRP-SE speakers, who only show a difference of -86Hz, which is not a large change in frontness. In the focussed analysis of \strutt{} alone it can be seen that the CoRP-NE speakers have a different F2 to both the DECTE and CoRP-SE speakers. This shows that their production of the \strut{} vowel, particularly in the female speakers is diverging from both groups.
 
-From a social perspective there are two factors that need to be considered in relation to the results described above.
-First, the differences between privately educated and state-educated speakers as a type of social class variation, since while it is not occupation based, it is a form of social stratification connected to income, education and other social opportunities (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}} for further discussion of this approach). It is a known effect that male and female speakers diverge in socially stratified accent variation \citep{Labov2001b}, and this effect has been specifically attested in Newcastle \citep{Watt1998}. In general it has been seen that female speakers tend towards a standard and local variants are more often found in male speakers (for example the Tyneside centring diphthongs in \goat{} and \scs{face} are found in male working class speakers by \cite{Watt1998}). The pattern we see in the CoRP-NE speakers where male speakers have a \strutt{} vowel that is similar to the DECTE speakers whereas female speakers have a \strutt{} vowel that is different to them and more similar to the CoRP-SE speakers clearly reflects this tendency. Male speakers are producing a local variant (though local here is likely \quotesingle{northern} rather than Tyneside specific) and female speakers are tending towards a non-local variant.
+There are two factors that need to be considered in relation to the results described above.
+First, the differences between privately educated and state-educated speakers as a type of social class variation, since while it is not occupation based, it is a form of social stratification connected to income, education and other social opportunities (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}} for further discussion of this approach). It is a known effect that male and female speakers diverge in socially stratified accent variation \citep{Labov2001b}, and this effect has been specifically attested in Newcastle \citep{Watt1998}. In general it has been seen that female speakers tend towards a standard and local variants are more often found in male speakers (for example the Tyneside centring diphthongs in \goat{} and \scs{face} are found in male working class speakers by \cite{Watt1998}). The pattern we see in the CoRP-NE speakers where male speakers have a \strutt{} vowel that is similar to the DECTE speakers whereas female speakers have a \strutt{} vowel that is different to them and more similar to the CoRP-SE speakers, clearly reflects this tendency. Male speakers are producing a local variant (though local here is likely \quotesingle{northern} rather than Tyneside specific) and female speakers are tending towards a non-local variant.
 
-Secondly, while the CoRP-NE female speakers discussed above do seem to tend towards a southern-like \strutt{} vowel, they do not successfully reach the target. The F1 is lower than in the CoRP-SE speakers and the F2 is slightly higher. This difference may be the source of a the description occasinoally given to \strutt{} realisations found in the north as \quotesingle{schwa-like} \citep{Braber2015,Jansen2020}. \todocontent{include graph or is that overkill?}. It is possible that the speakers are creating a different target for the \strutt{} vowel but it is also possible that they are aiming for the target as realised by CoRP-SE and other southern speakers but not hitting it. Not being able to reach the target could be be due to later acquisition \citep{Evans2007} , but this is difficult to determine with the data available. While information on parent's education and region was collected, there are not enough speakers to draw meaningful conclusions. Another approach to understanding this would be to record people still at school (at various stages) to see when the \FS{} split appears in their speech.
+Secondly, while the CoRP-NE female speakers discussed above do seem to tend towards a southern-like \strutt{} vowel, they do not successfully reach the target. The F1 is lower than in the CoRP-SE speakers and the F2 is slightly higher. This difference may be the source of a the description occasinoally given to \strutt{} realisations found in the north as \quotesingle{schwa-like} \citep{Braber2015,Jansen2020}\todocontent{include graph or is that overkill?}. It is possible that the speakers are creating a different target for the \strutt{} vowel but it is also possible that they are aiming for the target as realised by CoRP-SE and other southern speakers but not hitting it. Not being able to reach the target could be be due to later acquisition of the split \citep{Evans2007} , but this is difficult to determine with the data available. While information on parent's education and region was collected, there are not enough speakers to draw meaningful conclusions. Another approach to understanding this would be to record people still at school (at various stages) to see when the \FS{} split appears in their speech.
 
 Further discussion on the implications of the variation found here will be undertaken in chapter \onlyinsubfile{9}\notinsubfile{\ref{ch:Discussion}}.
 
@@ -413,6 +415,7 @@ Further discussion on the implications of the variation found here will be under
 
 
 \onlyinsubfile{
+	
 	\pagebreak
 	\listoftodos{}
 	\pagebreak
@@ -422,7 +425,8 @@ Further discussion on the implications of the variation found here will be under
 		}
 			
 \appendix
-\section{} \label{app:STSEF2}
+\section{Extra models}
+\subsection{F2 of \strutt{} and \scs{thought} in the CoRP-SE speakers} \label{app:STSEF2}
 \input{../models/ST-SE-F2-mod.tex}
 
 			}

@@ -23,6 +23,12 @@ Jansen, S. \harvardand\ Braber, N.  \harvardyearleft 2020\harvardyearright ,
 Labov, W.  \harvardyearleft 2001\harvardyearright , {\em Principles of
   {{Linguistic Change}}: Social {{Factors}}}, {Blackwell}, {Oxford}.
 
+\harvarditem{{R Core Team}}{2021}{RCoreTeam2021}
+{R Core Team}  \harvardyearleft 2021\harvardyearright , {\em R: A Language and
+  Environment for Statistical Computing}, {R Foundation for Statistical
+  Computing}, {Vienna, Austria}.
+\newline\harvardurl{https://www.R-project.org/}
+
 \harvarditem[Rosenfelder et~al.]{Rosenfelder, Fruehwald, Evanini, Seyfarth,
   Gorman, Prichard \harvardand\ Yuan}{2014}{FAVE}
 Rosenfelder, I., Fruehwald, J., Evanini, K., Seyfarth, S., Gorman, K.,
