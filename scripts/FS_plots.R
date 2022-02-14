@@ -308,7 +308,7 @@ FS_NE.vplot <- ggplot(data_FS %>% filter(corpus=="CoRP-NE"), aes(x=norm_F2, y = 
   NULL
 FS_NE.vplot
 
-ggsave("figures/FS-NE-vplot.png", FS_NE.vplot,height = 4, width = 6,units = "in")
+
 
 
 Ss_NE_female.vplot <-  ggplot(data_FST_plots %>% filter(corpus=="CoRP-NE") %>% filter(lexSet %in% c("schwa","STRUT","FOOT")), aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
@@ -531,15 +531,6 @@ ggsave("figures/FS-F1-corpus.svg", FSF1.plot,height = 8, width = 12,units = "in"
 
 # vowel space plots ####
 ## FOOT-STRUT ####
-
-
-
-
-
-
-
-
-
 data_FSG_DE.means <- as_tibble(ddply(data_FSTG %>% filter(corpus == "DECTE-NE") %>% filter(lexSet %in% c("FOOT","STRUT","GOOSE")),.(lexSet),summarise,
                   mean_F2 = mean(norm_F2),
                   mean_F1 = mean(norm_F1)))
@@ -663,3 +654,79 @@ strut.vplot = ggplot(data_FS_plots %>% filter(lexSet=="STRUT"), aes(x=norm_F2, y
 strut.vplot
 ggsave("figures/strut-corpus.png",strut.vplot,height=4,width=6,units="in")
 
+# Teaching Pod ####
+FS_all <- ggplot(data_FS_plots,aes(x=lexSet,y=norm_F1, fill=lexSet))+ 
+  geom_boxplot() +
+  theme(legend.position="none") +
+  facet_wrap(~factor(corpus, level = corpus_order)) +
+  xlab("Lexical Set") +
+  ylab("F1 (Hz)") +
+  scale_y_continuous(limits = c(300,1000), breaks = seq(0,1000,100))+
+  FSFillScale +
+  ggtitle("F1 of the FOOT-STRUT split in state (DECTE) and privately (CoRP) educated speakers in the North East and South East.") +
+  NULL
+FS_all  
+ggsave("figures/FS_all_pod.png",FS_all,height=8,width=12,units="in")
+
+data_FS_plots.means = as_tibble(ddply(data_FS_plots %>% group_by(corpus,lexSet),.(lexSet,corpus),summarise,
+                                         mean_F2 = mean(norm_F2),
+                                         mean_F1 = mean(norm_F1)))
+
+data_FS_plots.means
+
+FS.vplot_pod1 <- ggplot(data_FS_plots, aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  # geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.5, aes(fill = lexSet)) +
+  geom_label(data = data_FS_plots.means, aes(x = mean_F2, y = mean_F1), size = 2.5) +
+  facet_wrap(~factor(corpus, level = corpus_order)) +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top", breaks=seq(0, 2300, 500), limits=c(2200,600)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(950, 350)) +
+  FSColScale +
+  FSFillScale +
+  xlab("F2 (Hz)")+
+  ylab("F1 (Hz)") +
+  ggtitle("The FOOT-STRUT split in state (DECTE) and privately (CoRP) educated speakers in the North East and South East.") +
+  NULL
+FS.vplot_pod1
+
+ggsave("figures/FS-vplot_pod1.png", FS.vplot_pod1,height = 8, width = 12,units = "in")
+
+FS.vplot_pod2 <- ggplot(data_FS_plots, aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  geom_text(aes(label=word), size=1.5, alpha=0.75) +
+  stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.3, aes(fill = lexSet)) +
+  geom_label(data = data_FS_plots.means, aes(x = mean_F2, y = mean_F1), size = 2.5) +
+  facet_wrap(~factor(corpus, level = corpus_order)) +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top", breaks=seq(0, 2300, 500), limits=c(2200,600)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(950, 350)) +
+  FSColScale +
+  FSFillScale +
+  xlab("F2 (Hz)")+
+  ylab("F1 (Hz)") +
+  ggtitle("The FOOT-STRUT split in state (DECTE) and privately (CoRP) educated speakers in the North East and South East.") +
+  NULL
+FS.vplot_pod2
+
+ggsave("figures/FS-vplot_pod2.png", FS.vplot_pod2,height = 8, width = 12,units = "in")
+
+FS.vplot_pod3 <- ggplot(data_FS_plots, aes(x=norm_F2, y = norm_F1, color = lexSet, label = lexSet)) +
+  geom_point(size=1, alpha=0.5) +
+  stat_ellipse(level = 0.67, geom = "polygon", alpha = 0.3, aes(fill = lexSet)) +
+  geom_label(data = data_FS_plots.means, aes(x = mean_F2, y = mean_F1), size = 2.5) +
+  facet_wrap(~factor(corpus, level = corpus_order)) +
+  theme_Caitlin() +
+  theme(legend.position = "none") +
+  scale_x_reverse(position = "top", breaks=seq(0, 2300, 500), limits=c(2200,600)) + 
+  scale_y_reverse(position = "right",breaks=seq(300, 1000, 100), limits=c(950, 350)) +
+  FSColScale +
+  FSFillScale +
+  xlab("F2 (Hz)")+
+  ylab("F1 (Hz)") +
+  ggtitle("The FOOT-STRUT split in state (DECTE) and privately (CoRP) educated speakers in the North East and South East.") +
+  NULL
+FS.vplot_pod3
+
+ggsave("figures/FS-vplot_pod3.png", FS.vplot_pod3,height = 8, width = 12,units = "in")
