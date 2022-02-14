@@ -7,8 +7,8 @@ Braber, N. \harvardand\ Flynn, N.  \harvardyearleft 2015\harvardyearright , The
 
 \harvarditem{Evans \harvardand\ Iverson}{2007}{Evans2007}
 Evans, B.~G. \harvardand\ Iverson, P.  \harvardyearleft 2007\harvardyearright ,
-  `Plasticity in vowel perception and production: A study of accent change in
-  young adults', {\em The Journal of the Acoustical Society of America} {\bf
+  `Plasticity in vowel perception and production: {{A}} study of accent change
+  in young adults', {\em The Journal of the Acoustical Society of America} {\bf
   121}(6),~3814--3826.
 
 \harvarditem{Jansen \harvardand\ Braber}{2020}{Jansen2020}
@@ -21,11 +21,11 @@ Jansen, S. \harvardand\ Braber, N.  \harvardyearleft 2020\harvardyearright ,
 
 \harvarditem{Labov}{2001}{Labov2001b}
 Labov, W.  \harvardyearleft 2001\harvardyearright , {\em Principles of
-  {{Linguistic Change}}: Social {{Factors}}}, {Blackwell}, {Oxford}.
+  {{Linguistic Change}}: {{Social Factors}}}, {Blackwell}, {Oxford}.
 
 \harvarditem{{R Core Team}}{2021}{RCoreTeam2021}
-{R Core Team}  \harvardyearleft 2021\harvardyearright , {\em R: A Language and
-  Environment for Statistical Computing}, {R Foundation for Statistical
+{R Core Team}  \harvardyearleft 2021\harvardyearright , {\em R: {{A}} Language
+  and Environment for Statistical Computing}, {R Foundation for Statistical
   Computing}, {Vienna, Austria}.
 \newline\harvardurl{https://www.R-project.org/}
 
@@ -37,7 +37,7 @@ Rosenfelder, I., Fruehwald, J., Evanini, K., Seyfarth, S., Gorman, K.,
 
 \harvarditem{Saefken \harvardand\ Ruegamer}{2018}{cAIC4}
 Saefken, B. \harvardand\ Ruegamer, D.  \harvardyearleft 2018\harvardyearright ,
-  `{{cAIC4}}: Conditional {{Akaike}} information criterion for lme4'.
+  `{{cAIC4}}: {{Conditional Akaike}} information criterion for lme4'.
 \newline\harvardurl{https://arxiv.org/abs/1803.05664}
 
 \harvarditem{Watt}{1998}{Watt1998}
@@ -47,6 +47,6 @@ Watt, D.  \harvardyearleft 1998\harvardyearright , Variation and Change in the
 
 \harvarditem{Winter}{2019}{Winter2019}
 Winter, B.  \harvardyearleft 2019\harvardyearright , {\em Statistics for
-  {{Linguists}}: An {{Introduction Using R}}}, {Routledge}.
+  {{Linguists}}: {{An Introduction Using R}}}, {Routledge}.
 
 \end{thebibliography}
