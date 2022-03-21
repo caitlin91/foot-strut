@@ -58,13 +58,13 @@
     \put(0,0){\includegraphics[width=\unitlength,page=2]{strut-F2-sex_svg-tex.pdf}}%
     \put(0.77016202,0.62351852){\color[rgb]{0.10196078,0.10196078,0.10196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Male\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{strut-F2-sex_svg-tex.pdf}}%
-    \put(0.18935186,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-NE\end{tabular}}}}%
-    \put(0.3243287,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-SE\end{tabular}}}}%
-    \put(0.45932869,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}DECTE-NE\end{tabular}}}}%
+    \put(0.18935186,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-SE\end{tabular}}}}%
+    \put(0.32432871,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}DECTE-NE\end{tabular}}}}%
+    \put(0.45932868,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-NE\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{strut-F2-sex_svg-tex.pdf}}%
-    \put(0.63516207,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-NE\end{tabular}}}}%
-    \put(0.77016202,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-SE\end{tabular}}}}%
-    \put(0.90516203,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}DECTE-NE\end{tabular}}}}%
+    \put(0.63516207,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-SE\end{tabular}}}}%
+    \put(0.77016202,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}DECTE-NE\end{tabular}}}}%
+    \put(0.90516203,0.05115742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-NE\end{tabular}}}}%
     \put(0.09587963,0.13277778){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}800\end{tabular}}}}%
     \put(0.09587963,0.20699074){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1000\end{tabular}}}}%
     \put(0.09587963,0.28120369){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1200\end{tabular}}}}%

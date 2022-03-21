@@ -246,7 +246,7 @@ print(
        dplyr::select(term, estimate, statistic) %>%
        dplyr::rename(tvalue = statistic) %>% 
        dplyr::rename(fixedeffect = term)),
-    caption = "Linear Mixed Effects Model of F2 of \\textsc{strut}, \\textsc{thought}, and schwa in the South East \\label{tbl:FSF2SE}"),
+    caption = "Linear Mixed Effects Model of F2 of \\textsc{strut}, \\textsc{thought}, and schwa in the South East \\label{tbl:STF2SE}"),
   label = "tbl:FSF2SE",
   include.rownames=FALSE,
   file="models/ST-SE-F2-mod.tex"
@@ -318,6 +318,23 @@ print(
   file="models/FS-NE-F1-mod.tex"
 )
 
+
+####varying slope ####
+FS_NE_F1_slope.mod <- lmer(norm_F1 ~ lexSet*
+                             sex*
+                             ageGroup +
+                             folManSum +
+                             preSeg_smallSum +
+                             freq.zipf_z +
+                             styleSum +
+                             # time_z+
+                             # (1 + styleSum | id) +
+                             # (1 + time_z|id) +
+                             (1+ lexSet|id)+
+                             # (1|id) +
+                             (1|word), data_FS_statsNE) %>% 
+  tidy()
+print(FS_NE_F1_slope.mod, n=nrow(FS_NE_F1_slope.mod))
 
 
 ### F2 ----
@@ -431,6 +448,7 @@ print(
   include.rownames=FALSE,
   file="models/FS-DE-F1-mod.tex"
 )
+
 
 ### F2 ---------------
 FS_DE_F2.full.mod <- lmer(norm_F2 ~ lexSet*ageGroup +
