@@ -3,12 +3,12 @@
 \contentsline {subsection}{\numberline {0.2.1}The \textsc {Foot-Strut} Split in CoRP-SE speakers}{3}{subsection.0.2.1}%
 \contentsline {subsubsection}{\nonumberline F1 of the CoRP-SE speakers}{4}{subsubsection*.4}%
 \contentsline {subsubsection}{\nonumberline F2 of the CoRP-SE speakers}{6}{subsubsection*.8}%
-\contentsline {subsection}{\numberline {0.2.2}The \textsc {Foot-Strut} Split in DECTE speakers}{9}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {0.2.2}The \textsc {Foot-Strut} Split in DECTE speakers}{8}{subsection.0.2.2}%
 \contentsline {subsubsection}{\nonumberline F1 of the DECTE speakers}{9}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline F2 of the DECTE speakers}{12}{subsubsection*.19}%
-\contentsline {subsection}{\numberline {0.2.3}The \textsc {Foot-Strut} Split in CoRP-NE speakers}{14}{subsection.0.2.3}%
-\contentsline {subsubsection}{\nonumberline F1 of the CoRP-NE speakers}{15}{subsubsection*.24}%
-\contentsline {subsubsection}{\nonumberline F2 of the CoRP-NE speakers}{18}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline F2 of the DECTE speakers}{11}{subsubsection*.18}%
+\contentsline {subsection}{\numberline {0.2.3}The \textsc {Foot-Strut} Split in CoRP-NE speakers}{13}{subsection.0.2.3}%
+\contentsline {subsubsection}{\nonumberline F1 of the CoRP-NE speakers}{14}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline F2 of the CoRP-NE speakers}{17}{subsubsection*.28}%
 \contentsline {subsection}{\numberline {0.2.4}Conclusions on the nature of the \textsc {foot}-\textsc {strut}{} Split in all three speaker groups}{19}{subsection.0.2.4}%
 \contentsline {section}{\numberline {0.3}\textsc {Strut vowel only}}{20}{section.0.3}%
 \contentsline {subsection}{\numberline {0.3.1}F1 of \textsc {Strut} only}{20}{subsection.0.3.1}%

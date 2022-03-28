@@ -144,8 +144,8 @@ data_FS_plots_SE.means
 
 FS_SE_F1.plot = ggplot(data_FS_plots %>% filter(corpus == "CoRP-SE"), aes(x=lexSet,y=norm_F1,fill=lexSet)) +
   geom_boxplot() +
-  geom_point(data=data_FS_plots_SE.means, aes(y=mean_F1,lexSet))+
-  geom_line(data=data_FS_plots_SE.means, aes(y=mean_F1,x=lexSet,group=id))+
+  # geom_point(data=data_FS_plots_SE.means, aes(y=mean_F1,lexSet))+
+  # geom_line(data=data_FS_plots_SE.means, aes(y=mean_F1,x=lexSet,group=id))+
   theme_Caitlin() +
   theme(legend.position = "none") +
   xlab("lexical set") +
@@ -163,7 +163,7 @@ FS_SE_F1_sex.plot = FS_SE_F1.plot +
   facet_wrap(~sex) +
   NULL
 FS_SE_F1_sex.plot
-ggsave("figures/FS-SE-F1.svg",FS_SE_F1.plot,height=4,width=6,units="in")
+ggsave("figures/FS-SE-F1-sex.svg",FS_SE_F1.plot,height=4,width=6,units="in")
 
 
 FS_SE_F2.plot = ggplot(data_FS_plots %>% filter(corpus == "CoRP-SE"), aes(x=lexSet,y=norm_F2,fill=lexSet)) +
@@ -187,7 +187,14 @@ FS_SE_F2_style.plot = FS_SE_F2.plot +
   facet_wrap(~style)+
   NULL
 FS_SE_F2_style.plot
-ggsave("figures/FS-SE-F2.svg",FS_SE_F2.plot,height=4,width=6,units="in")
+ggsave("figures/FS-SE-F2-style.svg",FS_SE_F2.plot,height=4,width=6,units="in")
+
+# by age
+FS_SE_F2_age.plot = FS_SE_F2.plot +
+  facet_wrap(~ageGroup)+
+  NULL
+FS_SE_F2_age.plot
+ggsave("figures/FS-SE-F2-style.svg",FS_SE_F2.plot,height=4,width=6,units="in")
 
 #incl THOUGHT
 ST_SE_F2.plot = ggplot(data_FST_plots %>% filter(corpus == "CoRP-SE") %>% filter(lexSet !="FOOT"), aes(x=lexSet,y=norm_F2,fill=lexSet)) +
@@ -232,15 +239,15 @@ FS_SE.vplot
 ggsave("figures/FS-SE-vplot.png", FS_SE.vplot,height = 4, width = 6,units = "in")
 
 # NE speakers ------------------------
-data_FS_plots_NE.means = as_tibble(ddply(data_FS_plots%>% filter(corpus == "CoRP-NE"),.(id,sex,lexSet),summarise,
+data_FS_plots_NE.means = as_tibble(ddply(data_FS_plots%>% filter(corpus == "CoRP-NE"),.(id,sex,lexSet,ageGroup),summarise,
                                          mean_F2 = mean(norm_F2),
                                          mean_F1 = mean(norm_F1)))
 data_FS_plots_NE.means
 
 FS_NE_F1.plot <- ggplot(data_FS_plots %>% filter(corpus == "CoRP-NE"), aes(x=lexSet,y=norm_F1,fill=lexSet,colour=ageGroup)) +
   geom_boxplot() +
-  geom_point(data=data_FS_plots_NE.means, aes(y=mean_F1,lexSet,colour=NULL))+
-  geom_line(data=data_FS_plots_NE.means, aes(y=mean_F1,x=lexSet,group=id,colour=NULL))+
+  # geom_point(data=data_FS_plots_NE.means, aes(y=mean_F1,lexSet,colour=ageGroup))+
+  # geom_line(data=data_FS_plots_NE.means, aes(y=mean_F1,x=lexSet,group=id,colour=ageGroup))+
   xlab("lexical set") +
   ylab("F1 (Hz)") +
   theme_Caitlin() +
@@ -261,14 +268,14 @@ FS_F1.plot = FS_SE_F1.plot + FS_NE_F1.plot
 ggsave("figures/FS-F1.svg", FS_F1.plot, width=12, height = 8, units = "in")
 
 
-FS_NE_F2.plot = ggplot(data_FS_plots %>% filter(corpus == "CoRP-NE"), aes(x=lexSet,y=norm_F2,fill=lexSet,colour=ageGroup)) +
+FS_NE_F2.plot = ggplot(data_FS_plots %>% filter(corpus == "CoRP-NE"), aes(x=lexSet,y=norm_F2,fill=lexSet)) +
   geom_boxplot() +
   geom_point(data=data_FS_plots_NE.means, aes(y=mean_F2,lexSet,colour=NULL))+
   geom_line(data=data_FS_plots_NE.means, aes(y=mean_F2,x=lexSet,group=id,colour=NULL))+
   xlab("lexical set") +
   ylab("F2 (Hz)") +
   theme_Caitlin() +
-  theme(legend.position = "right") +
+  theme(legend.position = "none") +
   facet_wrap(~sex) +
   # facet_wrap(~id) +
   scale_color_manual(values=c("black","grey90"))+
@@ -416,12 +423,19 @@ FS_DE_F2_age.plot <- FS_DE_F2.plot +
 FS_DE_F2_age.plot
 ggsave("figures/FS-DE-F2-age.svg",FS_DE_F2_age.plot,height=4,width=6,units="in")
 
+data_FSG_plots_DE.means = as_tibble(ddply(data_FSG_plots%>% filter(corpus == "DECTE-NE"),.(id,sex,lexSet),summarise,
+                                         mean_F2 = mean(norm_F2),
+                                         mean_F1 = mean(norm_F1)))
+data_FSG_plots_DE.means
+
 
 FSG_DE_F2_age.plot = ggplot(data_FSG_plots %>% filter(corpus == "DECTE-NE"), aes(x=lexSet,y=norm_F2,fill=lexSet)) +
   xlab("lexical set") +
   ylab("F2 (Hz)") +
   # ggtitle("\\scs{foot}, \\scs{strut}, and \\scs{goose} (F2) DECTE, by age group") +
   geom_boxplot() +
+  geom_point(data=data_FS_plots_DE.means, aes(y=mean_F2,lexSet,colour=NULL))+
+  geom_line(data=data_FS_plots_DE.means, aes(y=mean_F2,x=lexSet,group=id,colour=NULL))+
   theme_Caitlin() +
   theme(legend.position = "none") +
   FSFillScale +
