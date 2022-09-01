@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  28 MAR 2022 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  15 JUL 2022 21:30
 entering extended mode
 **./Analysis-FS.tex
 (Analysis-FS.tex
@@ -1948,12 +1948,12 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 lang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Info: Redefining \rm on input line 148.
-LaTeX Info: Redefining \sf on input line 149.
-LaTeX Info: Redefining \tt on input line 150.
-LaTeX Info: Redefining \bf on input line 151.
-LaTeX Info: Redefining \sl on input line 153.
-LaTeX Info: Redefining \sc on input line 154.
+LaTeX Info: Redefining \rm on input line 149.
+LaTeX Info: Redefining \sf on input line 150.
+LaTeX Info: Redefining \tt on input line 151.
+LaTeX Info: Redefining \bf on input line 152.
+LaTeX Info: Redefining \sl on input line 154.
+LaTeX Info: Redefining \sc on input line 155.
 ))
 
 LaTeX Warning: Unused global option(s):
@@ -2163,7 +2163,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 16.41594pt on input line 194.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 13.67995pt on input line 198.
-<../figures/FS-SE-vplot.png, id=78, 433.62pt x 289.08pt>
+<../figures/FS-SE-vplot.png, id=80, 433.62pt x 289.08pt>
 File: ../figures/FS-SE-vplot.png Graphic file (type png)
 <use ../figures/FS-SE-vplot.png>
 Package pdftex.def Info: ../figures/FS-SE-vplot.png  used on input line 206.
@@ -2176,13 +2176,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package svg Info: Last page of `./svg-inkscape/FS-SE-F1_svg-tex.pdf' is 2 on in
 put line 217.
  (svg-inkscape/FS-SE-F1_svg-tex.pdf_tex
-<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=92, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=95, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F1_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=93, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F1_svg-tex.pdf, id=96, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F1_svg-tex.pdf , page2 used on in
@@ -2211,13 +2211,13 @@ LaTeX Font Info:    Font shape `T3/phv/m/n' will be
 Package svg Info: Last page of `./svg-inkscape/FS-SE-F2_svg-tex.pdf' is 2 on in
 put line 231.
  (svg-inkscape/FS-SE-F2_svg-tex.pdf_tex
-<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=119, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=122, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F2_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=120, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-SE-F2_svg-tex.pdf, id=123, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-SE-F2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-SE-F2_svg-tex.pdf , page2 used on in
@@ -2230,13 +2230,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package svg Info: Last page of `./svg-inkscape/ST-SE-F2_svg-tex.pdf' is 2 on in
 put line 238.
 (svg-inkscape/ST-SE-F2_svg-tex.pdf_tex
-<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=124, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=127, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/ST-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ST-SE-F2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ST-SE-F2_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=125, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/ST-SE-F2_svg-tex.pdf, id=128, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/ST-SE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ST-SE-F2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/ST-SE-F2_svg-tex.pdf , page2 used on in
@@ -2253,7 +2253,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: pdflatex (file ./svg-inkscape/FS-SE-F2_svg-tex.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<../figures/FS-DE-vplot.png, id=148, 433.62pt x 289.08pt>
+<../figures/FS-DE-vplot.png, id=151, 433.62pt x 289.08pt>
 File: ../figures/FS-DE-vplot.png Graphic file (type png)
 <use ../figures/FS-DE-vplot.png>
 Package pdftex.def Info: ../figures/FS-DE-vplot.png  used on input line 249.
@@ -2270,13 +2270,13 @@ ion: multiple pdfs with page group included in a single page
 Package svg Info: Last page of `./svg-inkscape/FS-DE-F1_svg-tex.pdf' is 2 on in
 put line 260.
  (svg-inkscape/FS-DE-F1_svg-tex.pdf_tex
-<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=165, page=1, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=168, page=1, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=166, page=2, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-DE-F1_svg-tex.pdf, id=169, page=2, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-DE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-DE-F1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-DE-F1_svg-tex.pdf , page2 used on in
@@ -2292,35 +2292,35 @@ ion: multiple pdfs with page group included in a single page
 Package svg Info: Last page of `./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf' is 5 
 on input line 273.
  (svg-inkscape/FSG-DE-F2-age_svg-tex.pdf_tex
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=192, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=195, page=1, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page1 used 
 on input line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=193, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=196, page=2, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page2 used 
 on input line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=194, page=3, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=197, page=3, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page3 used 
 on input line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=195, page=4, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=198, page=4, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf , page4 used 
 on input line 64.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=196, page=5, 433.62pt x 289.08pt>
+<./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, id=199, page=5, 433.62pt x 289.08pt>
 
 File: ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf, page 5>
@@ -2346,7 +2346,7 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./svg-inkscape/FSG-DE-F2-age_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-<../figures/FS-NE-vplot.png, id=232, 433.62pt x 289.08pt>
+<../figures/FS-NE-vplot.png, id=235, 433.62pt x 289.08pt>
 File: ../figures/FS-NE-vplot.png Graphic file (type png)
 <use ../figures/FS-NE-vplot.png>
 Package pdftex.def Info: ../figures/FS-NE-vplot.png  used on input line 282.
@@ -2359,55 +2359,55 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package svg Info: Last page of `./svg-inkscape/FS-NE-F1_svg-tex.pdf' is 9 on in
 put line 313.
  (svg-inkscape/FS-NE-F1_svg-tex.pdf_tex
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=243, page=1, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=246, page=1, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=244, page=2, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=247, page=2, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=245, page=3, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=248, page=3, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page3 used on in
 put line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=246, page=4, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=249, page=4, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page4 used on in
 put line 63.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=247, page=5, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=250, page=5, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page5 used on in
 put line 75.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=248, page=6, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=251, page=6, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page6 used on in
 put line 78.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=249, page=7, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=252, page=7, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page7 used on in
 put line 80.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=250, page=8, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=253, page=8, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page8 used on in
 put line 83.
 (pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
-<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=251, page=9, 867.24pt x 578.16pt>
+<./svg-inkscape/FS-NE-F1_svg-tex.pdf, id=254, page=9, 867.24pt x 578.16pt>
 File: ./svg-inkscape/FS-NE-F1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F1_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F1_svg-tex.pdf , page9 used on in
@@ -2454,31 +2454,31 @@ ion: multiple pdfs with page group included in a single page
 Package svg Info: Last page of `./svg-inkscape/FS-NE-F2_svg-tex.pdf' is 5 on in
 put line 343.
  (svg-inkscape/FS-NE-F2_svg-tex.pdf_tex
-<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=307, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=310, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-NE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F2_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=308, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=311, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-NE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F2_svg-tex.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=309, page=3, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=312, page=3, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-NE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F2_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F2_svg-tex.pdf , page3 used on in
 put line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=310, page=4, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=313, page=4, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-NE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F2_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F2_svg-tex.pdf , page4 used on in
 put line 63.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=311, page=5, 433.62pt x 289.08pt>
+<./svg-inkscape/FS-NE-F2_svg-tex.pdf, id=314, page=5, 433.62pt x 289.08pt>
 File: ./svg-inkscape/FS-NE-F2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FS-NE-F2_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/FS-NE-F2_svg-tex.pdf , page5 used on in
@@ -2513,31 +2513,31 @@ ion: multiple pdfs with page group included in a single page
 Package svg Info: Last page of `./svg-inkscape/strut-F1-sex_svg-tex.pdf' is 5 o
 n input line 381.
  (svg-inkscape/strut-F1-sex_svg-tex.pdf_tex
-<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=360, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=363, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=361, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=364, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page2 used o
 n input line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=362, page=3, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=365, page=3, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page3 used o
 n input line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=363, page=4, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=366, page=4, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page4 used o
 n input line 64.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=364, page=5, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F1-sex_svg-tex.pdf, id=367, page=5, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F1-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F1-sex_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/strut-F1-sex_svg-tex.pdf , page5 used o
@@ -2551,31 +2551,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package svg Info: Last page of `./svg-inkscape/strut-F2-sex_svg-tex.pdf' is 5 o
 n input line 408.
  (svg-inkscape/strut-F2-sex_svg-tex.pdf_tex
-<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=378, page=1, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=381, page=1, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=379, page=2, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=382, page=2, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page2 used o
 n input line 58.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=380, page=3, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=383, page=3, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page3 used o
 n input line 60.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=381, page=4, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=384, page=4, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page4 used o
 n input line 64.
 (pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
-<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=382, page=5, 433.62pt x 289.08pt>
+<./svg-inkscape/strut-F2-sex_svg-tex.pdf, id=385, page=5, 433.62pt x 289.08pt>
 File: ./svg-inkscape/strut-F2-sex_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/strut-F2-sex_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/strut-F2-sex_svg-tex.pdf , page5 used o
@@ -2621,7 +2621,17 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/strut-F2-sex_svg-tex.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >] [24
 
-] [25] (Analysis-FS.bbl
+]
+
+LaTeX Warning: Reference `RQ1' on page 25 undefined on input line 424.
+
+
+LaTeX Warning: Reference `RQ3' on page 25 undefined on input line 424.
+
+
+LaTeX Warning: Reference `RQ2' on page 25 undefined on input line 424.
+
+[25] (Analysis-FS.bbl
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
 20.
@@ -2645,14 +2655,17 @@ s /
 ) (../models/ST-SE-F2-mod.tex [26
 
 ]) [27] (Analysis-FS.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Analysis-FS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34368 strings out of 478864
- 668885 string characters out of 2843410
+ 34374 strings out of 478864
+ 668924 string characters out of 2843410
  1377977 words of memory out of 3000000
- 51456 multiletter control sequences out of 15000+600000
+ 51461 multiletter control sequences out of 15000+600000
  461830 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,125p,10693b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2664,9 +2677,9 @@ al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Caitlin Halfac
 re/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users
 /Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/type1/public/tipa/xipass1
 0.pfb>
-Output written on Analysis-FS.pdf (27 pages, 1461715 bytes).
+Output written on Analysis-FS.pdf (27 pages, 1463775 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 

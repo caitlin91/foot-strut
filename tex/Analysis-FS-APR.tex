@@ -1,5 +1,5 @@
 % !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
-\documentclass[../../../00.FullDoc/tex/Thesis]{subfiles}
+\documentclass[../../../00.FullDoc/tex/APRReport-year4]{subfiles}
 
 %\documentclass[12pt,a4paper,notitlepage,
 %draft,
@@ -174,14 +174,12 @@
 
 \begin{document}
 
-	\renewcommand{\onlyinsubfile}[1]{}
-	\renewcommand{\notinsubfile}[1]{#1}
-	\onlyinsubfile{
+	\newcommand{\onlyinsubfile}[1]{#1}
+	\newcommand{\notinsubfile}[1]{}
 		\maketitle
 		\pagebreak
 		\tableofcontents
 		\onehalfspacing
-					}
 	\pagestyle{scrheadings}
 	
 \section{Introduction} \label{sec:FSintro}
@@ -427,22 +425,23 @@ In summary, in answer to research questions \ref{RQ1} and \ref{RQ3}, both region
 
 
 
-
-\onlyinsubfile{
-	
-	\pagebreak
-	\listoftodos{}
-	\pagebreak
+%\onlyinsubfile{\pagebreak
+%	\listoftodos{}
+%	\pagebreak
+\ifSubfilesClassLoaded{%
 	\bibliography{../../../References/methodology,
-					../../../References/footStrut,
-					../../../References/tynesideEnglish
-		}
+		../../../References/rRP
+		../../../References/trapBath,
+		../../../References/tynesideEnglish}%
+}{}
+	
+%	
+%	\appendix{
+%		\section{Extra models}
+%		\subsection{F2 of \strutt{} and \scs{thought} in the CoRP-SE speakers} \label{app:STSEF2}
+%		\input{../models/ST-SE-F2-mod.tex}
+%}}
 			
-\appendix
-\section{Extra models}
-\subsection{F2 of \strutt{} and \scs{thought} in the CoRP-SE speakers} \label{app:STSEF2}
-\input{../models/ST-SE-F2-mod.tex}
 
-			}
 
 \end{document} 
